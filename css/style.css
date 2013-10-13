@@ -1,0 +1,258 @@
+body {
+	background-color: #6699CC;
+	font-size: 16pt;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	text-decoration: underline;
+}
+.to_left {
+	float: left;
+}
+.clear {
+	clear: both;
+}
+.black {
+	color: black;
+}
+.blue {
+	color: blue;
+}
+
+.red {
+	color: red;
+}
+.green {
+	color: green;
+}
+span.error > p {
+	color: red;
+	margin: 0;
+	padding-left: 226px;
+	display:inline-block;
+	font-size: 18px;
+}
+
+ul {
+	list-style: none;
+}
+input[type=text], input[type=password] {
+	width: 150px;
+	border: 2px solid yellow;
+}
+#container, div#header h1 {
+	width: 1300px;
+}
+#container{
+	margin: 0 auto;
+}
+p.error, p.message {
+	padding: 20px 0;
+    opacity: 0.7;
+    font-weight: bold;
+    text-align: center;
+}
+p.error {
+    background-color: #FF0000;
+}
+p.message {
+    background-color: #008000;
+}
+div#header {
+	position: relative;
+	height: 150px;
+}
+div#user_info a {
+	float: right;
+}
+div#header h1 {
+	position: absolute;
+	bottom: 0px;
+}
+ul#left_menu {
+	float: left;
+	width: 200px;
+	background-color: gray;
+	margin: 0;
+	padding: 20px;
+}
+div.content {
+	margin-left: 240px;
+	padding: 20px;
+	background-color: white;
+	min-height: 600px;
+}
+div.content h2 {
+	margin: 0;
+	text-align: center;
+}
+div.content input[type=text], div.content input[type=password] {
+	border: 1px solid gray;
+}
+#szukaj_user {
+	width: 480px;
+	margin: 10px auto;
+}
+#szukaj_user input[type=text] {
+	width: 200px;
+	margin-right: 20px;
+}
+#szukaj_user select {
+	width: 120px;
+	margin-right: 20px;
+}
+form input[type=submit], form input[type=reset] {
+	font-weight: bold;
+}
+form label {
+	display: inline-block;
+	text-align: left;
+}
+form.notLoggedForm {
+	width: 360px;
+	margin: 150px auto 50px;
+	text-align: center;
+}
+form.notLoggedForm label {
+	width: 200px;
+}
+
+form.notLoggedForm input[type=submit], form.notLoggedForm input[type=reset] {
+	width: 115px;
+	height: 40px;
+}
+#dodaj_user > p {
+	margin-bottom: 3px;
+}
+#dodaj_user label {
+	width: 250px;
+}
+#podglad_user > p{
+	margin-bottom: 3px;
+}
+#podglad_user label {
+	display:inline-block;
+	font-style: italic;
+	width: 250px;
+}
+#dodaj_user input[type=text] , #dodaj_user select {
+	width: 200px;
+}
+#dodaj_sprawe > p{
+	margin-bottom: 3px;
+}
+#dodaj_sprawe label {
+	width: 270px;
+}
+
+#szczegoly_sprawy div.to_left {
+	margin-bottom: 20px;
+	width: 50%;
+}
+
+
+#szczegoly_sprawy label {
+	display: inline-block;
+	font-weight: bold;
+	width: 200px;
+}
+
+#dodaj_sprawe input[type=text], #dodaj_sprawe textarea {
+	width: 200px;
+}
+#dodaj_sprawe textarea {
+	height: 50px;
+	resize: none;
+	border: 1px solid gray;
+}
+#edytuj_sprawe > div.to_left {
+	width: 50%;
+}
+#edytuj_sprawe > p{
+	margin-bottom: 3px;
+}
+#edytuj_sprawe label {
+	width: 270px;
+}
+#edytuj_sprawe input[type=text], #edytuj_sprawe textarea {
+	width: 200px;
+}
+#edytuj_sprawe textarea {
+	height: 50px;
+	resize: none;
+	border: 1px solid gray;
+}
+.zwin_link:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+#wierzyciel_nowy {
+	display: none;
+}
+#dodaj_wniosek > p {
+	margin-bottom: 3px;
+}
+#dodaj_wniosek label {
+	width: 250px;
+}
+#dodaj_wniosek input[type=text], #dodaj_wniosek select {
+	width: 200px;
+	margin-right: 10px;
+}
+#dodaj_wniosek textarea {
+	width: 400px;
+	height: 100px;
+	resize: none;
+	border: 1px solid gray;
+}
+ul.tabs {
+	width: 814px;
+	padding: 0;
+	margin: 0 auto;
+}
+ul.tabs > li {
+	display: inline-block;
+	margin-left: 40px;
+	text-align: right;
+	/*background-color: #8FBBE6;*/
+}
+ul.tabs > li:first-child {
+	margin-left: 0;
+	text-align: left;
+}
+div.content table {
+	margin: 20px 0;
+	width: 100%;
+}
+
+div.content table th, div.content table td{
+	padding: 2px 5px;
+}
+table.users a {
+	margin-left: 20px;
+}
+table.users a:first-child {
+	margin-left: 0;
+}
+table.users td.adres {
+	width: 300px;
+}
+.ui-datepicker{
+	width:250px;
+}
+.ui-datepicker table{
+	width:100%;
+	font-size: 14px;
+}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+	font-size: 18px;
+}
+
