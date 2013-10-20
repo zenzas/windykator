@@ -4,7 +4,9 @@ if (!defined('BASEPATH'))
 
 class Sprawa extends MY_Controller {
 	protected $fields = array('sygn_akt','nr_sprawy','NIP','PESEL','nazwa_dluznika','ulica','nr_dom','nr_lokal',
-		'miasto','kod', 'nr_telefonu','data_postanowienia','data_wplywu','wierzyciele');
+		'miasto','kod', 'nr_telefonu','data_postanowienia','data_wplywu','data_wezwania','data_odbioru',
+		'data_zakonczenia','przyczyna_zakonczenia','data_postanowienia_org','data_odbioru_postanowienia_org',
+		'data_nadania_akt','data_odbioru_akt','wierzyciele');
 	
 	function __construct() {
 		parent::__construct();
@@ -49,11 +51,13 @@ class Sprawa extends MY_Controller {
 				$data['sprawa']['id_sprawy'] = $id_sprawy;
 				$data['sprawa']['id_dluznika'] = $sprawa['id_dluznika'];
 				$this->_prepareData($data['sprawa'], $sprawa);
-				if ($this -> input -> post('submit')) {
-					if ($this -> form_validation -> run('edytuj_sprawe')) {
-						$this -> sprawy -> edytuj($data['sprawa']);
-						redirect('sprawa/zarzadzanie');
-					}
+				//var_dump($data['sprawa']);exit;
+				$this->_ustaw_walidacje_wierzycieli($data['sprawa']['wierzyciele']);
+				if ($this -> input -> post('submit') 
+					&& $this -> form_validation -> run('edytuj_sprawe')
+					&& $this -> form_validation -> run()) {
+					$this -> sprawy -> edytuj($data['sprawa']);
+					redirect('sprawa/zarzadzanie');
 				}
 				$data['typyWierzycieli'] = $this -> users -> listaTypowWierzycieli();
 				$data['content'] = $this -> load -> view('sprawa/edytuj', $data, true);
@@ -65,6 +69,19 @@ class Sprawa extends MY_Controller {
 		} else {
 			$this -> session -> set_flashdata('error', 'Musisz wybrać sprawę!!!');
 			redirect('sprawa/zarzadzanie');
+		}
+	}
+
+	function _ustaw_walidacje_wierzycieli($wierzyciele) {
+		foreach ($wierzyciele as $nr => $wierzyciel ) {
+			$this->form_validation->set_rules("wierzyciele[$nr][nazwa_w]", 'Nazwa wierzyciela', 'trim|required');
+			$this->form_validation->set_rules("wierzyciele[$nr][typ_wierzyciel]", 'Typ wierzyciela', 'trim|required');
+			$this->form_validation->set_rules("wierzyciele[$nr][KM]", 'KM', 'trim|required');
+			$this->form_validation->set_rules("wierzyciele[$nr][ulica_w]", 'Ulica', 'trim|required');
+			$this->form_validation->set_rules("wierzyciele[$nr][nr_dom_w]", 'Nr domu', 'trim|required');
+			$this->form_validation->set_rules("wierzyciele[$nr][miasto_w]", 'Miasto', 'trim|required');
+			$this->form_validation->set_rules("wierzyciele[$nr][kod_w]", 'Kod pocztowy', 'trim|required');
+			$this->form_validation->set_rules("wierzyciele[$nr][nr_rachunku_w]", 'Nr rachunku bankowego', 'trim|required');
 		}
 	}
 
@@ -87,6 +104,14 @@ class Sprawa extends MY_Controller {
 				$data['sprawa']['nr_telefonu'] = $sprawa['nr_telefonu'];
 				$data['sprawa']['data_postanowienia'] = $sprawa['data_postanowienia'];
 				$data['sprawa']['data_wplywu'] = $sprawa['data_wplywu'];
+				$data['sprawa']['data_wezwania'] = $sprawa['data_wezwania'];
+				$data['sprawa']['data_odbioru'] = $sprawa['data_odbioru'];
+				$data['sprawa']['data_zakonczenia'] = $sprawa['data_zakonczenia'];
+				$data['sprawa']['przyczyna_zakonczenia'] = $sprawa['przyczyna_zakonczenia'];
+				$data['sprawa']['data_postanowienia_org'] = $sprawa['data_postanowienia_org'];
+				$data['sprawa']['data_odbioru_postanowienia_org'] = $sprawa['data_odbioru_postanowienia_org'];
+				$data['sprawa']['data_nadania_akt'] = $sprawa['data_nadania_akt'];
+				$data['sprawa']['data_odbioru_akt'] = $sprawa['data_odbioru_akt'];	
 				$data['sprawa']['wierzyciele'] = $sprawa['wierzyciele'];
 
 				$data['content'] = $this -> load -> view('sprawa/szczegoly', $data, true);

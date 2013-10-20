@@ -43,6 +43,14 @@ class Sprawy extends CI_Model {
 					'nr_telefonu' => $sprawa['nr_telefonu'],
 					'data_postanowienia' => $sprawa['data_postanowienia'],
 					'data_wplywu' => $sprawa['data_wplywu'],
+					'data_wezwania' => $sprawa['data_wezwania'],
+					'data_odbioru' => $sprawa['data_odbioru'],
+					'data_zakonczenia' => $sprawa['data_zakonczenia'],
+					'przyczyna_zakonczenia' => $sprawa['przyczyna_zakonczenia'],
+					'data_postanowienia_org' => $sprawa['data_postanowienia_org'],
+					'data_odbioru_postanowienia_org' => $sprawa['data_odbioru_postanowienia_org'],
+					'data_nadania_akt' => $sprawa['data_nadania_akt'],
+					'data_odbioru_akt' => $sprawa['data_odbioru_akt'],
 					'nr_telefonu' => $sprawa['nr_telefonu'],
 					'wierzyciele' => array()
 				);
