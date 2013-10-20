@@ -74,18 +74,65 @@
 		<?=form_input(array('name' => 'data_wplywu', 'value' => $sprawa['data_wplywu'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
 		
 	</p>
-	<span class="error"><?=form_error('data_wplywu') ?></span>
+	<p>
+		<?=form_label('Data wysłania wezwania', 'data_wezwania') ?>
+		<?=form_input(array('name' => 'data_wezwania', 'value' => $sprawa['data_wezwania'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
+		
+	</p>
+	<p>
+		<?=form_label('Data odbioru wezwania', 'data_odbioru') ?>
+		<?=form_input(array('name' => 'data_odbioru', 'value' => $sprawa['data_odbioru'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
+		
+	</p>
+	<p>
+		<?=form_label('Data zakończenia postępowania', 'data_zakonczenia') ?>
+		<?=form_input(array('name' => 'data_zakonczenia', 'value' => $sprawa['data_zakonczenia'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
+	</p>
+	<p>
+		<?=form_label('Przyczyna zakończenia postępowania', 'przyczyna_zakonczenia')?>
+		<?=form_dropdown('przyczyna_zakonczenia',array('nieskuteczna egzekucja','przekazanie innemu organowi egzekucyjnemu','zaspokojenie wierzycieli'),$sprawa['przyczyna_zakonczenia'])?>
+	
+	</p>
+	<span class="error"><?=form_error('przyczyna_zakonczenia')?></span>
+	<p>
+		<?=form_label('Data postanowienia organu egzekucyjnego', 'data_postanowienia_org') ?>
+		<?=form_input(array('name' => 'data_postanowienie_org', 'value' => $sprawa['data_postanowienia_org'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
+	</p>
+	<span class="error"><?=form_error('data_postanowienia_org') ?></span>
+	<p>
+	<?=form_label('Data odbioru postanowienia organu egzekucyjnego', 'data_odbioru_postanowienia_org') ?>
+		<?=form_input(array('name' => 'data_odbioru_postanowienia_org', 'value' => $sprawa['data_odbioru_postanowienia_org'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
+	</p>
+	<span class="error"><?=form_error('data_odbioru_postanowienia_org') ?></span>
+	<p>		
+		<?=form_label('Data nadania akt egzekucyjnych', 'data_nadania_akt') ?>
+		<?=form_input(array('name' => 'data_nadania_akt', 'value' => $sprawa['data_nadania_akt'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
+	</p>
+	<span class="error"><?=form_error('data_nadania_akt') ?></span>
+	<p>
+		<?=form_label('Data odbioru akt egzekucyjnych', 'data_odbioru_akt') ?>
+		<?=form_input(array('name' => 'data_odbioru_akt', 'value' => $sprawa['data_odbioru_akt'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
+	</p>
+	<span class="error"><?=form_error('data_postanowienia_org') ?></span>
+	<p>
+		<?=form_label('Data odbioru akt egzekucyjnych', 'data_odbioru_akt') ?>
+		<?=form_input(array('name' => 'data_odbioru_akt', 'value' => $sprawa['data_odbioru_akt'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
+	</p>
+	<span class="error"><?=form_error('data_postanowienia_org') ?></span>
 </div>
+
 <div class="to_left">
 	<div id="wierzyciele">
 		<?foreach ($sprawa['wierzyciele'] as $nr => $wierzyciel):?>
 		<div id="wierzyciel<?=$nr?>">
+			<?if (isset($wierzyciel['id_wierzyciela'])):?>
 			<?=form_hidden("wierzyciele[$nr][id_wierzyciela]", $wierzyciel['id_wierzyciela']) ?>
+			<?endif?>
 			<p>	
 				<?=form_label('Nazwa wierzyciela', "wierzyciele[$nr][nazwa_w]",array('class' => 'zwin_link','id' => 'zwin_link'.$nr)) ?>
 				<?=form_textarea("wierzyciele[$nr][nazwa_w]", $wierzyciel['nazwa_w']) ?>
 			</p>
-			<span class="error"><?=form_error('nazwa_w') ?></span>
+			<span class="error"><?=form_error("wierzyciele[$nr][nazwa_w]") ?></span>
 			<div class='zwin_div' id='zwin_link<?=$nr?>_div'>
 				<p>
 					<?=form_label('Typ wierzyciela', 'typ_wierzyciel') ?>
@@ -95,53 +142,54 @@
 					<?=form_label('KM', "wierzyciele[$nr][KM]") ?>
 					<?=form_input("wierzyciele[$nr][KM]", $wierzyciel['KM']) ?>
 				</p>
-				<span class="error"><?=form_error('KM') ?></span>
+				<span class="error"><?=form_error("wierzyciele[$nr][KM]") ?></span>
 				<p>
 					<?=form_label('Ulica', "wierzyciele[$nr][ulica_w]") ?>
 					<?=form_input("wierzyciele[$nr][ulica_w]", $wierzyciel['ulica_w']) ?>
 				</p>
-				<span class="error"><?=form_error('ulica_w') ?></span>
+				<span class="error"><?=form_error("wierzyciele[$nr][ulica_w]")?></span>
 				<p>
 					<?=form_label('Nr domu', "wierzyciele[$nr][nr_dom_w]") ?>
 					<?=form_input("wierzyciele[$nr][nr_dom_w]", $wierzyciel['nr_dom_w']) ?>
 				</p>
-				<span class="error"><?=form_error('nr_dom_w') ?></span>
+				<span class="error"><?=form_error("wierzyciele[$nr][nr_dom_w]") ?></span>
 				<p>
 				<p>
 					<?=form_label('Nr lokalu', "wierzyciele[$nr][nr_lokal_w]") ?>
 					<?=form_input("wierzyciele[$nr][nr_lokal_w]", $wierzyciel['nr_lokal_w']) ?>
 					
 				</p>
-				<span class="error"><?=form_error('nr_lokal_w') ?></span>
+				<span class="error"><?=form_error("wierzyciele[$nr][nr_lokal_w]") ?></span>
 				<p>
 					<?=form_label('Miasto', "wierzyciele[$nr][miasto_w]") ?>
 					<?=form_input("wierzyciele[$nr][miasto_w]", $wierzyciel['miasto_w']) ?>
 				</p>
-				<span class="error"><?=form_error('miasto_w') ?></span>
+				<span class="error"><?=form_error("wierzyciele[$nr][miasto_w]") ?></span>
 				<p>
 					<?=form_label('Kod pocztowy', "wierzyciele[$nr][kod_w]") ?>
 					<?=form_input("wierzyciele[$nr][kod_w]", $wierzyciel['kod_w']) ?>
 				</p>
-				<span class="error"><?=form_error('kod_w') ?></span>
+				<span class="error"><?=form_error("wierzyciele[$nr][kod_w]") ?></span>
 				<p>
 					<?=form_label('Nr telefonu', "wierzyciele[$nr][nr_telefonu_w]") ?>
 					<?=form_input("wierzyciele[$nr][nr_telefonu_w]", $wierzyciel['nr_telefonu_w']) ?>
 				</p>
-				<span class="error"><?=form_error('nr_telefonu_w') ?></span>	
+				<span class="error"><?=form_error("wierzyciele[$nr][nr_telefonu_w]") ?></span>	
 				<p>
 					<?=form_label('Nr rachunku bankowego', "wierzyciele[$nr][nr_rachunku_w]") ?>
 					<?=form_input("wierzyciele[$nr][nr_rachunku_w]", $wierzyciel['nr_rachunku_w']) ?>
 				</p>
-				<span class="error"><?=form_error('nr_rachunku_w') ?></span>	
+				<span class="error"><?=form_error("wierzyciele[$nr][nr_rachunku_w]") ?></span>	
 			</div>
 		</div>
 		<?endforeach?>	
 	</div>
-	<?=form_button(array('content' => 'Dodaj wierzyciela', 'id' => 'dodaj_wierzyciela'))?>
+	
 </div>
 <p class="clear">
-	<?=form_submit('submit', 'MODYFIKUJ SPRAWĘ') ?>
+	<?=form_submit('submit', 'ZAPISZ ZMIANY') ?>
 	<?=form_reset('reset', 'WYCZYŚĆ') ?>
+	<?=form_button(array('content' => 'NOWY WIERZYCIEL', 'id' => 'dodaj_wierzyciela'))?>
 </p>
 <?=form_close() ?>
 <div id="wierzyciel_nowy">

@@ -3,8 +3,7 @@ if (!defined('BASEPATH'))
 	exit('No direct script access allowed');
 
 class Wniosek extends MY_Controller {
-	protected $fields = array('wnioskodawca','sprawa','opis_wniosku','data_wplywu','data_odpowiedzi' );
-	
+	protected $fields = array(/*'wnioskodawca', 'sprawa',*/ 'opis_wniosku', 'data_wplywu', 'data_odpowiedzi');
 
 	function __construct() {
 		parent::__construct();
@@ -23,7 +22,7 @@ class Wniosek extends MY_Controller {
 			} else {
 				$where[$kryterium] = $fraza;
 			}
-		} 
+		}
 		if ($pilne)
 			$where['data_odpowiedzi'] = null;
 		$data['pilne'] = $pilne != false;
@@ -34,14 +33,10 @@ class Wniosek extends MY_Controller {
 
 	function dodaj() {
 		$typ_usera = $this -> session -> userdata('nazwa_typ');
-		/*
 		$data['wniosek']['wnioskodawca'] = $this -> input -> post('wnioskodawca') ? $this -> input -> post('wnioskodawca') : '';
 		$data['wniosek']['sprawa'] = $this -> input -> post('sprawa') ? $this -> input -> post('sprawa') : '';
-		$data['wniosek']['opis_wniosku'] = $this -> input -> post('opis_wniosku') ? $this -> input -> post('opis_wniosku') : '';
-		$data['wniosek']['data_wplywu'] = $this -> input -> post('data_wplywu') ? $this -> input -> post('data_wplywu') : '';
-		$data['wniosek']['data_odpowiedzi'] = $this -> input -> post('data_odpowiedzi') ? $this -> input -> post('data_odpowiedzi') : '';
-		*/
-		$this->_prepareData($data['wniosek']);
+
+		$this -> _prepareData($data['wniosek']);
 		if ($this -> input -> post('submit') && $this -> form_validation -> run('dodaj_wniosek')) {
 			$data['wniosek']['operator'] = $this -> session -> userdata('id');
 			$this -> wnioski -> dodaj($data['wniosek']);
@@ -59,15 +54,10 @@ class Wniosek extends MY_Controller {
 			if ($wniosek) {
 				$typ_usera = $this -> session -> userdata('nazwa_typ');
 				$data['wniosek']['id_wniosku'] = $id_wniosku;
-				/*
 				$data['wniosek']['wnioskodawca'] = $this -> input -> post('wnioskodawca') ? $this -> input -> post('wnioskodawca') : $wniosek['id_wnioskodawcy'];
 				$data['wniosek']['sprawa'] = $this -> input -> post('sprawa') ? $this -> input -> post('sprawa') : $wniosek['id_sprawy'];
-				$data['wniosek']['opis_wniosku'] = $this -> input -> post('opis_wniosku') ? $this -> input -> post('opis_wniosku') : $wniosek['opis_wniosku'];
-				$data['wniosek']['data_wplywu'] = $this -> input -> post('data_wplywu') ? $this -> input -> post('data_wplywu') : $wniosek['data_wplywu'];
-				$data['wniosek']['data_odpowiedzi'] = $this -> input -> post('data_odpowiedzi') ? $this -> input -> post('data_odpowiedzi') : $wniosek['data_odpowiedzi'];
-		       */
-		
-		$this->_prepareData($data['wniosek'],$wniosek);
+
+				$this -> _prepareData($data['wniosek'], $wniosek);
 				if ($this -> input -> post('submit') && $this -> form_validation -> run('dodaj_wniosek')) {
 					$data['wniosek']['operator'] = $this -> session -> userdata('id');
 					$this -> wnioski -> edytuj($data['wniosek']);

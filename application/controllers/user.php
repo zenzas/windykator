@@ -3,8 +3,20 @@ if (!defined('BASEPATH'))
 	exit('No direct script access allowed');
 
 class User extends MY_Controller {
-	protected $fields = array('nazwa',/*'typ',*/'typ_wierzyciel','login','email','NIP',
-	    'PESEL','ulica','nr_dom','nr_lokal','miasto','kod','nr_telefonu','nr_rachunku','logowanie','logowanie');
+	protected $fields = array('nazwa',/*'typ',*/'typ_wierzyciel');
+
+	function __construct() {
+		parent::__construct();
+		$typ_usera = $this -> session -> userdata('nazwa_typ');
+		if ($typ_usera == 'administrator') {
+			$fields = array('login','email');
+			$this->fields = array_merge($this->fields, $fields);
+		} else if ($typ_usera == 'operator') {
+			$fields = array('NIP', 'PESEL','ulica','nr_dom','nr_lokal',
+				'miasto','kod','nr_telefonu','nr_rachunku','logowanie');
+			$this->fields = array_merge($this->fields, $fields);
+		}
+	}
 
 	function aktualnosci() {
 		$this -> load -> model('wnioski');
@@ -135,32 +147,7 @@ class User extends MY_Controller {
 	function dodaj() {
 		$typ_usera = $this -> session -> userdata('nazwa_typ');
 			$data['user']['typ'] = $this -> input -> post('typ') ? $this -> input -> post('typ') : '';
-		/*
-		
-		
-		$data['user']['nazwa'] = $this -> input -> post('nazwa') ? $this -> input -> post('nazwa') : '';
-	
-		$data['user']['typ_wierzyciel'] = $this -> input -> post('typ_wierzyciel') ? $this -> input -> post('typ_wierzyciel') : '';
-		if ($typ_usera == 'administrator') {
-			$data['user']['login'] = $this -> input -> post('login') ? $this -> input -> post('login') : '';
-			$data['user']['email'] = $this -> input -> post('email') ? $this -> input -> post('email') : '';
-		} else if ($typ_usera == 'operator') {
-			$data['user']['NIP'] = $this -> input -> post('NIP') ? $this -> input -> post('NIP') : '';
-			$data['user']['PESEL'] = $this -> input -> post('PESEL') ? $this -> input -> post('PESEL') : '';
-			$data['user']['ulica'] = $this -> input -> post('ulica') ? $this -> input -> post('ulica') : '';
-			$data['user']['nr_dom'] = $this -> input -> post('nr_dom') ? $this -> input -> post('nr_dom') : '';
-			$data['user']['nr_lokal'] = $this -> input -> post('nr_lokal') ? $this -> input -> post('nr_lokal') : '';
-			$data['user']['miasto'] = $this -> input -> post('miasto') ? $this -> input -> post('miasto') : '';
-			$data['user']['kod'] = $this -> input -> post('kod') ? $this -> input -> post('kod') : '';
-			$data['user']['nr_telefonu'] = $this -> input -> post('nr_telefonu') ? $this -> input -> post('nr_telefonu') : '';
-			$data['user']['nr_rachunku'] = $this -> input -> post('nr_rachunku') ? $this -> input -> post('nr_rachunku') : '';
-			$data['user']['logowanie'] = $this -> input -> post('logowanie') ? $this -> input -> post('logowanie') : 0;
-			
-		}*/
-       
-
 		$this->_prepareData($data['user']);
-		
 		
 		if ($this -> input -> post('submit') && $this -> form_validation -> run('dodaj_user_' . $typ_usera)) {
 			$this -> users -> dodaj($data['user']);
@@ -210,26 +197,6 @@ class User extends MY_Controller {
 			if ($user) {
 				$data['user']['id_user'] = $id_user;
 				$data['user']['typ'] = $this -> input -> post('typ') ? $this -> input -> post('typ') : $user['id_users_typy'];
-				/*
-				$data['user']['nazwa'] = $this -> input -> post('nazwa') ? $this -> input -> post('nazwa') : $user['nazwa'];
-				$data['user']['typ_wierzyciel'] = $this -> input -> post('typ_wierzyciel') ? $this -> input -> post('typ_wierzyciel') : $user['typ_wierzyciel'];
-				if ($typ_usera == 'administrator') {
-					$data['user']['login'] = $this -> input -> post('login') ? $this -> input -> post('login') : $user['login'];
-					$data['user']['email'] = $this -> input -> post('email') ? $this -> input -> post('email') : $user['email'];
-				} else if ($typ_usera == 'operator') {
-					$data['user']['NIP'] = $this -> input -> post('NIP') ? $this -> input -> post('NIP') : $user['NIP'];
-					$data['user']['PESEL'] = $this -> input -> post('PESEL') ? $this -> input -> post('PESEL') : $user['PESEL'];
-					$data['user']['ulica'] = $this -> input -> post('ulica') ? $this -> input -> post('ulica') : $user['ulica'];
-					$data['user']['nr_dom'] = $this -> input -> post('nr_dom') ? $this -> input -> post('nr_dom') : $user['nr_dom'];
-					$data['user']['nr_lokal'] = $this -> input -> post('nr_lokal') ? $this -> input -> post('nr_lokal') : $user['nr_lokal'];
-					$data['user']['miasto'] = $this -> input -> post('miasto') ? $this -> input -> post('miasto') : $user['miasto'];
-					$data['user']['kod'] = $this -> input -> post('kod') ? $this -> input -> post('kod') : $user['kod'];
-					$data['user']['nr_telefonu'] = $this -> input -> post('nr_telefonu') ? $this -> input -> post('nr_telefonu') : $user['nr_telefonu'];
-					$data['user']['nr_rachunku'] = $this -> input -> post('nr_rachunku') ? $this -> input -> post('nr_rachunku') : $user['nr_rachunku'];
-					$data['user']['logowanie'] = $this -> input -> post('logowanie') ? $this -> input -> post('logowanie') : $user['logowanie'];
-				}
-				 */
-				
 				$this->_prepareData($data['user'],$user);
 				
 				if ($this -> input -> post('submit') && $this -> form_validation -> run('dodaj_user_' . $typ_usera)) {

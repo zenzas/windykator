@@ -1,5 +1,5 @@
 <div id="szczegoly_sprawy">
-	<?=anchor(url('formularz/generuj/planPodzialu'),form_button('generuj','Generuj wezwanie'))?>
+	<p><?=anchor(url('formularz/generuj/planPodzialu'),form_button('generuj','Generuj wezwanie'))?></p>
 	<div class="to_left">
 		<p>
 			<?=form_label('NIP', 'NIP') ?>
@@ -24,27 +24,63 @@
 			<?=form_label('Nr telefonu', 'nr_telefonu') ?>
 			<?= $sprawa['nr_telefonu'] ?>
 		</p>
-	</div>
-	<div>
 		<p>
 			<?=form_label('Sygn. akt', 'sygn_akt') ?>
 			<?=$sprawa['sygn_akt']?>
 		</p>
 		<p>
-			<?=form_label('Nr sprawy', 'nr_sprawy') ?>
-			<?=$sprawa['nr_sprawy']?>
-		</p>
-		<p>
-			<?=form_label('Data postanowienia', 'data_postanowienia') ?>
+			<?=form_label('Data postanowienia sądu', 'data_postanowienia') ?>
 			<?= $sprawa['data_postanowienia']?>
-			
 		</p>
-		
+	
 		<p>
 			<?=form_label('Data wpływu postanowienia', 'data_wplywu') ?>
 			<?= $sprawa['data_wplywu'] ?>
-			
+		</p>	
+	
+	</div>
+	<div>
+		<p>
+			<?=form_label('Nr sprawy', 'nr_sprawy') ?>
+			<?=$sprawa['nr_sprawy']?>
 		</p>
+		
+		<p>
+			<?=form_label('Data wysłania wezwania', 'data_wezwania') ?>
+			<?= $sprawa['data_wezwania'] ?>
+		</p>
+		<p>
+			<?=form_label('Data odbioru wezwania', 'data_odbioru') ?>
+			<?= $sprawa['data_odbioru'] ?>
+		</p>
+		
+		<p>
+			<?=form_label('Data zakończenia postępowania', 'data_zakonczenia') ?>
+			<?= $sprawa['data_zakonczenia'] ?>
+		</p>
+		<p>
+			<?=form_label('Przyczyna zakończenia postępowania', 'przyczyna_zakonczenia') ?>
+			<?= $sprawa['data_odbioru'] ?>
+		</p>
+		<p>
+			<?=form_label('Data postanowienia organu egzekucyjnego', 'data_postanowienia_org') ?>
+			<?= $sprawa['data_postanowienia_org'] ?>
+		</p>
+		<p>
+			<?=form_label('Data odbioru postanowienia organu egzekucyjnego', 'data_odbioru_postanowienia_org') ?>
+			<?= $sprawa['data_odbioru_postanowienia_org'] ?>
+		</p>
+		<p>
+			<?=form_label('Data odbioru postanowienia organu egzekucyjnego', 'data_odbioru_postanowienia_org') ?>
+			<?= $sprawa['data_odbioru_postanowienia_org'] ?>
+		</p>
+		
+		
+		
+		<p>
+			<?=form_label('Data odbioru akt egzekucyjnych', 'data_odbioru_akt') ?>
+			<?= $sprawa['data_odbioru_akt'] ?>
+		
 	</div>
 </div>
 <table border="1">
