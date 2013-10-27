@@ -60,7 +60,7 @@
 		</p>
 		<p>
 			<?=form_label('Przyczyna zakończenia postępowania', 'przyczyna_zakonczenia') ?>
-			<?= $sprawa['data_odbioru'] ?>
+			<?= $sprawa['przyczyna_zakonczenia'] ?>
 		</p>
 		<p>
 			<?=form_label('Data postanowienia organu egzekucyjnego', 'data_postanowienia_org') ?>
@@ -116,3 +116,4 @@
 	</tr>
 	<?endforeach?>	
 </table>
+<?=$this->load->view('wplata/lista')?>

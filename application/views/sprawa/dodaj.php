@@ -91,7 +91,7 @@
 	
 <p>
 	<?=form_label('Przyczyna zakończenia postępowania', 'przyczyna_zakonczenia')?>
-	<?=form_dropdown('przyczyna_zakonczenia',array('nieskuteczna egzekucja','przekazanie innemu organowi egzekucyjnemu','zaspokojenie wierzycieli','umorzenie na żądanie'),$sprawa['przyczyna_zakonczenia'])?>
+	<?=form_dropdown('przyczyna_zakonczenia',$this->sprawy->getPrzyczynyZakonczenia(),$sprawa['przyczyna_zakonczenia'])?>
 </p>
 	<span class="error"><?=form_error('przyczyna_zakonczenie')?></span>
 <p>	

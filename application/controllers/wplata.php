@@ -30,11 +30,6 @@ class Wplata extends MY_Controller {
 	
 	function dodaj() {
 		$typ_usera = $this -> session -> userdata('nazwa_typ');
-		/*
-		$data['wplata']['dluznik'] = $this -> input -> post('dluznik') ? $this -> input -> post('dluznik') : '';
-		$data['wplata']['data_wplaty'] = $this -> input -> post('data_wplaty') ? $this -> input -> post('data_wplaty') : '';
-		$data['wplata']['kwota_wplaty'] = $this -> input -> post('kwota_wplaty') ? przygotujKwote($this -> input -> post('kwota_wplaty')) : '';
-		 */
 		$this->_prepareData($data['wplata']);
 		if ($this -> input -> post('submit') && $this -> form_validation -> run('dodaj_wplata')) {
 			$this -> wplaty -> dodaj($data['wplata']);
@@ -50,11 +45,6 @@ class Wplata extends MY_Controller {
 			if ($wplata) {
 				$typ_usera = $this -> session -> userdata('nazwa_typ');
 				$data['wplata']['id_wplaty'] = $id_wplaty;
-				/*
-				$data['wplata']['dluznik'] = $this -> input -> post('dluznik') ? $this -> input -> post('dluznik') : $wplata['id_dluznika'];
-				$data['wplata']['data_wplaty'] = $this -> input -> post('data_wplaty') ? $this -> input -> post('data_wplaty') : $wplata['data_wplaty'];
-				$data['wplata']['kwota_wplaty'] = $this -> input -> post('kwota_wplaty') ? przygotujKwote($this -> input -> post('kwota_wplaty')) : $wplata['kwota_wplaty'];
-				*/
 				$this->_prepareData($data['wplata'],$wplata);
 				if ($this -> input -> post('submit') && $this -> form_validation -> run('dodaj_wplata')) {
 					$this -> wplaty -> edytuj($data['wplata']);
@@ -69,6 +59,22 @@ class Wplata extends MY_Controller {
 			}
 		} else {
 			$this -> session -> set_flashdata('error', 'Musisz wybrać wpłatę!!!');
+			redirect('wplata/zarzadzanie');
+		}
+	}
+	function szczegoly($id_wplaty) {
+		if ($id_wplaty) {
+			$wplata = $this -> wplaty -> getPodzialWplaty($id_wplaty);
+			if ($wplata) {
+				$data['wplata'] = $wplata;
+				$data['content'] = $this -> load -> view('wplata/szczegoly', $data, true);
+				$this -> load -> view('index', $data);
+			} else {
+				$this -> session -> set_flashdata('error', 'W bazie nie ma takiej wplaty!!!');
+				redirect('wplata/zarzadzanie');
+			}
+		} else {
+			$this -> session -> set_flashdata('error', 'Musisz wybrać wplate!!!');
 			redirect('wplata/zarzadzanie');
 		}
 	}

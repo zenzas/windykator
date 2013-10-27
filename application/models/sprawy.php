@@ -102,6 +102,16 @@ class Sprawy extends CI_Model {
 		return $wynik;
 	}
 	
+	function getPrzyczynyZakonczenia () {
+		$przyczyny = array(
+			'nieskuteczna egzekucja' => 'nieskuteczna egzekucja',
+			'przekazanie innemu organowi' => 'przekazanie innemu organowi',
+			'zaspokojenie wierzycieli' => 'zaspokojenie wierzycieli',
+			'umorzenie na żądania' => 'umorzenie na żądania'
+		);
+		return $przyczyny;
+	}
+	
 	function lista($where = null){	
 		$this -> db -> select('s.id_sprawy, s.sygn_akt, s.nr_sprawy,u.nazwa as nazwa_dluznika, ud.NIP, ud.PESEL, '.
 		'u1.id_users as id_wierzyciela, u1.nazwa as nazwa_wierzyciela, w1.id_wierzycieli, MAX(w.data_wplaty) as ostatnia_wplata',false)
@@ -189,6 +199,15 @@ class Sprawy extends CI_Model {
 		   'sygn_akt' => $sprawa['sygn_akt'],
 		   'data_wplywu' => $sprawa['data_wplywu'],
 		   'data_postanowienia' => $sprawa['data_postanowienia'],
+		   'data_wplywu' => $sprawa['data_wplywu'],
+		   'data_wezwania' => $sprawa['data_wezwania'],
+		   'data_odbioru' => $sprawa['data_odbioru'],
+		   'data_zakonczenia' => $sprawa['data_zakonczenia'],
+		   'przyczyna_zakonczenia' => $sprawa['przyczyna_zakonczenia'],
+		   'data_postanowienia_org' => $sprawa['data_postanowienia_org'],
+		   'data_odbioru_postanowienia_org' => $sprawa['data_odbioru_postanowienia_org'],
+		   'data_nadania_akt' => $sprawa['data_nadania_akt'],
+		   'data_odbioru_akt' => $sprawa['data_odbioru_akt'],
 		   'id_dluznika' => $id_user
 		);
 		
@@ -221,7 +240,17 @@ class Sprawy extends CI_Model {
 		
 		$dane = array(
 		   'nr_sprawy' => $sprawa['nr_sprawy'],
-		   'sygn_akt' => $sprawa['sygn_akt']
+		   'sygn_akt' => $sprawa['sygn_akt'],
+		   'data_postanowienia' => $sprawa['data_postanowienia'],
+		   'data_wplywu' => $sprawa['data_wplywu'],
+		   'data_wezwania' => $sprawa['data_wezwania'],
+		   'data_odbioru' => $sprawa['data_odbioru'],
+		   'data_zakonczenia' => $sprawa['data_zakonczenia'],
+		   'przyczyna_zakonczenia' => $sprawa['przyczyna_zakonczenia'],
+		   'data_postanowienia_org' => $sprawa['data_postanowienia_org'],
+		   'data_odbioru_postanowienia_org' => $sprawa['data_odbioru_postanowienia_org'],
+		   'data_nadania_akt' => $sprawa['data_nadania_akt'],
+		   'data_odbioru_akt' => $sprawa['data_odbioru_akt']
 		);
 		
 		$this->db->where('id_sprawy',$sprawa['id_sprawy'])
