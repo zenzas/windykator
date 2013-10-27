@@ -90,13 +90,13 @@
 	</p>
 	<p>
 		<?=form_label('Przyczyna zakończenia postępowania', 'przyczyna_zakonczenia')?>
-		<?=form_dropdown('przyczyna_zakonczenia',array('nieskuteczna egzekucja','przekazanie innemu organowi egzekucyjnemu','zaspokojenie wierzycieli'),$sprawa['przyczyna_zakonczenia'])?>
+		<?=form_dropdown('przyczyna_zakonczenia',$this->sprawy->getPrzyczynyZakonczenia(),$sprawa['przyczyna_zakonczenia'])?>
 	
 	</p>
 	<span class="error"><?=form_error('przyczyna_zakonczenia')?></span>
 	<p>
 		<?=form_label('Data postanowienia organu egzekucyjnego', 'data_postanowienia_org') ?>
-		<?=form_input(array('name' => 'data_postanowienie_org', 'value' => $sprawa['data_postanowienia_org'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
+		<?=form_input(array('name' => 'data_postanowienia_org', 'value' => $sprawa['data_postanowienia_org'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
 	</p>
 	<span class="error"><?=form_error('data_postanowienia_org') ?></span>
 	<p>
@@ -113,12 +113,7 @@
 		<?=form_label('Data odbioru akt egzekucyjnych', 'data_odbioru_akt') ?>
 		<?=form_input(array('name' => 'data_odbioru_akt', 'value' => $sprawa['data_odbioru_akt'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
 	</p>
-	<span class="error"><?=form_error('data_postanowienia_org') ?></span>
-	<p>
-		<?=form_label('Data odbioru akt egzekucyjnych', 'data_odbioru_akt') ?>
-		<?=form_input(array('name' => 'data_odbioru_akt', 'value' => $sprawa['data_odbioru_akt'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
-	</p>
-	<span class="error"><?=form_error('data_postanowienia_org') ?></span>
+	<span class="error"><?=form_error('data_odbioru_akt') ?></span>
 </div>
 
 <div class="to_left">

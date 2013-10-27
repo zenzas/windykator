@@ -154,7 +154,7 @@ form.notLoggedForm input[type=submit], form.notLoggedForm input[type=reset] {
 }
 
 #szczegoly_sprawy div.to_left {
-	margin-bottom: 20px;
+	margin-bottom: 100px;
 	width: 50%;
 }
 
@@ -162,7 +162,7 @@ form.notLoggedForm input[type=submit], form.notLoggedForm input[type=reset] {
 #szczegoly_sprawy label {
 	display: inline-block;
 	font-weight: bold;
-	width: 200px;
+	width: 260px;
 }
 
 #dodaj_sprawe input[type=text], #dodaj_sprawe textarea {

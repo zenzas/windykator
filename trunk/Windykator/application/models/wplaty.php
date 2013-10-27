@@ -14,6 +14,24 @@ class Wplaty extends CI_Model {
 		return $wplata;
 	}
 	
+	function getPodzialWplaty($id_wplaty) {
+		$this -> db -> select('w.*, ok.kwota_oplaty, z.kwota_zwrotu')
+		 	-> from('wplaty w') 
+			-> join('oplaty_komornicze ok','w.id_wplaty = ok.id_wplaty')
+			-> join('zwroty z','w.id_wplaty = z.id_wplaty','left')
+			-> where('w.id_wplaty',$id_wplaty);
+		$wplata = $this -> db -> get() -> row_array();
+		var_dump($wplata);
+		$this -> db -> select('ww.*, u.nazwa')
+			-> from('wplaty_dla_wierzycieli ww') 
+			-> join('wierzyciel w','ww.id_wierzyciela = w.id_wierzycieli')
+			-> join('users u','w.id_user = u.id_users')
+			-> where('ww.id_wplaty',$id_wplaty);
+		$wplata['wplaty_wierzycieli'] = $this -> db -> get() -> result_array();
+		var_dump($wplata);
+		return $wplata;
+	}
+	
 	function lista($where = null) {
 		$this -> db -> select('w.*, d.nazwa as dluznik')
 	 	-> from('wplaty w') 
@@ -40,6 +58,9 @@ class Wplaty extends CI_Model {
 			if (isset($where['dluznik'])) {
 				$this->db->like('d.nazwa', $where['dluznik']);
 			}
+			if (isset($where['id_dluznika'])) {
+				$this->db->like('w.id_dluznika', $where['id_dluznika']);
+			}
 		}
 	}
 	function dodaj($wplata){
@@ -55,7 +76,7 @@ class Wplaty extends CI_Model {
 		$this -> session -> set_flashdata('message', 'Dodano nowa wpłatę');			
 	}
 	
-	function zaplac($co, &$kwota, &$zadluzenie, $wplata) {
+	function zaplac($co, &$kwota, &$zadluzenie, &$wplata) {
 		$zaplacono = min($kwota, $zadluzenie[$co]);
 		$wplata[$co] = $zaplacono;
 		$zadluzenie[$co] -= $zaplacono;
@@ -86,7 +107,10 @@ class Wplaty extends CI_Model {
 						'id_wierzyciela' => $zadluzenie['id_wierzyciela'],
 						'kwota_zadluzenia' => $zadluzenie['kwota_zadluzenia'],
 					   	'odsetki' => $zadluzenie['odsetki'],
-					   	'koszty_egzekucyjne' => $zadluzenie['koszty_egzekucyjne'] 
+					   	'koszty_egzekucyjne' => $zadluzenie['koszty_egzekucyjne'],
+					   	'pozostala_kwota_zadluzenia' => 0,
+					   	'pozostale_odsetki' => 0,
+					   	'pozostale_koszty_egzekucyjne' => 0  
 					);
 					$this->db->insert('wplaty_dla_wierzycieli', $wplataDlaWierzyciela); 
 					$this->db->delete('zadluzenie', array('id_zadluzenia' => $zadluzenie['id_zadluzenia']));

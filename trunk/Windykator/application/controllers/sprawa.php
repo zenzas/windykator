@@ -51,7 +51,7 @@ class Sprawa extends MY_Controller {
 				$data['sprawa']['id_sprawy'] = $id_sprawy;
 				$data['sprawa']['id_dluznika'] = $sprawa['id_dluznika'];
 				$this->_prepareData($data['sprawa'], $sprawa);
-				//var_dump($data['sprawa']);exit;
+				
 				$this->_ustaw_walidacje_wierzycieli($data['sprawa']['wierzyciele']);
 				if ($this -> input -> post('submit') 
 					&& $this -> form_validation -> run('edytuj_sprawe')
@@ -86,34 +86,13 @@ class Sprawa extends MY_Controller {
 	}
 
 	function szczegoly($id_sprawy) {
+		$this -> load -> model('wplaty');
 		if ($id_sprawy) {
 			$sprawa = $this -> sprawy -> getById($id_sprawy);
 			if ($sprawa) {
+				$data['sprawa'] = $sprawa;
 				$data['sprawa']['id_sprawy'] = $id_sprawy;
-				$data['sprawa']['id_dluznika'] = $sprawa['id_dluznika'];
-				$data['sprawa']['nr_sprawy'] = $sprawa['nr_sprawy'];
-				$data['sprawa']['sygn_akt'] = $sprawa['sygn_akt'];
-				$data['sprawa']['NIP'] = $sprawa['NIP'];
-				$data['sprawa']['PESEL'] = $sprawa['PESEL'];
-				$data['sprawa']['nazwa_dluznika'] = $sprawa['nazwa_dluznika'];
-				$data['sprawa']['ulica'] = $sprawa['ulica'];
-				$data['sprawa']['nr_dom'] = $sprawa['nr_dom'];
-				$data['sprawa']['nr_lokal'] = $sprawa['nr_lokal'];
-				$data['sprawa']['miasto'] = $sprawa['miasto'];
-				$data['sprawa']['kod'] = $sprawa['kod'];
-				$data['sprawa']['nr_telefonu'] = $sprawa['nr_telefonu'];
-				$data['sprawa']['data_postanowienia'] = $sprawa['data_postanowienia'];
-				$data['sprawa']['data_wplywu'] = $sprawa['data_wplywu'];
-				$data['sprawa']['data_wezwania'] = $sprawa['data_wezwania'];
-				$data['sprawa']['data_odbioru'] = $sprawa['data_odbioru'];
-				$data['sprawa']['data_zakonczenia'] = $sprawa['data_zakonczenia'];
-				$data['sprawa']['przyczyna_zakonczenia'] = $sprawa['przyczyna_zakonczenia'];
-				$data['sprawa']['data_postanowienia_org'] = $sprawa['data_postanowienia_org'];
-				$data['sprawa']['data_odbioru_postanowienia_org'] = $sprawa['data_odbioru_postanowienia_org'];
-				$data['sprawa']['data_nadania_akt'] = $sprawa['data_nadania_akt'];
-				$data['sprawa']['data_odbioru_akt'] = $sprawa['data_odbioru_akt'];	
-				$data['sprawa']['wierzyciele'] = $sprawa['wierzyciele'];
-
+				$data['wplaty'] = $this -> wplaty -> lista(array('id_dluznika' => $data['sprawa']['id_dluznika']));
 				$data['content'] = $this -> load -> view('sprawa/szczegoly', $data, true);
 				$this -> load -> view('index', $data);
 			} else {
