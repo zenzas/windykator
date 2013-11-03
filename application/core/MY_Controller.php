@@ -11,7 +11,7 @@ abstract class MY_Controller extends CI_Controller {
 	
 	function _prepareData(&$data, $from = null) {
 		foreach ($this->fields as $field) {
-			$data[$field] = $this -> input -> post($field) !== false ? $this -> input -> post($field) : ($from ? $from[$field] : '');
+			$data[$field] = $this -> input -> post($field) ? $this -> input -> post($field) : ($from ? $from[$field] : NULL);
 		}			
 	}
 	

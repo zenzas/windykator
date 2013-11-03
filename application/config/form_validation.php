@@ -128,6 +128,58 @@ $config = array(
 			'rules' => 'trim|min_length[26]|max_length[26]'
 		)
 	),
+	'dodaj_pelnomocnika' => array(
+		array(
+			'field' => 'nazwa',
+			'label' => 'Nazwa',
+			'rules' => 'trim|min_length[3]'
+		),
+		array(
+			'field' => 'typ',
+			'label' => 'Typ użytkownika',
+			'rules' => 'required'
+		),
+		array(
+			'field' => 'NIP',
+			'label' => 'NIP',
+			'rules' => 'trim'
+		),
+		array(
+			'field' => 'PESEL',
+			'label' => 'PESEL',
+			'rules' => 'trim'
+		),
+		array(
+			'field' => 'ulica',
+			'label' => 'Ulica',
+			'rules' => 'trim|min_length[3]'
+		),
+		array(
+			'field' => 'nr_dom',
+			'label' => 'Nr domu',
+			'rules' => 'trim'
+		),
+		array(
+			'field' => 'nr_lokal',
+			'label' => 'Nr lokalu',
+			'rules' => 'trim'
+		),
+		array(
+			'field' => 'miasto',
+			'label' => 'Miasto',
+			'rules' => 'trim|min_length[3]'
+		),
+		array(
+			'field' => 'kod',
+			'label' => 'Kod pocztowy',
+			'rules' => 'trim|min_length[6]|max_length[6]'
+		),
+		array(
+			'field' => 'nr_telefonu',
+			'label' => 'Nr telefonu',
+			'rules' => 'trim|min_length[9]|max_length[9]'
+		),
+	),
 	'dodaj_sprawe' => array(
 		array(
 			'field' => 'sygn_akt',
@@ -261,26 +313,6 @@ $config = array(
 			'label' => 'Data wpływu postanowienia',
 			'rules' => 'trim|required|min_length[8]'
 		),
-		/*array(
-			'field' => 'nazwa_w',
-			'label' => 'Nazwa wierzyciela',
-			'rules' => 'trim|required|min_length[3]'
-		),
-		 array(
-			'field' => 'KM',
-			'label' => 'KM',
-			'rules' => 'trim|min_length[2]|max_length[11]'
-		),
-		array(
-			'field' => 'ulica_w',
-			'label' => 'Ulica',
-			'rules' => 'trim|required|min_length[3]'
-		),
-		array(
-			'field' => 'nr_dom_w',
-			'label' => 'Nr domu',
-			'rules' => 'trim|required'
-		),
 		array(
 			'field' => 'nr_lokal_w',
 			'label' => 'Nr lokalu',
@@ -305,7 +337,7 @@ $config = array(
 			'field' => 'nr_rachunku_w',
 			'label' => 'Nr rachunku bankowego',
 			'rules' => 'trim|min_length[26]|max_length[26]'
-		)*/
+		)
 	),
 	'dodaj_wniosek' => array(
 		array(

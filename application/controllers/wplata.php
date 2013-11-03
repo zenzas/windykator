@@ -78,5 +78,6 @@ class Wplata extends MY_Controller {
 			redirect('wplata/zarzadzanie');
 		}
 	}
+	
 }
 ?>

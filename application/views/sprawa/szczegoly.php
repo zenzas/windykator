@@ -86,7 +86,7 @@
 <table border="1">
 	<tr>
 		<th>Nazwa wierzyciela</th>
-		<th>Typ wierzyciela</th>
+		<th>Nazwa pełnomocnika</th>
 		<th>KM</th>
 		<th>Adres</th>
 		<th>Telefon</th>
@@ -95,10 +95,10 @@
 	<?foreach ($sprawa['wierzyciele'] as $nr => $wierzyciel):?>
 	<tr>
 		<td>	
-			<?= $wierzyciel['nazwa_w'] ?>
+			<?=anchor(url('wierzyciel/szczegoly/'.$wierzyciel['id_wierzyciela']),$wierzyciel['nazwa_w'],array('class' => 'black'))?>
 		</td>
 		<td>
-			<?=$wierzyciel['nazwa_typ_wierzyciel']?>
+			<?=$wierzyciel['pelnomocnik']?>
 		</td>
 		<td>	
 			<?= $wierzyciel['KM'] ?>

@@ -35,12 +35,6 @@ class Zadluzenie extends MY_Controller {
 		
 		$data['zadluzenie']['dluznik'] = $this -> input -> post('dluznik') ? $this -> input -> post('dluznik') : '';
 		$data['zadluzenie']['wierzyciel'] = $this -> input -> post('wierzyciel') ? $this -> input -> post('wierzyciel') : '';
-		/* 
-		$data['zadluzenie']['data'] = $this -> input -> post('data') ? $this -> input -> post('data') : '';
-		$data['zadluzenie']['kwota_zadluzenia'] = $this -> input -> post('kwota_zadluzenia') ? przygotujKwote($this -> input -> post('kwota_zadluzenia')) : '';
-		$data['zadluzenie']['odsetki'] = $this -> input -> post('odsetki') ? przygotujKwote($this -> input -> post('odsetki')) : '';
-		$data['zadluzenie']['koszty_egzekucyjne'] = $this -> input -> post('koszty_egzekucyjne') ? przygotujKwote($this -> input -> post('koszty_egzekucyjne')) : '';
-		*/
 		$this->_prepareData($data['zadluzenie']);
 		if ($this -> input -> post('submit') && $this -> form_validation -> run('dodaj_zadluzenie')) {
 			$ws = $this -> zadluzenia -> getWierzycieleSprawy($data['zadluzenie']['dluznik'], $data['zadluzenie']['wierzyciel']);
@@ -64,11 +58,6 @@ class Zadluzenie extends MY_Controller {
 				
 				$data['zadluzenie']['dluznik'] = $this -> input -> post('dluznik') ? $this -> input -> post('dluznik') : $zadluzenie['id_sprawy'];
 				$data['zadluzenie']['wierzyciel'] = $this -> input -> post('wierzyciel') ? $this -> input -> post('wierzyciel') : $zadluzenie['id_wierzyciela'];
-				/*$data['zadluzenie']['data'] = $this -> input -> post('data') ? $this -> input -> post('data') : $zadluzenie['data'];
-				$data['zadluzenie']['kwota_zadluzenia'] = $this -> input -> post('kwota_zadluzenia') ? przygotujKwote($this -> input -> post('kwota_zadluzenia')) : $zadluzenie['kwota_zadluzenia'];
-				$data['zadluzenie']['odsetki'] = $this -> input -> post('odsetki') ? przygotujKwote($this -> input -> post('odsetki')) : $zadluzenie['odsetki'];
-				$data['zadluzenie']['koszty_egzekucyjne'] = $this -> input -> post('koszty_egzekucyjne') ? przygotujKwote($this -> input -> post('koszty_egzekucyjne')) : $zadluzenie['koszty_egzekucyjne'];
-				*/
 				$this->_prepareData($data['zadluzenie'],$zadluzenie);
 				if ($this -> input -> post('submit') && $this -> form_validation -> run('dodaj_zadluzenie')) {
 					$ws = $this -> zadluzenia -> getWierzycieleSprawy($data['zadluzenie']['dluznik'], $data['zadluzenie']['wierzyciel']);	
