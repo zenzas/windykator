@@ -46,6 +46,26 @@ class Wierzyciel extends MY_Controller {
 			$this -> session -> set_flashdata('error', 'Musisz wybrać sprawę!!!');
 			redirect('sprawa/zarzadzanie');
 		}
+	}
+	function szczegoly($id_wierzyciela) {
+		$this -> load -> model('wplaty');
+		if ($id_wierzyciela) {
+			$wierzyciel = $this -> wierzyciele -> getById($id_wierzyciela);
+			var_dump($wierzyciel);
+			if ($wierzyciel) {
+				$data['wierzyciel'] = $wierzyciel;
+				$data['wierzyciel']['id_wierzyciela'] = $id_wierzyciela;
+				$data['wplaty'] = $this -> wplaty -> wplatyDlaWierzyciela(null,$wierzyciel['id_wierzycieli']);
+				$data['content'] = $this -> load -> view('sprawa/wierzyciel', $data, true);
+				$this -> load -> view('index', $data);
+			} else {
+				$this -> session -> set_flashdata('error', 'W bazie nie ma takiego wierzyciela!!!');
+				redirect('sprawa/zarzadzanie');
+			}
+		} else {
+			$this -> session -> set_flashdata('error', 'Musisz wybrać wierzyciela!!!');
+			redirect('sprawa/zarzadzanie');
+		}
 	}	
 }
 ?>

@@ -13,7 +13,8 @@ class Sprawy extends CI_Model {
 		}
 		$select = 's.*, u.nazwa as nazwa_dluznika, ud.*, u1.nazwa as nazwa_w, u1.id_users as id_users_w, ud1.ulica as ulica_w,'.
 			'ud1.nr_dom as nr_dom_w, ud1.nr_lokal as nr_lokal_w, ud1.miasto as miasto_w, ud1.kod as kod_w, '.
-			'ud1.nr_telefonu as nr_telefonu_w, ud1.nr_rachunku as nr_rachunku_w, ws.KM, ws.id_wierzyciela, w1.id_wierzyciel_typ, wt.nazwa as nazwa_wierzyciel_typ';
+			'ud1.nr_telefonu as nr_telefonu_w, ud1.nr_rachunku as nr_rachunku_w, '.
+			'p.nazwa as pelnomocnik,, ws.KM, ws.id_wierzyciela, w1.id_wierzyciel_typ, wt.nazwa as nazwa_wierzyciel_typ';
 		$this -> db  -> select($select)
 			-> join('users u', 'u.id_users = s.id_dluznika')
 			-> join('users_dane ud', 'ud.id_users = u.id_users')
@@ -21,6 +22,7 @@ class Sprawy extends CI_Model {
 			-> join('wierzyciel w1', 'ws.id_wierzyciela = w1.id_wierzycieli','left')
 			-> join('wierzyciel_typ wt', 'w1.id_wierzyciel_typ = wt.id_wierzyciel_typ','left')
 			-> join('users u1', 'w1.id_user = u1.id_users','left')
+			-> join('users p', 'w1.id_pelnomocnika = p.id_users','left')
 			-> join('users_dane ud1', 'ud1.id_users = u1.id_users','left')
 			-> where('s.id_sprawy', $id_sprawy);
 		$sprawy = $this -> db -> get() -> result_array();
@@ -58,6 +60,7 @@ class Sprawy extends CI_Model {
 			if ($sprawa['id_wierzyciela'] && !key_exists($sprawa['id_wierzyciela'], $wynik[$sprawa['id_sprawy']]['wierzyciele'])) {
 				$wynik[$sprawa['id_sprawy']]['wierzyciele'][$sprawa['id_wierzyciela']] = array(
 					'id_wierzyciela' => $sprawa['id_wierzyciela'],
+					'id_users_w' => $sprawa['id_users_w'],
 					'nazwa_w' => $sprawa['nazwa_w'],
 					'typ_wierzyciel' => $sprawa['id_wierzyciel_typ'],
 					'nazwa_typ_wierzyciel' => $sprawa['nazwa_wierzyciel_typ'],
@@ -68,7 +71,8 @@ class Sprawy extends CI_Model {
 					'miasto_w' => $sprawa['miasto_w'],
 					'kod_w' => $sprawa['kod_w'],
 					'nr_telefonu_w' => $sprawa['nr_telefonu_w'],
-					'nr_rachunku_w' => $sprawa['nr_rachunku_w']
+					'nr_rachunku_w' => $sprawa['nr_rachunku_w'],
+					'pelnomocnik' => $sprawa['pelnomocnik'],
 				);
 			}
 		}

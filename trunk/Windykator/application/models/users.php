@@ -6,7 +6,7 @@ class Users extends CI_Model {
 	}
 
 	function getById($id_user) {
-		$select = 'u.*, ul.login, ul.email, ul.aktywny, ut.id_users_typy, ut.nazwa as nazwa_typ, w.id_wierzyciel_typ as typ_wierzyciel, '.
+		$select = 'u.*, ul.login, ul.email, ul.aktywny, ut.id_users_typy, ut.nazwa as nazwa_typ, w.id_wierzycieli, w.id_wierzyciel_typ as typ_wierzyciel, '.
 			' ud.NIP, ud.PESEL,ud.ulica, ud.nr_dom, ud.nr_lokal, '.
 			' ud.miasto, ud.kod, ud.nr_telefonu, ud.nr_rachunku, ud.logowanie';
 		$this -> db -> select($select)
@@ -174,6 +174,7 @@ class Users extends CI_Model {
 		}
 		return $typy;
 	}
+	
 	function listaTypowWierzycieli(){
 		$dane = $this -> db -> get('wierzyciel_typ') -> result_array();
 		$typy = array();
@@ -212,6 +213,20 @@ class Users extends CI_Model {
 			$dluznicy[$d['id_users']] = $d['nazwa'];
 		}
 		return $dluznicy;
+	}
+	function listaPelnomocnikow(){
+		$this -> db -> select('u.*')
+			-> from('users u') 
+			-> join('users_typy ut', 'u.id_users_typy = ut.id_users_typy')
+			-> where('ut.nazwa', 'pełnomocnik');
+		$dane = $this -> db -> get() -> result_array();
+		
+		
+		$pelnomocnicy = array('' => '');
+		foreach ($dane as $d) {
+			$pelnomocnicy[$d['id_users']] = $d['nazwa'];
+		}
+		return $pelnomocnicy;
 	}
 	
 	function listaDluznicySprawy($sprawy){

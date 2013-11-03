@@ -16,3 +16,14 @@ function przygotujKwote($kwota) {
 	$kwota = str_replace(',', '.', $kwota);
 	return $kwota;
 }
+
+function przygotujAdres($ulica, $nr_dom, $nr_lokal, $kod, $miasto) {
+	$adres = '';
+	if ($ulica) {
+		$adres = "$ulica $nr_dom";
+		if ($nr_lokal)
+			$adres .= "/$nr_lokal";
+		$adres .= ", $kod $miasto";
+	}
+	return $adres;
+}

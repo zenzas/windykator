@@ -19,9 +19,7 @@
 				<?=$user['nazwa']?>				
 			</td>
 			<td class="adres">
-				<?if ($user['ulica']):?>
-					<?=$user['ulica']?> <?=$user['nr_dom']?><?if ($user['nr_lokal']):?> / <?=$user['nr_lokal']?><?endif?>, <?=$user['kod']?> <?=$user['miasto']?>
-				<?endif?>				
+				<?=przygotujAdres($user['ulica'], $user['nr_dom'], $user['nr_lokal'], $user['kod'], $user['miasto'])?>			
 			</td>
 			<td>
 				<?=anchor(url('user/podglad/'.$user['id_users']),'podgląd',array('class' => 'black'))?>

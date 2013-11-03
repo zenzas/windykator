@@ -21,14 +21,14 @@ class Wplaty extends CI_Model {
 			-> join('zwroty z','w.id_wplaty = z.id_wplaty','left')
 			-> where('w.id_wplaty',$id_wplaty);
 		$wplata = $this -> db -> get() -> row_array();
-		var_dump($wplata);
+		//var_dump($wplata);
 		$this -> db -> select('ww.*, u.nazwa')
 			-> from('wplaty_dla_wierzycieli ww') 
 			-> join('wierzyciel w','ww.id_wierzyciela = w.id_wierzycieli')
 			-> join('users u','w.id_user = u.id_users')
 			-> where('ww.id_wplaty',$id_wplaty);
 		$wplata['wplaty_wierzycieli'] = $this -> db -> get() -> result_array();
-		var_dump($wplata);
+		//var_dump($wplata);
 		return $wplata;
 	}
 	
@@ -43,11 +43,14 @@ class Wplaty extends CI_Model {
 	}
 	
 	function wplatyDlaWierzyciela($id_dluznika, $id_wierzyciela) {
-		$this -> db -> select('w.*, ww.*')
+		$this -> db -> select('w.*, ww.*, d.nazwa as dluznik')
 	 	-> from('wplaty_dla_wierzycieli ww') 
-		-> join('wplaty w','w.id_wplaty = ww.id_wplaty');
-		$this->db->where('w.id_dluznika', $id_dluznika);
-		$this->db->where('ww.id_wierzyciela', $id_wierzyciela);
+		-> join('wplaty w','w.id_wplaty = ww.id_wplaty')
+		-> join('users d','w.id_dluznika = d.id_users');
+		if ($id_dluznika)
+			$this->db->where('w.id_dluznika', $id_dluznika);
+		if ($id_wierzyciela)
+			$this->db->where('ww.id_wierzyciela', $id_wierzyciela);
 		$this -> db -> order_by("data_wplaty","desc");
 		$wplaty = $this -> db -> get() -> result_array();
 		return $wplaty;

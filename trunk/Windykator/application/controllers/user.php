@@ -146,10 +146,14 @@ class User extends MY_Controller {
 
 	function dodaj() {
 		$typ_usera = $this -> session -> userdata('nazwa_typ');
-			$data['user']['typ'] = $this -> input -> post('typ') ? $this -> input -> post('typ') : '';
+		$data['user']['typ'] = $this -> input -> post('typ') ? $this -> input -> post('typ') : '';
 		$this->_prepareData($data['user']);
+		if (array_key_exists('logowanie',$data['user']) && !$data['user']['logowanie'])
+			$data['user']['logowanie'] = 0;
+		$pelnomocnik = $this->users->getTyp('pełnomocnik');
+		$walidacja = $data['user']['typ'] == $pelnomocnik['id_users_typy'] && $typ_usera == 'operator' ? 'dodaj_pelnomocnika' : 'dodaj_user_' . $typ_usera;
 		
-		if ($this -> input -> post('submit') && $this -> form_validation -> run('dodaj_user_' . $typ_usera)) {
+		if ($this -> input -> post('submit') && $this -> form_validation -> run($walidacja)) {
 			$this -> users -> dodaj($data['user']);
 			redirect('user/zarzadzanie');
 		}
@@ -198,8 +202,12 @@ class User extends MY_Controller {
 				$data['user']['id_user'] = $id_user;
 				$data['user']['typ'] = $this -> input -> post('typ') ? $this -> input -> post('typ') : $user['id_users_typy'];
 				$this->_prepareData($data['user'],$user);
+				if (array_key_exists('logowanie',$data['user']) && !$data['user']['logowanie'])
+					$data['user']['logowanie'] = 0;
+				$pelnomocnik = $this->users->getTyp('pełnomocnik');
+				$walidacja = $data['user']['typ'] == $pelnomocnik['id_users_typy'] && $typ_usera == 'operator' ? 'dodaj_pelnomocnika' : 'dodaj_user_' . $typ_usera;
 				
-				if ($this -> input -> post('submit') && $this -> form_validation -> run('dodaj_user_' . $typ_usera)) {
+				if ($this -> input -> post('submit') && $this -> form_validation -> run($walidacja)) {
 					$this -> users -> edytuj($data['user']);
 					redirect('user/zarzadzanie');
 				}

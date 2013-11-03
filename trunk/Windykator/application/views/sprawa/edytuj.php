@@ -133,6 +133,10 @@
 					<?=form_label('Typ wierzyciela', 'typ_wierzyciel') ?>
 					<?=form_dropdown("wierzyciele[$nr][typ_wierzyciel]",$typyWierzycieli,$wierzyciel['typ_wierzyciel'])?>
 				</p>
+				<p>
+					<?=form_label('Pełnomocnik', 'pelnomocnik') ?>
+					<?=form_dropdown("pelnomocnik[$nr][pelnomocnik]",$pelnomocnicy,$wierzyciel['pelnomocnik'])?>
+				</p>
 				<p>	
 					<?=form_label('KM', "wierzyciele[$nr][KM]") ?>
 					<?=form_input("wierzyciele[$nr][KM]", $wierzyciel['KM']) ?>
@@ -194,7 +198,11 @@
 	</p>
 	<span class="error"><?=form_error('nazwa_w') ?></span>
 	<div  class='zwin_div'>
-	<p>
+	p>
+		<?=form_label('Pełnomocnik', 'pelnomocnik') ?>
+		<?=form_dropdown('pelnomocnik',$pelnomocnicy)?>
+	</p>
+	<p>	
 		<?=form_label('Typ wierzyciela', 'typ_wierzyciel') ?>
 		<?=form_dropdown('typ_wierzyciel',$typyWierzycieli)?>
 	</p>
