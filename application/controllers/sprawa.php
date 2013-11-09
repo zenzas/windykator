@@ -51,13 +51,15 @@ class Sprawa extends MY_Controller {
 				$data['sprawa']['id_sprawy'] = $id_sprawy;
 				$data['sprawa']['id_dluznika'] = $sprawa['id_dluznika'];
 				$this->_prepareData($data['sprawa'], $sprawa);
+				var_dump($data['sprawa']['wierzyciele']);
 				$this->_ustaw_walidacje_wierzycieli($data['sprawa']['wierzyciele']);
-					if ($this -> input -> post('submit') 
+				if ($this -> input -> post('submit') 
 					&& $this -> form_validation -> run('edytuj_sprawe')
 					&& $this -> form_validation -> run()) {
 					$this -> sprawy -> edytuj($data['sprawa']);
 					redirect('sprawa/zarzadzanie');
 				}
+				var_dump(validation_errors());
 				$data['typyWierzycieli'] = $this -> users -> listaTypowWierzycieli();
 				$data['pelnomocnicy'] = $this -> users -> listaPelnomocnikow();
 				$data['content'] = $this -> load -> view('sprawa/edytuj', $data, true);

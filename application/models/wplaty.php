@@ -70,7 +70,7 @@ class Wplaty extends CI_Model {
 		$dane = array(
 		   'id_dluznika' => $wplata['dluznik'],
 		   'data_wplaty' => $wplata['data_wplaty'],
-		   'kwota_wplaty' => $wplata['kwota_wplaty']
+		   'kwota_wplaty' => przygotujKwote($wplata['kwota_wplaty'])
 		);
 		$this->db->insert('wplaty', $dane); 
 		$dane['id_wplaty'] = $this->db->insert_id();
@@ -79,10 +79,11 @@ class Wplaty extends CI_Model {
 		$this -> session -> set_flashdata('message', 'Dodano nowa wpłatę');			
 	}
 	
-	function zaplac($co, &$kwota, &$zadluzenie, &$wplata) {
-		$zaplacono = min($kwota, $zadluzenie[$co]);
+	function zaplac($co, $pozostalo, &$kwota, &$zadluzenie, &$wplata) {
+		$zaplacono = min($kwota, $zadluzenie[$pozostalo]);
 		$wplata[$co] = $zaplacono;
-		$zadluzenie[$co] -= $zaplacono;
+		$zadluzenie[$pozostalo] -= $zaplacono;
+		$wplata[$pozostalo] = $zadluzenie[$pozostalo];
 		$kwota -= $zaplacono;
 	}
 	function wyczyscRozliczenieWplaty($wplata) {
@@ -130,20 +131,27 @@ class Wplaty extends CI_Model {
 						'id_wierzyciela' => $zadluzenie['id_wierzyciela'],
 						'kwota_zadluzenia' => 0,
 					   	'odsetki' => 0,
-					   	'koszty_egzekucyjne' => 0 
+					   	'koszty_egzekucyjne' => 0 ,
+					   	'pozostala_kwota_zadluzenia' => $zadluzenie['pozostala_kwota_zadluzenia'],
+					   	'pozostale_odsetki' => $zadluzenie['pozostale_odsetki'],
+					   	'pozostale_koszty_egzekucyjne' => $zadluzenie['pozostale_koszty_egzekucyjne']
 					);
-					$this->zaplac('koszty_egzekucyjne', $kwota, $zadluzenie, $wplataDlaWierzyciela);
+					$this->zaplac('koszty_egzekucyjne', 'pozostale_koszty_egzekucyjne', $kwota, $zadluzenie, $wplataDlaWierzyciela);
 					if ($kwota > 0) {
-						$this->zaplac('odsetki', $kwota, $zadluzenie, $wplataDlaWierzyciela);
-						if ($kwota > 0) {
-							$this->zaplac('kwota_zadluzenia', $kwota, $zadluzenie, $wplataDlaWierzyciela);
-						}
+						$wspolczynnik = ($zadluzenie['pozostala_kwota_zadluzenia']+$zadluzenie['pozostale_odsetki'])/$zadluzenie['pozostala_kwota_zadluzenia'];
+						$wplata_naleznosc_glowna = $kwota/$wspolczynnik;
+						$wplata_odsetki = $kwota-$wplata_naleznosc_glowna;
+						//var_dump($zadluzenie,$kwota,$wspolczynnik,$wplata_naleznosc_glowna,$wplata_odsetki);
+						$this->zaplac('kwota_zadluzenia', 'pozostala_kwota_zadluzenia', $wplata_naleznosc_glowna, $zadluzenie, $wplataDlaWierzyciela);
+						$this->zaplac('odsetki', 'pozostale_odsetki', $wplata_odsetki, $zadluzenie, $wplataDlaWierzyciela);
+						//var_dump($zadluzenie,$wplataDlaWierzyciela);
+						
 					}
 					$this->db->insert('wplaty_dla_wierzycieli', $wplataDlaWierzyciela);
 					$aktualneZadluzenie = array(
-						'kwota_zadluzenia' => $zadluzenie['kwota_zadluzenia'],
-					   	'odsetki' => $zadluzenie['odsetki'],
-					   	'koszty_egzekucyjne' => $zadluzenie['koszty_egzekucyjne'] 
+						'pozostala_kwota_zadluzenia' => $zadluzenie['pozostala_kwota_zadluzenia'],
+					   	'pozostale_odsetki' => $zadluzenie['pozostale_odsetki'],
+					   	'pozostale_koszty_egzekucyjne' => $zadluzenie['pozostale_koszty_egzekucyjne'] 
 					); 
 					$this->db->update('zadluzenie', $aktualneZadluzenie, array('id_zadluzenia' => $zadluzenie['id_zadluzenia']));
 					// var_dump($wplataDlaWierzyciela, $aktualneZadluzenie);
@@ -156,13 +164,13 @@ class Wplaty extends CI_Model {
 		// echo $pozostalo;
 		if ($pozostalo > 0)
 			$this->db->insert('zwroty', array('id_wplaty' => $wplata['id_wplaty'], 'kwota_zwrotu' => $pozostalo));
-		// exit;
+		//exit;
 	}
 	
 	function edytuj($wplata){
 		$dane = array(
 		   'id_dluznika' => $wplata['dluznik'],
-		   'kwota_wplaty' => $wplata['kwota_wplaty'],
+		   'kwota_wplaty' => przygotujKwote($wplata['kwota_wplaty']),
 		   'data_wplaty' => $wplata['data_wplaty'],
 		);
 		

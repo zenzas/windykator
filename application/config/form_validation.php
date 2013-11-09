@@ -313,31 +313,6 @@ $config = array(
 			'label' => 'Data wpływu postanowienia',
 			'rules' => 'trim|required|min_length[8]'
 		),
-		array(
-			'field' => 'nr_lokal_w',
-			'label' => 'Nr lokalu',
-			'rules' => 'trim'
-		),
-		array(
-			'field' => 'miasto_w',
-			'label' => 'Miasto',
-			'rules' => 'trim|required|min_length[3]'
-		),
-		array(
-			'field' => 'kod_w',
-			'label' => 'Kod pocztowy',
-			'rules' => 'trim|required|min_length[6]|max_length[6]'
-		),
-		array(
-			'field' => 'nr_telefonu_w',
-			'label' => 'Nr telefonu',
-			'rules' => 'trim|min_length[9]|max_length[9]'
-		),
-		array(
-			'field' => 'nr_rachunku_w',
-			'label' => 'Nr rachunku bankowego',
-			'rules' => 'trim|min_length[26]|max_length[26]'
-		)
 	),
 	'dodaj_wniosek' => array(
 		array(

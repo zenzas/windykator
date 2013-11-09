@@ -64,24 +64,25 @@ class Zadluzenia extends CI_Model {
 		$dane = array(
 		   'id_wierzyciele_sprawy' => $zadluzenie['id_wierzyciele_sprawy'],
 		   'data' => $zadluzenie['data'],
-		   'kwota_zadluzenia' => $zadluzenie['kwota_zadluzenia'],
-		   'odsetki' => $zadluzenie['odsetki'],
-		   'koszty_egzekucyjne' => $zadluzenie['koszty_egzekucyjne'],
-		   'pozostala_kwota_zadluzenia' => $zadluzenie['kwota_zadluzenia'],
-		   'pozostale_odsetki' => $zadluzenie['odsetki'],
-		   'pozostale_koszty_egzekucyjne' => $zadluzenie['koszty_egzekucyjne'] 
+		   'kwota_zadluzenia' => przygotujKwote($zadluzenie['kwota_zadluzenia']),
+		   'odsetki' => przygotujKwote($zadluzenie['odsetki']),
+		   'koszty_egzekucyjne' => przygotujKwote($zadluzenie['koszty_egzekucyjne']),
+		   'pozostala_kwota_zadluzenia' => przygotujKwote($zadluzenie['kwota_zadluzenia']),
+		   'pozostale_odsetki' => przygotujKwote($zadluzenie['odsetki']),
+		   'pozostale_koszty_egzekucyjne' => przygotujKwote($zadluzenie['koszty_egzekucyjne']) 
 		);
+		var_dump($zadluzenie,$dane);
 		$this->db->insert('zadluzenie', $dane); 
-		
+		var_dump($this->db->last_query());
 		$this -> session -> set_flashdata('message', 'Dodano nowe zadłużenie');			
 	}
 	function edytuj($zadluzenie){
 		$dane = array(
 		   'id_wierzyciele_sprawy' => $zadluzenie['id_wierzyciele_sprawy'],
 		   'data' => $zadluzenie['data'],
-		   'kwota_zadluzenia' => $zadluzenie['kwota_zadluzenia'],
-		   'odsetki' => $zadluzenie['odsetki'],
-		   'koszty_egzekucyjne' => $zadluzenie['koszty_egzekucyjne'] 
+		   'kwota_zadluzenia' => przygotujKwote($zadluzenie['kwota_zadluzenia']),
+		   'odsetki' => przygotujKwote($zadluzenie['odsetki']),
+		   'koszty_egzekucyjne' => przygotujKwote($zadluzenie['koszty_egzekucyjne']) 
 		);
 		
 		$this->db->where('id_zadluzenia',  $zadluzenie['id_zadluzenia'])
@@ -112,7 +113,7 @@ class Zadluzenia extends CI_Model {
 					$interval = $datetime1->diff($datetime2);
 					$dni = $interval->format('%a');
 					$procent = ($this->czyStopaReferencyjna($zadluzenie['typ_wierzyciela']) ? $stopa['referencyjna'] : $stopa['lombardowa'] * 4)/100;
-					$zadluzenie['pozostale_odsetki'] += $zadluzenie['pozostala_kwota_zadluzenia'] * $procent * $dni/365.25;
+					$zadluzenie['pozostale_odsetki'] += $zadluzenie['pozostala_kwota_zadluzenia'] * $procent * $dni/365;
 				}	
 				$this->db->where('id_zadluzenia',  $zadluzenie['id_zadluzenia'])
 					->update('zadluzenie', array('pozostale_odsetki' => $zadluzenie['pozostale_odsetki'])); 
@@ -120,7 +121,7 @@ class Zadluzenia extends CI_Model {
 			}
 			//aktualizacja zadluzenia wg prorytetow
 			$priorytet = $zadluzenie['priorytet'];
-			$zadluzenie['suma'] = $zadluzenie['pozostala_kwota_zadluzenia'] + $zadluzenie['pozostale_odsetki'] + $zadluzenie['pozostale_koszty_egzekucyjne'];
+			$zadluzenie['suma'] = $zadluzenie['pozostala_kwota_zadluzenia'] + round($zadluzenie['pozostale_odsetki']) + $zadluzenie['pozostale_koszty_egzekucyjne'];
 			if (isset($zadluzeniaWgPriorytetow[$priorytet])) {
 				$zadluzeniaWgPriorytetow[$priorytet]['suma'] += $zadluzenie['suma'];
 				$zadluzeniaWgPriorytetow[$priorytet]['zadluzenia'][] = $zadluzenie;
