@@ -153,7 +153,6 @@
 				</p>
 				<span class="error"><?=form_error("wierzyciele[$nr][nr_dom_w]") ?></span>
 				<p>
-				<p>
 					<?=form_label('Nr lokalu', "wierzyciele[$nr][nr_lokal_w]") ?>
 					<?=form_input("wierzyciele[$nr][nr_lokal_w]", $wierzyciel['nr_lokal_w']) ?>
 					
@@ -198,7 +197,7 @@
 	</p>
 	<span class="error"><?=form_error('nazwa_w') ?></span>
 	<div  class='zwin_div'>
-	p>
+	<p>
 		<?=form_label('Pełnomocnik', 'pelnomocnik') ?>
 		<?=form_dropdown('pelnomocnik',$pelnomocnicy)?>
 	</p>
@@ -221,7 +220,6 @@
 		<?=form_input('nr_dom_w', '') ?>
 	</p>
 	<span class="error"><?=form_error('nr_dom_w') ?></span>
-	<p>
 	<p>
 		<?=form_label('Nr lokalu', 'nr_lokal_w') ?>
 		<?=form_input('nr_lokal_w', '') ?>

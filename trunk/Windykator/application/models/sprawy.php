@@ -108,6 +108,7 @@ class Sprawy extends CI_Model {
 	
 	function getPrzyczynyZakonczenia () {
 		$przyczyny = array(
+			'egzekucja aktywna' => 'egzekucja aktywna',
 			'nieskuteczna egzekucja' => 'nieskuteczna egzekucja',
 			'przekazanie innemu organowi' => 'przekazanie innemu organowi',
 			'zaspokojenie wierzycieli' => 'zaspokojenie wierzycieli',
@@ -200,6 +201,7 @@ class Sprawy extends CI_Model {
 		$this->db->insert('users_dane', $dane); 
 	
 		$dane = array(
+		   'nr_sprawy' => $sprawa['nr_sprawy'],
 		   'sygn_akt' => $sprawa['sygn_akt'],
 		   'data_wplywu' => $sprawa['data_wplywu'],
 		   'data_postanowienia' => $sprawa['data_postanowienia'],
@@ -220,7 +222,6 @@ class Sprawy extends CI_Model {
 	}
 	
 	function edytuj($sprawa){
-		var_dump($sprawa);
 		$this->db->trans_start();
 		$dane = array(
 		   'nazwa' => $sprawa['nazwa_dluznika']

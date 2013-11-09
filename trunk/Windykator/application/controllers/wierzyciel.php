@@ -51,7 +51,6 @@ class Wierzyciel extends MY_Controller {
 		$this -> load -> model('wplaty');
 		if ($id_wierzyciela) {
 			$wierzyciel = $this -> wierzyciele -> getById($id_wierzyciela);
-			var_dump($wierzyciel);
 			if ($wierzyciel) {
 				$data['wierzyciel'] = $wierzyciel;
 				$data['wierzyciel']['id_wierzyciela'] = $id_wierzyciela;
