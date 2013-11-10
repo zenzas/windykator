@@ -1,7 +1,7 @@
 <?=form_open('sprawa/edytuj/' . $sprawa['id_sprawy'], array('id' => 'edytuj_sprawe')) ?>
 <?=form_hidden('id_sprawy', $sprawa['id_sprawy']) ?>
 <?=form_hidden('id_dluznika', $sprawa['id_dluznika']) ?>
-<input type="hidden" id="ilu_wierzycieli" value="<?=count($sprawa['wierzyciele'])?>"/>
+<input type="hidden" id="id_next_wierzyciel" value="<?=$sprawa['id_next_wierzyciel']?>"/>
 <div class="to_left">
 	<p>
 		<?=form_label('Sygn. akt', 'sygn_akt') ?>
@@ -135,7 +135,7 @@
 				</p>
 				<p>
 					<?=form_label('Pełnomocnik', 'pelnomocnik') ?>
-					<?=form_dropdown("pelnomocnik[$nr][pelnomocnik]",$pelnomocnicy,$wierzyciel['pelnomocnik'])?>
+					<?=form_dropdown("wierzyciele[$nr][pelnomocnik]",$pelnomocnicy,$wierzyciel['pelnomocnik'])?>
 				</p>
 				<p>	
 					<?=form_label('KM', "wierzyciele[$nr][KM]") ?>

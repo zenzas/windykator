@@ -11,6 +11,7 @@ class Sprawa extends MY_Controller {
 	function __construct() {
 		parent::__construct();
 		$this -> load -> model('sprawy');
+		$this -> load -> model('wierzyciele');
 	}
 
 	function zarzadzanie($archiwalna = false) {
@@ -51,7 +52,7 @@ class Sprawa extends MY_Controller {
 				$data['sprawa']['id_sprawy'] = $id_sprawy;
 				$data['sprawa']['id_dluznika'] = $sprawa['id_dluznika'];
 				$this->_prepareData($data['sprawa'], $sprawa);
-				var_dump($data['sprawa']['wierzyciele']);
+				$data['sprawa']['id_next_wierzyciel'] = $this->wierzyciele->znajdzMaxId($data['sprawa']['wierzyciele'])+1;
 				$this->_ustaw_walidacje_wierzycieli($data['sprawa']['wierzyciele']);
 				if ($this -> input -> post('submit') 
 					&& $this -> form_validation -> run('edytuj_sprawe')
@@ -59,7 +60,6 @@ class Sprawa extends MY_Controller {
 					$this -> sprawy -> edytuj($data['sprawa']);
 					redirect('sprawa/zarzadzanie');
 				}
-				var_dump(validation_errors());
 				$data['typyWierzycieli'] = $this -> users -> listaTypowWierzycieli();
 				$data['pelnomocnicy'] = $this -> users -> listaPelnomocnikow();
 				$data['content'] = $this -> load -> view('sprawa/edytuj', $data, true);

@@ -98,7 +98,7 @@
 			<?=anchor(url('wierzyciel/szczegoly/'.$wierzyciel['id_wierzyciela']),$wierzyciel['nazwa_w'],array('class' => 'black'))?>
 		</td>
 		<td>
-			<?=$wierzyciel['pelnomocnik']?>
+			<?=$wierzyciel['nazwa_pelnomocnika']?>
 		</td>
 		<td>	
 			<?= $wierzyciel['KM'] ?>

@@ -45,13 +45,16 @@
 			<?= $wplata['dluznik'] ?>
 		</td>
 		<td>
-			<?=$wplata['kwota_zadluzenia']?>
+			<?=$wplata['kwota_zadluzenia']?><br/>
+			<span class="blue to_right"><?=$wplata['pozostala_kwota_zadluzenia']?></span>
 		</td>
 		<td>	
-			<?= $wplata['odsetki'] ?>
+			<?= $wplata['odsetki'] ?><br/>
+			<span class="blue to_right"><?=$wplata['pozostale_odsetki']?></span>
 		</td>
 		<td>
-			<?= $wplata['koszty_egzekucyjne'] ?> 
+			<?= $wplata['koszty_egzekucyjne'] ?><br/>
+			<span class="blue to_right"><?=$wplata['pozostale_koszty_egzekucyjne']?></span> 
 		</td>
 	</tr>
 	<?endforeach?>	

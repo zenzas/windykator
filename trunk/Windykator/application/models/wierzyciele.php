@@ -120,5 +120,14 @@ class Wierzyciele extends CI_Model {
 			->update('sprawy', $dane);
 		$this -> session -> set_flashdata('message', 'Zmodyfikowano sprawę');			
 	}
+
+	function znajdzMaxId ($wierzyciele) {
+		$max = 0;
+		foreach ($wierzyciele as $wierzyciel) {
+			if ($wierzyciel['id_wierzyciela'] > $max)
+				$max = $wierzyciel['id_wierzyciela'];
+		}
+		return $max;
+	}
 }
 ?>
