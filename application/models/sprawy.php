@@ -14,7 +14,7 @@ class Sprawy extends CI_Model {
 		$select = 's.*, u.nazwa as nazwa_dluznika, ud.*, u1.nazwa as nazwa_w, u1.id_users as id_users_w, ud1.ulica as ulica_w,'.
 			'ud1.nr_dom as nr_dom_w, ud1.nr_lokal as nr_lokal_w, ud1.miasto as miasto_w, ud1.kod as kod_w, '.
 			'ud1.nr_telefonu as nr_telefonu_w, ud1.nr_rachunku as nr_rachunku_w, '.
-			'p.nazwa as pelnomocnik,, ws.KM, ws.id_wierzyciela, w1.id_wierzyciel_typ, wt.nazwa as nazwa_wierzyciel_typ';
+			'w1.id_pelnomocnika as pelnomocnik, p.nazwa as nazwa_pelnomocnika,, ws.KM, ws.id_wierzyciela, w1.id_wierzyciel_typ, wt.nazwa as nazwa_wierzyciel_typ';
 		$this -> db  -> select($select)
 			-> join('users u', 'u.id_users = s.id_dluznika')
 			-> join('users_dane ud', 'ud.id_users = u.id_users')
@@ -73,6 +73,7 @@ class Sprawy extends CI_Model {
 					'nr_telefonu_w' => $sprawa['nr_telefonu_w'],
 					'nr_rachunku_w' => $sprawa['nr_rachunku_w'],
 					'pelnomocnik' => $sprawa['pelnomocnik'],
+					'nazwa_pelnomocnika' => $sprawa['nazwa_pelnomocnika'],
 				);
 			}
 		}
@@ -279,8 +280,10 @@ class Sprawy extends CI_Model {
 			);
 			
 			$w_typ = array(
-				'id_wierzyciel_typ' => $wierzyciel['typ_wierzyciel']
+				'id_wierzyciel_typ' => $wierzyciel['typ_wierzyciel'],
+				'id_pelnomocnika' => $wierzyciel['pelnomocnik'],
 			);
+			
 				
 			if (isset($wierzyciel['id_wierzyciela'])) {
 				$this->db->where('id_users',$wierzyciel['id_users_w'])

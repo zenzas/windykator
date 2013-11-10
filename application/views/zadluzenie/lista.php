@@ -21,13 +21,16 @@
 				<?=$zadluzenie['data']?>				
 			</td>
 			<td>
-				<?=$zadluzenie['kwota_zadluzenia']?>				
+				<?=$zadluzenie['kwota_zadluzenia']?><br/>
+				<span class="blue to_right"><?=$zadluzenie['pozostala_kwota_zadluzenia']?></span>				
 			</td>
 			<td>
-				<?=$zadluzenie['odsetki']?>				
+				<?=$zadluzenie['odsetki']?><br/>
+				<span class="blue to_right"><?=$zadluzenie['pozostale_odsetki']?></span>				
 			</td>
 			<td>
-				<?=$zadluzenie['koszty_egzekucyjne']?>				
+				<?=$zadluzenie['koszty_egzekucyjne']?><br/>
+				<span class="blue to_right"><?=$zadluzenie['pozostale_koszty_egzekucyjne']?></span>				
 			</td>	
 			<td>
 				<?=anchor(url('zadluzenie/edytuj/'.$zadluzenie['id_zadluzenia']),'edytuj',array('class' => 'blue'))?>

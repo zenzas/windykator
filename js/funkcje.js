@@ -43,7 +43,7 @@ function main() {
 		$('#'+this.id+'_div').toggle();
 	});
 	$('#dodaj_wierzyciela').click(function() {
-		var counter = $('#ilu_wierzycieli').val();
+		var counter = $('#id_next_wierzyciel').val();
 		
 		var nowy = $('#wierzyciel_nowy').clone( true );
 		nowy.attr('id','wierzyciel'+counter);
@@ -64,7 +64,7 @@ function main() {
 		$('#wierzyciele').append(nowy);
 		nowy.show();
 		
-		$('#ilu_wierzycieli').val(++counter);		
+		$('#id_next_wierzyciel').val(++counter);		
 	});
 	$('#dodaj_wierzyciela_link').click(function() {
 		var id = $('#dluznik').val();

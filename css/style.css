@@ -17,6 +17,13 @@ a:hover{
 .to_left {
 	float: left;
 }
+
+.to_left p {
+    margin-top: 0;
+}
+.to_right {
+	float: right;
+}
 .clear {
 	clear: both;
 }

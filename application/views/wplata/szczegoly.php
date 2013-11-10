@@ -31,13 +31,16 @@
 			<?= $wplata_wierzyciela['nazwa'] ?>
 		</td>
 		<td>
-			<?=$wplata_wierzyciela['kwota_zadluzenia']?>
+			<?=$wplata_wierzyciela['kwota_zadluzenia']?></br/>
+			<span class="blue to_right"><?=$wplata_wierzyciela['pozostala_kwota_zadluzenia']?></span> 
 		</td>
 		<td>	
-			<?= $wplata_wierzyciela['odsetki'] ?>
+			<?= $wplata_wierzyciela['odsetki'] ?><br/>
+			<span class="blue to_right"><?=$wplata_wierzyciela['pozostale_odsetki']?></span> 
 		</td>
 		<td>
-			<?= $wplata_wierzyciela['koszty_egzekucyjne'] ?> 
+			<?= $wplata_wierzyciela['koszty_egzekucyjne'] ?><br/> 
+			<span class="blue to_right"><?=$wplata_wierzyciela['pozostale_koszty_egzekucyjne']?></span> 
 		</td>
 	</tr>
 	<?endforeach?>	
