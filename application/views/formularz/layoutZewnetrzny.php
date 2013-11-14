@@ -2,16 +2,19 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<title>Windykator</title>	
+		<title>Załącznik nr 1 do Procedury - "Egzekwowanie należności przez Dyrektora
+						Oddziału w ramach zbiegu egzekucji administracyjnej i sądowej"</title>	
 		<link rel="stylesheet" type="text/css" href="<?=url('css/formularz.css') ?>" />
 		
 	</head>
 	<body>
+		<style type="text/css">
+	body { size: landscape; }
+		</style>
 		<div id="container">
 			<div id="header">
-				<p>nazwa adresata</p>
-				<p>ulica nr domy lokal</p>
-				<p>kod miejscowosc</p>
+				<p>nazwa wydzialu</p>
+				<p>lokalizacja</p>
 			</div>
 			<div class="content">
 				<?=$content ?>

@@ -8,6 +8,7 @@
 	  </tr>
 	  <tr>
 		<td>Komórka 3</td>
+		<td>Komórka 66</td>
 		<td>Komórka 4</td>
 		<td>Komórka 5</td>
 	  </tr>
