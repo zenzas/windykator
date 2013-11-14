@@ -44,5 +44,14 @@
 	I. Koszty egzekucyjne i koszty upomnienia;
 	II. Należności alimnetacyjne;
 	III. Należności za pracę za okres 3 miesięcy, do wysokości minimalnego wynagrodzenia za pracę oraz renty z tytułuodszkodowania za wywołanie choroby, niezdolności do pracy, kalectwa lub śmierci i koszty zwykłego pogrzebu zobowiązanego;
-	
+	IV. Należności zabezpieczone hipoteką morską, przywilejem na statku morskim (UWAGA: Nie dotyczy egzekucji prowadzonej przez Dyrektora Oddziału); 
+	V. Należności zabeazpieczone hipoteką, zastawem, zastawem rejestrowym i zastawem skarbowym lub korzystającym z ustawowego pierwszeństwa oraz prawach, które ciążyły na nieruchomości przed dokonaniem w księdze wieczystej wpisu o wszczęciu egzekucji lub przed złożeniem 
+	do zbioru dokumentów wniosku o dokonanie takiego wpisu , wraz z roszczeniami o świadczenia uboczne objęte zabezpieczeniem na mocy odrębnych przepisów. (UWAGA: Nie dotyczy egzekucji prowadzonej przez Dyrektora Oddziału);
+	VI. Należności za pracę niezaspokojone w kolejności wcześniejszej;
+	VII. Należności, do których stosuje się przepisy działu III Ordynacji podatkowej oraz należności z tytułu składek na ubezpieczenie społeczne, o ile nie zostały zaspokojone w czwartej kategorii wraz z odsetkami za zwłokę;
+	VIII. Inne należności i odsetki;
+</p>
+
+<p>
+	*niepotrzebne skreślić
 </p>
