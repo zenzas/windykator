@@ -15,9 +15,8 @@ class Wplaty extends CI_Model {
 	}
 	
 	function getPodzialWplaty($id_wplaty) {
-		$this -> db -> select('w.*, ok.kwota_oplaty, z.kwota_zwrotu')
+		$this -> db -> select('w.*, z.kwota_zwrotu')
 		 	-> from('wplaty w') 
-			-> join('oplaty_komornicze ok','w.id_wplaty = ok.id_wplaty')
 			-> join('zwroty z','w.id_wplaty = z.id_wplaty','left')
 			-> where('w.id_wplaty',$id_wplaty);
 		$wplata = $this -> db -> get() -> row_array();
@@ -97,21 +96,21 @@ class Wplaty extends CI_Model {
 		ksort($zadluzeniaWgPriorytetow);
 		// echo"<pre>";print_r($zadluzeniaWgPriorytetow);
 		
-		$oplaty = round($wplata['kwota_wplaty']*OPLATA_KOMORNICZA,2);
-		$this->db->insert('oplaty_komornicze', array('id_wplaty' => $wplata['id_wplaty'], 'kwota_oplaty' =>$oplaty));
-		
 		$pozostalo = $wplata['kwota_wplaty']-$oplaty;
 		// echo "Wplata: $pozostalo <br/>";
 		foreach ($zadluzeniaWgPriorytetow as $priorytet => $zadluzeniaPriorytet) {
 			if ($pozostalo >= $zadluzeniaPriorytet['suma']) {
 				// echo "Starczy na wszystkich z priorytetem $priorytet<br/>";
 				foreach ($zadluzeniaPriorytet['zadluzenia'] as $zadluzenie) {
+					$oplata = round($zadluzenie['suma']*OPLATA_KOMORNICZA,2);
+					$zadluzenie['pozostala_kwota_zadluzenia'] -= $oplata;
 					$wplataDlaWierzyciela = array(
 						'id_wplaty' => $wplata['id_wplaty'],
 						'id_wierzyciela' => $zadluzenie['id_wierzyciela'],
-						'kwota_zadluzenia' => $zadluzenie['kwota_zadluzenia'],
-					   	'odsetki' => $zadluzenie['odsetki'],
-					   	'koszty_egzekucyjne' => $zadluzenie['koszty_egzekucyjne'],
+						'kwota_zadluzenia' => $zadluzenie['pozostala_kwota_zadluzenia'],
+					   	'odsetki' => $zadluzenie['pozostale_odsetki'],
+					   	'koszty_egzekucyjne' => $zadluzenie['pozostale_koszty_egzekucyjne'],
+					   	'oplata_komornicza' => $oplata,
 					   	'pozostala_kwota_zadluzenia' => 0,
 					   	'pozostale_odsetki' => 0,
 					   	'pozostale_koszty_egzekucyjne' => 0  
@@ -122,16 +121,21 @@ class Wplaty extends CI_Model {
 				}
 				// echo "Pozostalo: +$pozostalo <br/>";
 			} else {
+				$pozostaloNaPriorytet = $pozostalo;
 				foreach ($zadluzeniaPriorytet['zadluzenia'] as $zadluzenie) {
 					$procent = $zadluzenie['suma']/$zadluzeniaPriorytet['suma'];
-					$kwota = round($pozostalo * $procent,2);
+					$kwota = round($pozostaloNaPriorytet * $procent,2);
 					// echo "Splata tylko czesci zadluzenia $procent, $kwota<br/>";
+					$oplata = round($kwota*OPLATA_KOMORNICZA,2);
+					$zadluzenie['pozostala_kwota_zadluzenia'] -= $oplata;
+					$kwota -= $oplata;
 					$wplataDlaWierzyciela = array(
 						'id_wplaty' => $wplata['id_wplaty'],
 						'id_wierzyciela' => $zadluzenie['id_wierzyciela'],
 						'kwota_zadluzenia' => 0,
 					   	'odsetki' => 0,
 					   	'koszty_egzekucyjne' => 0 ,
+					   	'oplata_komornicza' => $oplata,
 					   	'pozostala_kwota_zadluzenia' => $zadluzenie['pozostala_kwota_zadluzenia'],
 					   	'pozostale_odsetki' => $zadluzenie['pozostale_odsetki'],
 					   	'pozostale_koszty_egzekucyjne' => $zadluzenie['pozostale_koszty_egzekucyjne']
@@ -155,7 +159,7 @@ class Wplaty extends CI_Model {
 					); 
 					$this->db->update('zadluzenie', $aktualneZadluzenie, array('id_zadluzenia' => $zadluzenie['id_zadluzenia']));
 					// var_dump($wplataDlaWierzyciela, $aktualneZadluzenie);
-					$pozostalo -= $wplataDlaWierzyciela['kwota_zadluzenia'] + $wplataDlaWierzyciela['odsetki'] + $wplataDlaWierzyciela['koszty_egzekucyjne'];
+					$pozostalo -= $wplataDlaWierzyciela['kwota_zadluzenia'] + $wplataDlaWierzyciela['odsetki'] + $wplataDlaWierzyciela['koszty_egzekucyjne'] + $oplata;
 					// echo "Pozostalo: +$pozostalo <br/>";
 				}
 				break;

@@ -38,6 +38,7 @@
 		<th>Kwota zadłużenia</th>
 		<th>Odsetki</th>
 		<th>Koszty egzekucyjne</th>
+		<th>Opłata komornicza</th>
 	</tr>
 	<?foreach ($wplaty as $wplata):?>
 	<tr>
@@ -55,6 +56,9 @@
 		<td>
 			<?= $wplata['koszty_egzekucyjne'] ?><br/>
 			<span class="blue to_right"><?=$wplata['pozostale_koszty_egzekucyjne']?></span> 
+		</td>
+		<td>
+			<?= $wplata['oplata_komornicza'] ?><br/>
 		</td>
 	</tr>
 	<?endforeach?>	

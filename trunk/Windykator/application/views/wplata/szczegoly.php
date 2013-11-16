@@ -8,10 +8,6 @@
 			<?=form_label('kwota wpłaty', 'kwota_wplaty') ?>
 			<?=$wplata['kwota_wplaty']?>
 		</p>
-		<p>	
-			<?=form_label('opłata komornicza', 'kwota_oplaty') ?>
-			<?= $wplata['kwota_oplaty'] ?>
-		</p>
 		<p>
 			<?=form_label('kwota do zwrotu dłużnikowi', 'kwota_zwrotu') ?>
 			<?= $wplata['kwota_zwrotu'] ?>
@@ -24,6 +20,7 @@
 		<th>Kwota zadłużenia</th>
 		<th>Odsetki</th>
 		<th>Koszty egzekucyjne</th>
+		<th>Opłata komornicza</th>
 	</tr>
 	<?foreach ($wplata['wplaty_wierzycieli'] as $wplata_wierzyciela):?>
 	<tr>
@@ -41,6 +38,9 @@
 		<td>
 			<?= $wplata_wierzyciela['koszty_egzekucyjne'] ?><br/> 
 			<span class="blue to_right"><?=$wplata_wierzyciela['pozostale_koszty_egzekucyjne']?></span> 
+		</td>
+		<td>
+			<?= $wplata_wierzyciela['oplata_komornicza'] ?><br/> 
 		</td>
 	</tr>
 	<?endforeach?>	
