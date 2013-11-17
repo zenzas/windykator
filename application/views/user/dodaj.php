@@ -7,7 +7,7 @@
 <p>
 	<?=form_label('Typ użytkownika', 'typ')?>
 	<?=form_dropdown('typ',$typy,$user['typ'],'id="typ_user"')?>
-	<?=form_dropdown('typ_wierzyciel',$typyWierzycieli,$user['typ_wierzyciel'],'id="typ_wierzyciel"')?>
+	<?=form_dropdown('kategoria_zaspokojenia',$kategorieZaspokojenia,$user['kategoria_zaspokojenia'],'id="kategoria_zaspokojenia"')?>
 </p>
 <span class="error"><?=form_error('typ')?></span>
 <?if ($this->session->userdata('nazwa_typ') == 'administrator'):?>

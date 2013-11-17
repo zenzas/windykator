@@ -60,7 +60,7 @@ class Sprawa extends MY_Controller {
 					$this -> sprawy -> edytuj($data['sprawa']);
 					redirect('sprawa/zarzadzanie');
 				}
-				$data['typyWierzycieli'] = $this -> users -> listaTypowWierzycieli();
+				$data['kategorieZaspokojenia'] = $this -> wierzyciele -> listaKategoriiZaspokojenia();
 				$data['pelnomocnicy'] = $this -> users -> listaPelnomocnikow();
 				$data['content'] = $this -> load -> view('sprawa/edytuj', $data, true);
 				$this -> load -> view('index', $data);
