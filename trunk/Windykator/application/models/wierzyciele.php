@@ -122,12 +122,22 @@ class Wierzyciele extends CI_Model {
 	}
 
 	function znajdzMaxId ($wierzyciele) {
+		var_dump($wierzyciele);
 		$max = 0;
 		foreach ($wierzyciele as $wierzyciel) {
 			if ($wierzyciel['id_wierzyciela'] > $max)
 				$max = $wierzyciel['id_wierzyciela'];
 		}
 		return $max;
+	}
+	
+	function listaKategoriiZaspokojenia(){
+		$dane = $this -> db -> get('kategorie_zaspokojenia') -> result_array();
+		$kategorie = array();
+		foreach ($dane as $kategoria) {
+			$kategorie[$kategoria['id_kategorii_zaspokojenia']] = $kategoria['numer'];
+		}
+		return $kategorie;
 	}
 }
 ?>

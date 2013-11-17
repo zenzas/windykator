@@ -84,5 +84,17 @@ class Stopy extends CI_Model {
 		
 		$this -> session -> set_flashdata('message', 'Zmodyfikowano stopę procentową');			
 	}
+	function getTypStopyProcentowej() {
+		$typy = array(
+		'referencyjna' => 'referencyjna',
+		'podatkowa' => 'podatkowa',
+		'lombardowa' => 'lombardowa',
+		);
+		return $typy;
+			
+	}
+	
+	
+	
 }
 ?>

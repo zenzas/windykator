@@ -75,16 +75,16 @@ function main() {
 	});
 	$('#typ_user').ready(function() {
 		if ($('#typ_user').val() == 3) {
-			$('#typ_wierzyciel').show();
+			$('#kategoria_zaspokojenia').show();
 		} else {
-			$('#typ_wierzyciel').hide();
+			$('#kategoria_zaspokojenia').hide();
 		}
 	});
 	$('#typ_user').change(function() {
 		if ($('#typ_user').val() == 3) {
-			$('#typ_wierzyciel').show();
+			$('#kategoria_zaspokojenia').show();
 		} else {
-			$('#typ_wierzyciel').hide();
+			$('#kategoria_zaspokojenia').hide();
 		}
 	});
 	$('.datepicker').datepicker(

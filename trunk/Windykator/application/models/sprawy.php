@@ -14,13 +14,13 @@ class Sprawy extends CI_Model {
 		$select = 's.*, u.nazwa as nazwa_dluznika, ud.*, u1.nazwa as nazwa_w, u1.id_users as id_users_w, ud1.ulica as ulica_w,'.
 			'ud1.nr_dom as nr_dom_w, ud1.nr_lokal as nr_lokal_w, ud1.miasto as miasto_w, ud1.kod as kod_w, '.
 			'ud1.nr_telefonu as nr_telefonu_w, ud1.nr_rachunku as nr_rachunku_w, '.
-			'w1.id_pelnomocnika as pelnomocnik, p.nazwa as nazwa_pelnomocnika,, ws.KM, ws.id_wierzyciela, w1.id_wierzyciel_typ, wt.nazwa as nazwa_wierzyciel_typ';
+			'w1.id_pelnomocnika as pelnomocnik, p.nazwa as nazwa_pelnomocnika,, ws.KM, ws.id_wierzyciela, w1.id_kategorii_zaspokojenia, wt.numer as nazwa_kategorii_zaspokojeniap';
 		$this -> db  -> select($select)
 			-> join('users u', 'u.id_users = s.id_dluznika')
 			-> join('users_dane ud', 'ud.id_users = u.id_users')
 			-> join('wierzyciele_sprawy ws', 'ws.id_sprawy = s.id_sprawy','left') 
 			-> join('wierzyciel w1', 'ws.id_wierzyciela = w1.id_wierzycieli','left')
-			-> join('wierzyciel_typ wt', 'w1.id_wierzyciel_typ = wt.id_wierzyciel_typ','left')
+			-> join('kategorie_zaspokojenia wt', 'w1.id_kategorii_zaspokojenia = wt.id_kategorii_zaspokojenia','left')
 			-> join('users u1', 'w1.id_user = u1.id_users','left')
 			-> join('users p', 'w1.id_pelnomocnika = p.id_users','left')
 			-> join('users_dane ud1', 'ud1.id_users = u1.id_users','left')
@@ -62,8 +62,8 @@ class Sprawy extends CI_Model {
 					'id_wierzyciela' => $sprawa['id_wierzyciela'],
 					'id_users_w' => $sprawa['id_users_w'],
 					'nazwa_w' => $sprawa['nazwa_w'],
-					'typ_wierzyciel' => $sprawa['id_wierzyciel_typ'],
-					'nazwa_typ_wierzyciel' => $sprawa['nazwa_wierzyciel_typ'],
+					'typ_wierzyciel' => $sprawa['id_kategorii_zaspokojenia'],
+					'nazwa_typ_wierzyciel' => $sprawa['nazwa_kategorii_zaspokojenia'],
 					'KM' => $sprawa['KM'],
 					'ulica_w' => $sprawa['ulica_w'],
 					'nr_dom_w' => $sprawa['nr_dom_w'],
@@ -280,7 +280,7 @@ class Sprawy extends CI_Model {
 			);
 			
 			$w_typ = array(
-				'id_wierzyciel_typ' => $wierzyciel['typ_wierzyciel'],
+				'id_kategorii_zaspokojenia' => $wierzyciel['kategoria_zaspokojenia'],
 				'id_pelnomocnika' => $wierzyciel['pelnomocnik'],
 			);
 			

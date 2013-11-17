@@ -130,8 +130,8 @@
 			<span class="error"><?=form_error("wierzyciele[$nr][nazwa_w]") ?></span>
 			<div class='zwin_div' id='zwin_link<?=$nr?>_div'>
 				<p>
-					<?=form_label('Typ wierzyciela', 'typ_wierzyciel') ?>
-					<?=form_dropdown("wierzyciele[$nr][typ_wierzyciel]",$typyWierzycieli,$wierzyciel['typ_wierzyciel'])?>
+					<?=form_label('Kategoria zaspokojenia', 'kategoria_zaspokojenia') ?>
+					<?=form_dropdown("wierzyciele[$nr][kategoria_zaspokojenia]",$kategorieZaspokojenia,$wierzyciel['kategoria_zaspokojenia'])?>
 				</p>
 				<p>
 					<?=form_label('Pełnomocnik', 'pelnomocnik') ?>
@@ -202,8 +202,8 @@
 		<?=form_dropdown('pelnomocnik',$pelnomocnicy)?>
 	</p>
 	<p>	
-		<?=form_label('Typ wierzyciela', 'typ_wierzyciel') ?>
-		<?=form_dropdown('typ_wierzyciel',$typyWierzycieli)?>
+		<?=form_label('Kategoria zaspokojenia', 'kategoria_zaspokojenia') ?>
+		<?=form_dropdown('kategoria_zaspokojenia',$kategorieZaspokojenia)?>
 	</p>
 	<p>	
 		<?=form_label('KM', 'KM') ?>

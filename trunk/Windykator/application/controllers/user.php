@@ -3,7 +3,7 @@ if (!defined('BASEPATH'))
 	exit('No direct script access allowed');
 
 class User extends MY_Controller {
-	protected $fields = array('nazwa',/*'typ',*/'typ_wierzyciel');
+	protected $fields = array('nazwa',/*'typ',*/'kategoria_zaspokojenia');
 
 	function __construct() {
 		parent::__construct();
@@ -145,6 +145,7 @@ class User extends MY_Controller {
 	}
 
 	function dodaj() {
+		$this -> load -> model('wierzyciele');
 		$typ_usera = $this -> session -> userdata('nazwa_typ');
 		$data['user']['typ'] = $this -> input -> post('typ') ? $this -> input -> post('typ') : '';
 		$this->_prepareData($data['user']);
@@ -158,7 +159,7 @@ class User extends MY_Controller {
 			redirect('user/zarzadzanie');
 		}
 		$data['typy'] = $this -> users -> listaTypow();
-		$data['typyWierzycieli'] = $this -> users -> listaTypowWierzycieli();
+		$data['kategorieZaspokojenia'] = $this -> wierzyciele -> listaKategoriiZaspokojenia();
 		$data['content'] = $this -> load -> view('user/dodaj', $data, true);
 		$this -> load -> view('index', $data);
 	}
@@ -195,6 +196,7 @@ class User extends MY_Controller {
 	}
 
 	function edytuj($id_user) {
+		$this -> load -> model('wierzyciele');
 		$typ_usera = $this -> session -> userdata('nazwa_typ');
 		if ($id_user) {
 			$user = $this -> users -> getById($id_user);
@@ -212,7 +214,7 @@ class User extends MY_Controller {
 					redirect('user/zarzadzanie');
 				}
 				$data['typy'] = $this -> users -> listaTypow();
-				$data['typyWierzycieli'] = $this -> users -> listaTypowWierzycieli();
+				$data['kategorieZaspokojenia'] = $this -> wierzyciele -> listaKategoriiZaspokojenia();
 				$data['content'] = $this -> load -> view('user/edytuj', $data, true);
 				$this -> load -> view('index', $data);
 			} else {

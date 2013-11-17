@@ -399,7 +399,7 @@ $config = array(
 		array(
 			'field' => 'odsetki',
 			'label' => 'Kwota odsetek',
-			'rules' => 'trim|required'
+			'rules' => 'trim'
 		),
 		array(
 			'field' => 'koszty_egzekucyjne',

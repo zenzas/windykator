@@ -6,7 +6,7 @@ class Users extends CI_Model {
 	}
 
 	function getById($id_user) {
-		$select = 'u.*, ul.login, ul.email, ul.aktywny, ut.id_users_typy, ut.nazwa as nazwa_typ, w.id_wierzycieli, w.id_wierzyciel_typ as typ_wierzyciel, '.
+		$select = 'u.*, ul.login, ul.email, ul.aktywny, ut.id_users_typy, ut.nazwa as nazwa_typ, w.id_wierzycieli, w.id_kategorii_zaspokojenia as kategoria_zaspokojenia, '.
 			' ud.NIP, ud.PESEL,ud.ulica, ud.nr_dom, ud.nr_lokal, '.
 			' ud.miasto, ud.kod, ud.nr_telefonu, ud.nr_rachunku, ud.logowanie';
 		$this -> db -> select($select)
@@ -174,16 +174,7 @@ class Users extends CI_Model {
 		}
 		return $typy;
 	}
-	
-	function listaTypowWierzycieli(){
-		$dane = $this -> db -> get('wierzyciel_typ') -> result_array();
-		$typy = array();
-		foreach ($dane as $typ) {
-			$typy[$typ['id_wierzyciel_typ']] = $typ['nazwa'];
-		}
-		return $typy;
-	}
-	
+			
 	function listaWnioskodawcow(){
 		$this -> db -> select('u.*')
 			-> from('users u') 
@@ -260,10 +251,10 @@ class Users extends CI_Model {
 		);
 		$this->db->insert('users', $dane); 
 		$id_user=$this->db->insert_id();
-		$wierzyciel_typ = $this->getTyp('wierzyciel');
-		if ($user['typ'] == $wierzyciel_typ['id_users_typy']) {
+		$typ = $this->getTyp('wierzyciel');
+		if ($user['typ'] == $typ['id_users_typy']) {
 			$dane = array(
-			   'id_wierzyciel_typ' => $user['typ_wierzyciel'],
+			   'id_kategorii_zaspokojenia' => $user['kategoria_zaspokojenia'],
 			   'id_user' =>$id_user
 			);
 			$this->db->insert('wierzyciel', $dane); 
@@ -324,20 +315,20 @@ class Users extends CI_Model {
 		);
 		$this->db->where('id_users',  $user['id_user'])
 			->update('users', $dane); 
-		$wierzyciel_typ = $this->getTyp('wierzyciel');
-		if ($user['typ'] == $wierzyciel_typ['id_users_typy']) {
+		$typ = $this->getTyp('wierzyciel');
+		if ($user['typ'] == $typ['id_users_typy']) {
 			$dane = array(
-			   'id_wierzyciel_typ' => $user['typ_wierzyciel'],
+			   'id_kategorii_zaspokojenia' => $user['kategoria_zaspokojenia'],
 			   'id_user' =>$user['id_user']
 			);
-			if ($u['id_users_typy'] == $wierzyciel_typ['id_users_typy']) {
+			if ($u['id_users_typy'] == $typ['id_users_typy']) {
 				$this->db->where('id_user',  $user['id_user'])
 					->update('wierzyciel', $dane); 
 			} else {
 				$this->db->insert('wierzyciel', $dane); 
 			}
 			
-		} else if ($u['id_users_typy'] == $wierzyciel_typ['id_users_typy']) {
+		} else if ($u['id_users_typy'] == $typ['id_users_typy']) {
 			$this->db->where('id_user', $user['id_user'])
 				->delete('wierzyciel');
 		}

@@ -23,7 +23,7 @@ class Zadluzenia extends CI_Model {
 	 	-> from('zadluzenie z') 
 		-> join('wierzyciele_sprawy ws','ws.id_wierzyciele_sprawy = z.id_wierzyciele_sprawy')
 		-> join('wierzyciel w','ws.id_wierzyciela = w.id_wierzycieli')
-		-> join('wierzyciel_typ wt','wt.id_wierzyciel_typ = w.id_wierzyciel_typ')
+		-> join('kategoria_zaspokojenia wt','wt.id_kategorie_zaspokojenia = w.id_kategorie_zaspokojenia')
 		-> join('users u','w.id_user = u.id_users')
 		-> join('sprawy s','s.id_sprawy = ws.id_sprawy')
 		-> join('users d','s.id_dluznika = d.id_users');
