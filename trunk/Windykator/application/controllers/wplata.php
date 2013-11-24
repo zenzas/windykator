@@ -62,10 +62,12 @@ class Wplata extends MY_Controller {
 			redirect('wplata/zarzadzanie');
 		}
 	}
+	
 	function szczegoly($id_wplaty) {
 		if ($id_wplaty) {
 			$wplata = $this -> wplaty -> getPodzialWplaty($id_wplaty);
 			if ($wplata) {
+				$this->wplaty->policzUdzial($wplata['wplaty_wierzycieli']);
 				$data['wplata'] = $wplata;
 				$data['content'] = $this -> load -> view('wplata/szczegoly', $data, true);
 				$this -> load -> view('index', $data);

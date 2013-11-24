@@ -96,7 +96,7 @@ class Wplaty extends CI_Model {
 		ksort($zadluzeniaWgPriorytetow);
 		// echo"<pre>";print_r($zadluzeniaWgPriorytetow);
 		
-		$pozostalo = $wplata['kwota_wplaty']-$oplaty;
+		$pozostalo = $wplata['kwota_wplaty'];
 		// echo "Wplata: $pozostalo <br/>";
 		foreach ($zadluzeniaWgPriorytetow as $priorytet => $zadluzeniaPriorytet) {
 			if ($pozostalo >= $zadluzeniaPriorytet['suma']) {
@@ -169,6 +169,22 @@ class Wplaty extends CI_Model {
 		if ($pozostalo > 0)
 			$this->db->insert('zwroty', array('id_wplaty' => $wplata['id_wplaty'], 'kwota_zwrotu' => $pozostalo));
 		//exit;
+	}
+	
+	function policzUdzial(&$wplaty) {
+		$sumaKwotaOdsetki = 0;
+		$sumaKosztyEgzekucyjne = 0;
+		$sumaOplatyKomornicze = 0;
+		foreach ($wplaty as $wplata) {
+			$sumaKwotaOdsetki += $wplata['kwota_zadluzenia'] + $wplata['odsetki'];
+			$sumaKosztyEgzekucyjne += $wplata['koszty_egzekucyjne'];
+			$sumaOplatyKomornicze += $wplata['oplata_komornicza'];
+		}
+		foreach ($wplaty as &$wplata) {
+			$wplata['procentKwotaOdsetki'] = $sumaKwotaOdsetki > 0 ? ($wplata['kwota_zadluzenia'] + $wplata['odsetki'])/$sumaKwotaOdsetki : 0;
+			$wplata['procentKosztyEgzekucyjne'] = $sumaKosztyEgzekucyjne > 0 ? $wplata['koszty_egzekucyjne']/$sumaKosztyEgzekucyjne : 0;
+			$wplata['procentOplataKomornicza'] = $sumaOplatyKomornicze > 0 ? $wplata['oplata_komornicza']/$sumaOplatyKomornicze : 0;
+		}
 	}
 	
 	function edytuj($wplata){

@@ -3,11 +3,14 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Czas wygenerowania: 24 Lis 2013, 01:21
+-- Czas wygenerowania: 24 Lis 2013, 08:00
 -- Wersja serwera: 5.5.24-log
 -- Wersja PHP: 5.4.3
 
+SET FOREIGN_KEY_CHECKS=0;
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT=0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -51,21 +54,6 @@ INSERT INTO `kategorie_zaspokojenia` (`id_kategorii_zaspokojenia`, `numer`, `pri
 -- --------------------------------------------------------
 
 --
--- Struktura tabeli dla tabeli `oplaty_komornicze`
---
-
-DROP TABLE IF EXISTS `oplaty_komornicze`;
-CREATE TABLE `oplaty_komornicze` (
-  `id_oplaty` int(11) NOT NULL AUTO_INCREMENT,
-  `id_wplaty` int(11) NOT NULL,
-  `kwota_oplaty` decimal(6,2) NOT NULL,
-  PRIMARY KEY (`id_oplaty`),
-  KEY `oplaty_wplaty_fk` (`id_wplaty`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
-
--- --------------------------------------------------------
-
---
 -- Struktura tabeli dla tabeli `sprawy`
 --
 
@@ -88,7 +76,7 @@ CREATE TABLE `sprawy` (
   `archiwalna` tinyint(1) NOT NULL,
   PRIMARY KEY (`id_sprawy`),
   KEY `fk_sprawy_users` (`id_dluznika`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 
@@ -207,7 +195,7 @@ CREATE TABLE `users` (
   `id_users_typy` int(11) NOT NULL,
   PRIMARY KEY (`id_users`),
   KEY `fk_users_users_typy` (`id_users_typy`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=19 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=14 ;
 
 --
 -- Zrzut danych tabeli `users`
@@ -240,7 +228,7 @@ CREATE TABLE `users_dane` (
   PRIMARY KEY (`id_users_dane`),
   UNIQUE KEY `NIP_UNIQUE` (`NIP`),
   KEY `fk_users_dane_users` (`id_users`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
 
 -- --------------------------------------------------------
 
@@ -312,7 +300,7 @@ CREATE TABLE `wierzyciel` (
   PRIMARY KEY (`id_wierzyciela`),
   KEY `fk_wierzyciel_wierzyciel_typ` (`id_kategorii_zaspokojenia`),
   KEY `fk_wierzyciel_users` (`id_user`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 
@@ -329,7 +317,7 @@ CREATE TABLE `wierzyciele_sprawy` (
   PRIMARY KEY (`id_wierzyciele_sprawy`),
   KEY `fk_wierzyciele_sprawy_sprawy` (`id_sprawy`),
   KEY `fk_wierzyciele_sprawy_wierzyciel` (`id_wierzyciela`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 
@@ -366,7 +354,7 @@ CREATE TABLE `wplaty` (
   `id_dluznika` int(11) NOT NULL,
   PRIMARY KEY (`id_wplaty`),
   KEY `fk_wplaty_sprawy` (`id_dluznika`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=32 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
 
 -- --------------------------------------------------------
 
@@ -381,13 +369,14 @@ CREATE TABLE `wplaty_dla_wierzycieli` (
   `id_wierzyciela` int(11) NOT NULL,
   `kwota_zadluzenia` decimal(10,2) NOT NULL,
   `odsetki` decimal(10,2) NOT NULL,
+  `oplata_komornicza` decimal(6,2) NOT NULL,
   `koszty_egzekucyjne` varchar(45) NOT NULL,
   `pozostala_kwota_zadluzenia` decimal(10,2) NOT NULL,
   `pozostale_odsetki` decimal(10,2) NOT NULL,
   `pozostale_koszty_egzekucyjne` decimal(10,2) NOT NULL,
   PRIMARY KEY (`id_wplaty_dla_wierzycieli`),
   KEY `fk_wplaty_dla_wierzycieli_wplaty` (`id_wplaty`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 
@@ -408,7 +397,7 @@ CREATE TABLE `zadluzenie` (
   `pozostale_koszty_egzekucyjne` decimal(10,2) NOT NULL,
   PRIMARY KEY (`id_zadluzenia`),
   KEY `fk_zadluzenie_wierzyciele_sprawy` (`id_wierzyciele_sprawy`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
 
 -- --------------------------------------------------------
 
@@ -439,17 +428,11 @@ CREATE TABLE `zwroty` (
   `kwota_zwrotu` decimal(7,2) NOT NULL,
   PRIMARY KEY (`id_zwrotu`),
   KEY `zwroty_wplaty_fk` (`id_wplaty`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 --
 -- Ograniczenia dla zrzutów tabel
 --
-
---
--- Ograniczenia dla tabeli `oplaty_komornicze`
---
-ALTER TABLE `oplaty_komornicze`
-  ADD CONSTRAINT `oplaty_komornicze_ibfk_1` FOREIGN KEY (`id_wplaty`) REFERENCES `wplaty` (`id_wplaty`);
 
 --
 -- Ograniczenia dla tabeli `sprawy`
@@ -527,6 +510,8 @@ ALTER TABLE `zajecia`
 --
 ALTER TABLE `zwroty`
   ADD CONSTRAINT `zwroty_ibfk_1` FOREIGN KEY (`id_wplaty`) REFERENCES `wplaty` (`id_wplaty`) ON DELETE CASCADE ON UPDATE CASCADE;
+SET FOREIGN_KEY_CHECKS=1;
+COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

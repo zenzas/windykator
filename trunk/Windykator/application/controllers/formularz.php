@@ -50,14 +50,20 @@ class Formularz extends CI_Controller {
 
 function planPodzialu() {
 		$data['content'] = $this -> load -> view('formularz/planPodzialu', null, true);
-		$this -> load -> view('formularz/layoutWewnetrzny1', $data);
+		$this -> load -> view('formularz/layoutZewnetrzny', $data);
 	}
 		
-	function generuj($nazwaFormularza) {
+function kartaWierzyciela() {
+		$data['content'] = $this -> load -> view('formularz/kartaWierzyciela', null, true);
+		$this -> load -> view('formularz/layoutWewnetrzny1', $data);
+	}		
+	function generuj($nazwaFormularza, $pozioma = false) {
 		include ("MPDF57/mpdf.php");
-		$mpdf = new mPDF('c', 'A4', '', '', 0, 0, 0, 0, 0, 0);
-		$mpdf -> SetDisplayMode('fullpage');
-		$mpdf -> list_indent_first_level = 0;
+		$mpdf = new mPDF('utf-8', 'A4');
+		// $mpdf -> SetDisplayMode('fullpage');
+		// $mpdf -> list_indent_first_level = 0;
+		$orientacja = $pozioma ? 'L' : 'P';
+		$mpdf->AddPage($orientacja, '', '', '', '', 10, 10, 10, 10);
 		$text = file_get_contents(url('formularz/'.$nazwaFormularza));
 		$mpdf -> WriteHTML($text);
 		$mpdf -> Output();
