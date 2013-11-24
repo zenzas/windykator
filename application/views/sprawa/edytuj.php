@@ -133,6 +133,10 @@
 					<?=form_label('Kategoria zaspokojenia', 'kategoria_zaspokojenia') ?>
 					<?=form_dropdown("wierzyciele[$nr][kategoria_zaspokojenia]",$kategorieZaspokojenia,$wierzyciel['kategoria_zaspokojenia'])?>
 				</p>
+				<p>	
+					<?=form_label('Typ stopy procentowej', 'typ_stopy_procentowej') ?>
+					<?=form_dropdown("wierzyciele[$nr][typ_kategorii_procentowej]",$typyStopProcentowych,$wierzyciel['typ_stopy_procentowej'])?>
+				</p>
 				<p>
 					<?=form_label('Pełnomocnik', 'pelnomocnik') ?>
 					<?=form_dropdown("wierzyciele[$nr][pelnomocnik]",$pelnomocnicy,$wierzyciel['pelnomocnik'])?>
@@ -197,13 +201,17 @@
 	</p>
 	<span class="error"><?=form_error('nazwa_w') ?></span>
 	<div  class='zwin_div'>
-	<p>
-		<?=form_label('Pełnomocnik', 'pelnomocnik') ?>
-		<?=form_dropdown('pelnomocnik',$pelnomocnicy)?>
-	</p>
 	<p>	
 		<?=form_label('Kategoria zaspokojenia', 'kategoria_zaspokojenia') ?>
 		<?=form_dropdown('kategoria_zaspokojenia',$kategorieZaspokojenia)?>
+	</p>
+	<p>	
+		<?=form_label('Typ stopy procentowej', 'typ_stopy_procentowej') ?>
+		<?=form_dropdown('typ_stopy_procentowej',$typyStopProcentowych)?>
+	</p>
+	<p>
+		<?=form_label('Pełnomocnik', 'pelnomocnik') ?>
+		<?=form_dropdown('pelnomocnik',$pelnomocnicy)?>
 	</p>
 	<p>	
 		<?=form_label('KM', 'KM') ?>

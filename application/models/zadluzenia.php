@@ -9,7 +9,7 @@ class Zadluzenia extends CI_Model {
 		$this -> db -> select('z.*, d.nazwa as dluznik, u.nazwa as wierzyciel, ws.id_sprawy, ws.id_wierzyciela')
 	 	-> from('zadluzenie z') 
 		-> join('wierzyciele_sprawy ws','ws.id_wierzyciele_sprawy = z.id_wierzyciele_sprawy')
-		-> join('wierzyciel w','ws.id_wierzyciela = w.id_wierzycieli')
+		-> join('wierzyciel w','ws.id_wierzyciela = w.id_wierzyciela')
 		-> join('users u','w.id_user = u.id_users')
 		-> join('sprawy s','s.id_sprawy = ws.id_sprawy')
 		-> join('users d','s.id_dluznika = d.id_users')
@@ -19,11 +19,11 @@ class Zadluzenia extends CI_Model {
 	}
 	
 	function lista($where = null) {
-		$this -> db -> select('z.*, d.nazwa as dluznik, ws.id_wierzyciela, u.nazwa as wierzyciel, wt.nazwa as typ_wierzyciela, wt.priorytet')
+		$this -> db -> select('z.*, d.nazwa as dluznik, ws.id_wierzyciela, u.nazwa as wierzyciel, kz.numer, kz.priorytet')
 	 	-> from('zadluzenie z') 
 		-> join('wierzyciele_sprawy ws','ws.id_wierzyciele_sprawy = z.id_wierzyciele_sprawy')
-		-> join('wierzyciel w','ws.id_wierzyciela = w.id_wierzycieli')
-		-> join('kategorie_zaspokojenia wt','wt.id_kategorii_zaspokojenia = w.id_kategorii_zaspokojenia')
+		-> join('wierzyciel w','ws.id_wierzyciela = w.id_wierzyciela')
+		-> join('kategorie_zaspokojenia kz','kz.id_kategorii_zaspokojenia = w.id_kategorii_zaspokojenia')
 		-> join('users u','w.id_user = u.id_users')
 		-> join('sprawy s','s.id_sprawy = ws.id_sprawy')
 		-> join('users d','s.id_dluznika = d.id_users');
@@ -90,8 +90,8 @@ class Zadluzenia extends CI_Model {
 		
 		$this -> session -> set_flashdata('message', 'Zmodyfikowano zadłużenie');			
 	}
-	function czyStopaReferencyjna($typ_wierzyciela) {
-		return $typ_wierzyciela != "cywilny";
+	function czyStopaReferencyjna($typ_stopy_procentowej) {
+		return $typ_stopy_procentowej != "cywilny";
 	}
 	
 	function aktualizujZadluzenie ($wplata) {
@@ -112,7 +112,7 @@ class Zadluzenia extends CI_Model {
 					$datetime2 = new DateTime($data_do);
 					$interval = $datetime1->diff($datetime2);
 					$dni = $interval->format('%a');
-					$procent = ($this->czyStopaReferencyjna($zadluzenie['typ_wierzyciela']) ? $stopa['referencyjna'] : $stopa['lombardowa'] * 4)/100;
+					$procent = ($this->czyStopaReferencyjna($zadluzenie['typ_stopy_procentowej']) ? $stopa['referencyjna'] : $stopa['lombardowa'] * 4)/100;
 					$zadluzenie['pozostale_odsetki'] += $zadluzenie['pozostala_kwota_zadluzenia'] * $procent * $dni/365;
 				}	
 				$this->db->where('id_zadluzenia',  $zadluzenie['id_zadluzenia'])

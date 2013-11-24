@@ -54,7 +54,7 @@ class Wierzyciel extends MY_Controller {
 			if ($wierzyciel) {
 				$data['wierzyciel'] = $wierzyciel;
 				$data['wierzyciel']['id_wierzyciela'] = $id_wierzyciela;
-				$data['wplaty'] = $this -> wplaty -> wplatyDlaWierzyciela(null,$wierzyciel['id_wierzycieli']);
+				$data['wplaty'] = $this -> wplaty -> wplatyDlaWierzyciela(null,$wierzyciel['id_wierzyciela']);
 				$data['content'] = $this -> load -> view('sprawa/wierzyciel', $data, true);
 				$this -> load -> view('index', $data);
 			} else {

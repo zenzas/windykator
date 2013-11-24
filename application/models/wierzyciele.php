@@ -15,7 +15,7 @@ class Wierzyciele extends CI_Model {
 			-> join('users_dane ud', 'u.id_users = ud.id_users')
 			-> join('users u1', 'w.id_pelnomocnika = u1.id_users','left')
 			-> join('users_dane ud1', 'u1.id_users = ud1.id_users','left')
-			-> where('w.id_wierzycieli', $id_wierzyciela);
+			-> where('w.id_wierzyciela', $id_wierzyciela);
 		return $this -> db -> get() -> row_array();
 	}
 	
@@ -122,10 +122,10 @@ class Wierzyciele extends CI_Model {
 	}
 
 	function znajdzMaxId ($wierzyciele) {
-		var_dump($wierzyciele);
+		//var_dump($wierzyciele);
 		$max = 0;
 		foreach ($wierzyciele as $wierzyciel) {
-			if ($wierzyciel['id_wierzyciela'] > $max)
+			if (isset($wierzyciel['id_wierzyciela']) && $wierzyciel['id_wierzyciela'] > $max)
 				$max = $wierzyciel['id_wierzyciela'];
 		}
 		return $max;

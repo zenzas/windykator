@@ -12,6 +12,7 @@ class Sprawa extends MY_Controller {
 		parent::__construct();
 		$this -> load -> model('sprawy');
 		$this -> load -> model('wierzyciele');
+		$this -> load -> model('stopy');
 	}
 
 	function zarzadzanie($archiwalna = false) {
@@ -61,6 +62,7 @@ class Sprawa extends MY_Controller {
 					redirect('sprawa/zarzadzanie');
 				}
 				$data['kategorieZaspokojenia'] = $this -> wierzyciele -> listaKategoriiZaspokojenia();
+				$data['typyStopProcentowych'] = $this -> stopy -> getTypStopyProcentowej();
 				$data['pelnomocnicy'] = $this -> users -> listaPelnomocnikow();
 				$data['content'] = $this -> load -> view('sprawa/edytuj', $data, true);
 				$this -> load -> view('index', $data);
@@ -77,7 +79,8 @@ class Sprawa extends MY_Controller {
 	function _ustaw_walidacje_wierzycieli($wierzyciele) {
 		foreach ($wierzyciele as $nr => $wierzyciel ) {
 			$this->form_validation->set_rules("wierzyciele[$nr][nazwa_w]", 'Nazwa wierzyciela', 'trim|required');
-			$this->form_validation->set_rules("wierzyciele[$nr][typ_wierzyciel]", 'Typ wierzyciela', 'trim|required');
+			$this->form_validation->set_rules("wierzyciele[$nr][kategoria_zaspokojenia]", 'Kategoria zaspokojenia', 'trim|required');
+			$this->form_validation->set_rules("wierzyciele[$nr][typ_stopy_procentowej]", 'Typ stopy procentowej', 'trim|required');
 			$this->form_validation->set_rules("wierzyciele[$nr][KM]", 'KM', 'trim|required');
 			$this->form_validation->set_rules("wierzyciele[$nr][ulica_w]", 'Ulica', 'trim|required');
 			$this->form_validation->set_rules("wierzyciele[$nr][nr_dom_w]", 'Nr domu', 'trim|required');
