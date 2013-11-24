@@ -17,6 +17,11 @@ function przygotujKwote($kwota) {
 	return $kwota;
 }
 
+function procent($liczba) {
+	$liczba = round($liczba * 100,2);
+	return $liczba;
+}
+
 function przygotujAdres($ulica, $nr_dom, $nr_lokal, $kod, $miasto) {
 	$adres = '';
 	if ($ulica) {

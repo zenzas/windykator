@@ -19,7 +19,7 @@ class Zadluzenia extends CI_Model {
 	}
 	
 	function lista($where = null) {
-		$this -> db -> select('z.*, d.nazwa as dluznik, ws.id_wierzyciela, u.nazwa as wierzyciel, kz.numer, kz.priorytet')
+		$this -> db -> select('z.*, d.nazwa as dluznik, ws.id_wierzyciela, w.typ_stopy_procentowej, u.nazwa as wierzyciel, kz.numer, kz.priorytet')
 	 	-> from('zadluzenie z') 
 		-> join('wierzyciele_sprawy ws','ws.id_wierzyciele_sprawy = z.id_wierzyciele_sprawy')
 		-> join('wierzyciel w','ws.id_wierzyciela = w.id_wierzyciela')
@@ -112,7 +112,7 @@ class Zadluzenia extends CI_Model {
 					$datetime2 = new DateTime($data_do);
 					$interval = $datetime1->diff($datetime2);
 					$dni = $interval->format('%a');
-					$procent = ($this->czyStopaReferencyjna($zadluzenie['typ_stopy_procentowej']) ? $stopa['referencyjna'] : $stopa['lombardowa'] * 4)/100;
+					$procent = $stopa[$zadluzenie['typ_stopy_procentowej']]/100;
 					$zadluzenie['pozostale_odsetki'] += $zadluzenie['pozostala_kwota_zadluzenia'] * $procent * $dni/365;
 				}	
 				$this->db->where('id_zadluzenia',  $zadluzenie['id_zadluzenia'])

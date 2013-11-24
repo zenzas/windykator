@@ -1,4 +1,5 @@
 <div id="szczegoly_wierzyciela">
+	<p><?=anchor(url('formularz/generuj/planPodzialu'),form_button('generuj','Generuj wezwanie'))?></p>
 	<div class="to_left">
 		<p>
 			<?=form_label('Nazwa', 'nazwa') ?>
