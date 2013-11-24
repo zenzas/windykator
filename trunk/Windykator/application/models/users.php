@@ -6,7 +6,7 @@ class Users extends CI_Model {
 	}
 
 	function getById($id_user) {
-		$select = 'u.*, ul.login, ul.email, ul.aktywny, ut.id_users_typy, ut.nazwa as nazwa_typ, w.id_wierzycieli, w.id_kategorii_zaspokojenia as kategoria_zaspokojenia, '.
+		$select = 'u.*, ul.login, ul.email, ul.aktywny, ut.id_users_typy, ut.nazwa as nazwa_typ, w.id_wierzyciela, w.id_kategorii_zaspokojenia as kategoria_zaspokojenia, '.
 			' ud.NIP, ud.PESEL,ud.ulica, ud.nr_dom, ud.nr_lokal, '.
 			' ud.miasto, ud.kod, ud.nr_telefonu, ud.nr_rachunku, ud.logowanie';
 		$this -> db -> select($select)
@@ -232,7 +232,7 @@ class Users extends CI_Model {
 		$wierzyciele = array();
 		foreach ($sprawy as $sprawa) {
 			foreach ($sprawa['wierzyciele'] as $wierzyciel) {
-				$wierzyciele[$sprawa['id_sprawy']][$wierzyciel['id_wierzycieli']] = $wierzyciel['nazwa_wierzyciela'];
+				$wierzyciele[$sprawa['id_sprawy']][$wierzyciel['id_wierzyciela']] = $wierzyciel['nazwa_wierzyciela'];
 			}
 		}
 		return $wierzyciele;
