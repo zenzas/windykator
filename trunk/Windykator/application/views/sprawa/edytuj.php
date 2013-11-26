@@ -135,7 +135,7 @@
 				</p>
 				<p>	
 					<?=form_label('Typ stopy procentowej', 'typ_stopy_procentowej') ?>
-					<?=form_dropdown("wierzyciele[$nr][typ_kategorii_procentowej]",$typyStopProcentowych,$wierzyciel['typ_stopy_procentowej'])?>
+					<?=form_dropdown("wierzyciele[$nr][typ_stopy_procentowej]",$typyStopProcentowych,$wierzyciel['typ_stopy_procentowej'])?>
 				</p>
 				<p>
 					<?=form_label('Pełnomocnik', 'pelnomocnik') ?>
