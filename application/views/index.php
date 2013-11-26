@@ -21,7 +21,7 @@
 						<?=anchor(url('user/logout'),'Wyloguj')?>
 					</div>
 				<?endif ?>
-				<h1>Witaj w aplikacji Windykator!</h1>
+				<h1>Witaj w systemie Windykator!</h1>
 			</div>
 			<?if($this->session->userdata('id')) :?>
 				<ul id="left_menu">
