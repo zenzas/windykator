@@ -40,6 +40,8 @@ define('ILE_DNI_NA_ODPOWIEDZ',		30);
 define('PILNY_WNIOSEK',				14);
 define('ILE_DNI_BEZ_WPLATY',		60);
 define('OPLATA_KOMORNICZA',		0.05);
+define('ZUS','ZUS');
+define('US','Naczelnik Urzędu Skarbowego');
 
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */

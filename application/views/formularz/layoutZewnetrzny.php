@@ -3,6 +3,6 @@
 
 	
 
-<h3>Zakład Ubezpieczeń Społecznych</h3>
+<h3>Wydział Windykacyjny Biura Windykator</h3>
 <h3>Oddział w Lublinie</h3>
-<h3>ul. T. Zana 36, 38c, 20-601 Lublin</h3>
+<h3>ul. Sądowa 36, 38c, 20-027 Lublin</h3>

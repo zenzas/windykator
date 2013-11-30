@@ -9,7 +9,7 @@
 	<body>
 		<div id="container">
 			<div id="header">
-				<p>nazwa wydziału</p>
+				<p>nazwa </p>
 				<p>lokalizacja</p>
 			</div>
 			<div class="content">

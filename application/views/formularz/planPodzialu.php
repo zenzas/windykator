@@ -18,7 +18,7 @@
 
 
 
-<h3>Załącznik nr 2 do Procedury - "Egzekwowanie należności przez Dyrektora Oddziału w ramach zbiegu egzekucji administracyjnej i sądowej"</h3>
+<h3>Załącznik nr 2 do Procedury </h3>
 <h3>Notatka w sprawie podziału środków pomiędzy wierzycieli</h3>
 
 
@@ -53,7 +53,7 @@
 		<th>Kwota uzyskana w związku z podziałem dla posczególnej kategorii wierzycieli w sprawie3</th>
 		<th> - </th>
 		<th> - </th>
-		<th> Kwota podlegająca zaliczeniu na koszty egzekucyjne należne właściwemu organowi egzekucyjnemu (Dyrektorowi Oddziału ZUS) w sprawie danego wierzyciela</th>
+		<th> Kwota podlegająca zaliczeniu na koszty egzekucyjne należne właściwemu organowi egzekucyjnemu w sprawie danego wierzyciela</th>
 	</tr>
 	<tr>
 		<td> - </td>
@@ -334,7 +334,7 @@
 <h9> ................................................</h9>
 <h8> (pieczęć imienna oraz podpis osoby upoważnionej)</h8>
 
-<h4> KATEGORIE ZASPOKAJANIA na podstawie art. 115 ustawy z dnia 17 czerwca 1966r. o postępowaniu egzekucyjnym w administracji (Dz. U. z 2012r. poz. 1015 ze zm.):</h4>
+<h4> KATEGORIE ZASPOKAJANIA:</h4>
 <p>
 <ul>
 	<li>I. Koszty egzekucyjne i koszty upomnienia;</li>
