@@ -3,13 +3,13 @@
 
 	
 
-<h3>Załącznik nr 1 do Procedury - "Egzekwowanie należności przez Dyrektora Oddziału w ramach zbiegu egzekucji administracyjnej i sądowej"</h3>
+<h3>Załącznik nr 1 </h3>
 
 
 
 
 <h2> Nazwa / imię i nazwisko dłużnika (NIP / PESEL) ................................ </h2>
-<h3> Data wpływu sprawy do ZUS ........................</h3>
+<h3> Data wpływu sprawy  ........................</h3>
 
 
 <h4> Zakres prowadzonego postępowania egzekucyjnego: pełny / jeden środek egzekucyjny* ...................................... podać prawo majątkowe</h4>

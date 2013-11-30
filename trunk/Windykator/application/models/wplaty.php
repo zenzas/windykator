@@ -89,6 +89,10 @@ class Wplaty extends CI_Model {
 		
 	}
 	
+	function czyOplata($wierzyciel) {
+		return strpos($wierzyciel,ZUS) === FALSE && strpos($wierzyciel,US) === FALSE;
+	}
+	
 	function rozliczWplate($wplata) {
 		$this -> load -> model('zadluzenia');
 		$this -> load -> model('stopy');
@@ -102,7 +106,7 @@ class Wplaty extends CI_Model {
 			if ($pozostalo >= $zadluzeniaPriorytet['suma']) {
 				// echo "Starczy na wszystkich z priorytetem $priorytet<br/>";
 				foreach ($zadluzeniaPriorytet['zadluzenia'] as $zadluzenie) {
-					$oplata = round($zadluzenie['suma']*OPLATA_KOMORNICZA,2);
+					$oplata = $this->czyOplata($zadluzenie['wierzyciel']) ? round($zadluzenie['suma']*OPLATA_KOMORNICZA,2) : 0;
 					$zadluzenie['pozostala_kwota_zadluzenia'] -= $oplata;
 					$wplataDlaWierzyciela = array(
 						'id_wplaty' => $wplata['id_wplaty'],
@@ -126,7 +130,8 @@ class Wplaty extends CI_Model {
 					$procent = $zadluzenie['suma']/$zadluzeniaPriorytet['suma'];
 					$kwota = round($pozostaloNaPriorytet * $procent,2);
 					// echo "Splata tylko czesci zadluzenia $procent, $kwota<br/>";
-					$oplata = round($kwota*OPLATA_KOMORNICZA,2);
+					
+					$oplata = $this->czyOplata($zadluzenie['wierzyciel']) ? round($kwota*OPLATA_KOMORNICZA,2) : 0;
 					$zadluzenie['pozostala_kwota_zadluzenia'] -= $oplata;
 					$kwota -= $oplata;
 					$wplataDlaWierzyciela = array(
