@@ -24,7 +24,7 @@ class Wplaty extends CI_Model {
 		$this -> db -> select('ww.*, u.nazwa')
 			-> from('wplaty_dla_wierzycieli ww') 
 			-> join('wierzyciel w','ww.id_wierzyciela = w.id_wierzyciela')
-			-> join('users u','w.id_user = u.id_users')
+			-> join('users u','w.id_users = u.id_users')
 			-> where('ww.id_wplaty',$id_wplaty);
 		$wplata['wplaty_wierzycieli'] = $this -> db -> get() -> result_array();
 		//var_dump($wplata);

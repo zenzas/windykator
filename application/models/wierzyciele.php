@@ -11,7 +11,7 @@ class Wierzyciele extends CI_Model {
 		'ud1.kod as kod_pelnomocnika, ud1.miasto as miasto_pelnomocnika, ud1.nr_telefonu as nr_telefonu_pelnomocnika';
 		$this -> db -> select($select)
 			-> from('wierzyciel w') 
-			-> join('users u', 'w.id_user = u.id_users')
+			-> join('users u', 'w.id_users = u.id_users')
 			-> join('users_dane ud', 'u.id_users = ud.id_users')
 			-> join('users u1', 'w.id_pelnomocnika = u1.id_users','left')
 			-> join('users_dane ud1', 'u1.id_users = ud1.id_users','left')

@@ -14,7 +14,7 @@ class Users extends CI_Model {
 			-> join('users_typy ut', 'u.id_users_typy = ut.id_users_typy') 
 			-> join('users_login ul', 'u.id_users = ul.id_users','left') 
 			-> join('users_dane ud', 'u.id_users = ud.id_users','left')
-			-> join('wierzyciel w', 'u.id_users = w.id_user','left')
+			-> join('wierzyciel w', 'u.id_users = w.id_users','left')
 			-> where('u.id_users', $id_user);
 		return $this -> db -> get() -> row_array();
 	}
@@ -255,7 +255,7 @@ class Users extends CI_Model {
 		if ($user['typ'] == $typ['id_users_typy']) {
 			$dane = array(
 			   'id_kategorii_zaspokojenia' => $user['kategoria_zaspokojenia'],
-			   'id_user' =>$id_user
+			   'id_users' =>$id_user
 			);
 			$this->db->insert('wierzyciel', $dane); 
 		}
@@ -319,17 +319,17 @@ class Users extends CI_Model {
 		if ($user['typ'] == $typ['id_users_typy']) {
 			$dane = array(
 			   'id_kategorii_zaspokojenia' => $user['kategoria_zaspokojenia'],
-			   'id_user' =>$user['id_user']
+			   'id_users' =>$user['id_user']
 			);
 			if ($u['id_users_typy'] == $typ['id_users_typy']) {
-				$this->db->where('id_user',  $user['id_user'])
+				$this->db->where('id_users',  $user['id_user'])
 					->update('wierzyciel', $dane); 
 			} else {
 				$this->db->insert('wierzyciel', $dane); 
 			}
 			
 		} else if ($u['id_users_typy'] == $typ['id_users_typy']) {
-			$this->db->where('id_user', $user['id_user'])
+			$this->db->where('id_users', $user['id_user'])
 				->delete('wierzyciel');
 		}
 		if ($this->session->userdata('nazwa_typ') == 'administrator') {

@@ -21,7 +21,7 @@ class Sprawy extends CI_Model {
 			-> join('wierzyciele_sprawy ws', 'ws.id_sprawy = s.id_sprawy','left') 
 			-> join('wierzyciel w1', 'ws.id_wierzyciela = w1.id_wierzyciela','left')
 			-> join('kategorie_zaspokojenia kz', 'w1.id_kategorii_zaspokojenia = kz.id_kategorii_zaspokojenia','left')
-			-> join('users u1', 'w1.id_user = u1.id_users','left')
+			-> join('users u1', 'w1.id_users = u1.id_users','left')
 			-> join('users p', 'w1.id_pelnomocnika = p.id_users','left')
 			-> join('users_dane ud1', 'ud1.id_users = u1.id_users','left')
 			-> where('s.id_sprawy', $id_sprawy);
@@ -128,7 +128,7 @@ class Sprawy extends CI_Model {
 			-> join('wplaty w', 'w.id_dluznika = u.id_users', 'left')
 			-> join('wierzyciele_sprawy ws', 'ws.id_sprawy = s.id_sprawy','left')
 			-> join('wierzyciel w1', 'ws.id_wierzyciela = w1.id_wierzyciela','left')
-			-> join('users u1', 'w1.id_user = u1.id_users','left')
+			-> join('users u1', 'w1.id_users = u1.id_users','left')
 			-> group_by('s.id_sprawy, w1.id_wierzyciela');
 		$this->ustawKryteria($where);
 		$sprawy = $this -> db -> get() -> result_array();
@@ -311,7 +311,7 @@ class Sprawy extends CI_Model {
 				$dane_w['id_users']	 = $this->db->insert_id();
 				$this->db->insert('users_dane', $dane_w);
 				
-				$w_typ['id_user'] = $dane_w['id_users'];
+				$w_typ['id_users'] = $dane_w['id_users'];
 				$this->db->insert('wierzyciel', $w_typ);
 				
 				$wierzyciele_sprawy['id_wierzyciela'] = $this->db->insert_id();
