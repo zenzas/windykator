@@ -10,7 +10,7 @@ class Zadluzenia extends CI_Model {
 	 	-> from('zadluzenie z') 
 		-> join('wierzyciele_sprawy ws','ws.id_wierzyciele_sprawy = z.id_wierzyciele_sprawy')
 		-> join('wierzyciel w','ws.id_wierzyciela = w.id_wierzyciela')
-		-> join('users u','w.id_user = u.id_users')
+		-> join('users u','w.id_users = u.id_users')
 		-> join('sprawy s','s.id_sprawy = ws.id_sprawy')
 		-> join('users d','s.id_dluznika = d.id_users')
 		-> where('z.id_zadluzenia',$id_zadluzenia);
@@ -24,7 +24,7 @@ class Zadluzenia extends CI_Model {
 		-> join('wierzyciele_sprawy ws','ws.id_wierzyciele_sprawy = z.id_wierzyciele_sprawy')
 		-> join('wierzyciel w','ws.id_wierzyciela = w.id_wierzyciela')
 		-> join('kategorie_zaspokojenia kz','kz.id_kategorii_zaspokojenia = w.id_kategorii_zaspokojenia')
-		-> join('users u','w.id_user = u.id_users')
+		-> join('users u','w.id_users = u.id_users')
 		-> join('sprawy s','s.id_sprawy = ws.id_sprawy')
 		-> join('users d','s.id_dluznika = d.id_users');
 		$this -> ustawKryteria($where);
