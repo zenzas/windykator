@@ -87,7 +87,9 @@ class User extends MY_Controller {
 	}
 
 	function login() {
-		if ($this -> input -> post('submit')) {
+		if ($this->session->userdata('id')) {
+			redirect('user/aktualnosci');
+		} else if ($this -> input -> post('submit')) {
 			$login = $this -> input -> post('username');
 			$password = $this -> input -> post('password');
 			if (!$this -> form_validation -> run('login')) {

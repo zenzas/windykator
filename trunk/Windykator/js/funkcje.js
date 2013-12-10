@@ -18,6 +18,16 @@ function SynchronizedDropDown(parentId, childId, values, loadValues) {
     }
 }
 
+function zmianaTypuStopyProcentowej(dropdown, id) {
+	var val = dropdown.value;
+	var input = $('#'+id);
+	if (val == 'stopa_z_wyroku') {
+		input.show();
+	} else {
+		input.hide();
+	}
+}
+
 function main() {
 	$('.delete_user_link').click(function() {
 		if (!confirm("Czy na pewno chcesz usunąć tego użytkownika?")) {

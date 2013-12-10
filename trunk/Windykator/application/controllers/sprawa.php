@@ -81,6 +81,9 @@ class Sprawa extends MY_Controller {
 			$this->form_validation->set_rules("wierzyciele[$nr][nazwa_w]", 'Nazwa wierzyciela', 'trim|required');
 			$this->form_validation->set_rules("wierzyciele[$nr][kategoria_zaspokojenia]", 'Kategoria zaspokojenia', 'trim|required');
 			$this->form_validation->set_rules("wierzyciele[$nr][typ_stopy_procentowej]", 'Typ stopy procentowej', 'trim|required');
+			if ($wierzyciele[$nr]['typ_stopy_procentowej'] == 'stopa_z_wyroku') {
+				$this->form_validation->set_rules("wierzyciele[$nr][stopa_z_wyroku]", 'Wysokość stopy z wyroku', 'trim|required');
+			}
 			$this->form_validation->set_rules("wierzyciele[$nr][KM]", 'KM', 'trim|required');
 			$this->form_validation->set_rules("wierzyciele[$nr][ulica_w]", 'Ulica', 'trim|required');
 			$this->form_validation->set_rules("wierzyciele[$nr][nr_dom_w]", 'Nr domu', 'trim|required');

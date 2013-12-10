@@ -135,8 +135,13 @@
 				</p>
 				<p>	
 					<?=form_label('Typ stopy procentowej', 'typ_stopy_procentowej') ?>
-					<?=form_dropdown("wierzyciele[$nr][typ_stopy_procentowej]",$typyStopProcentowych,$wierzyciel['typ_stopy_procentowej'])?>
+					<?=form_dropdown("wierzyciele[$nr][typ_stopy_procentowej]",$typyStopProcentowych,$wierzyciel['typ_stopy_procentowej'],'onChange="zmianaTypuStopyProcentowej(this, \'stopa_z_wyroku_'.$nr.'\')"')?>
 				</p>
+				<p id="stopa_z_wyroku_<?=$nr?>">
+					<?=form_label('Wysokość stopy z wyroku', 'stopa_z_wyroku') ?>
+					<?=form_input("wierzyciele[$nr][stopa_z_wyroku]", $wierzyciel['stopa_z_wyroku'])?>
+				</p>
+				<span class="error"><?=form_error("wierzyciele[$nr][stopa_z_wyroku]") ?></span>
 				<p>
 					<?=form_label('Pełnomocnik', 'pelnomocnik') ?>
 					<?=form_dropdown("wierzyciele[$nr][pelnomocnik]",$pelnomocnicy,$wierzyciel['pelnomocnik'])?>
@@ -207,8 +212,13 @@
 	</p>
 	<p>	
 		<?=form_label('Typ stopy procentowej', 'typ_stopy_procentowej') ?>
-		<?=form_dropdown('typ_stopy_procentowej',$typyStopProcentowych)?>
+		<?=form_dropdown('typ_stopy_procentowej',$typyStopProcentowych,'referencyjna','onChange="zmianaTypuStopyProcentowej(this, \'stopa_z_wyroku\')"')?>
 	</p>
+	<p id='stopa_z_wyroku'>
+		<?=form_label('Wysokość stopy z wyroku', 'stopa_z_wyroku') ?>
+		<?=form_input('stopa_z_wyroku', '') ?>
+	</p>
+	<span class="error"><?=form_error('stopa_z_wyroku') ?></span>
 	<p>
 		<?=form_label('Pełnomocnik', 'pelnomocnik') ?>
 		<?=form_dropdown('pelnomocnik',$pelnomocnicy)?>
