@@ -50,12 +50,12 @@ class Formularz extends CI_Controller {
 
 function planPodzialu() {
 		$data['content'] = $this -> load -> view('formularz/planPodzialu', null, true);
-		$this -> load -> view('formularz/layoutZewnetrzny', $data);
+		$this -> load -> view('formularz/layoutWewnetrzny', $data);
 	}
 		
 function kartaWierzyciela() {
 		$data['content'] = $this -> load -> view('formularz/kartaWierzyciela', null, true);
-		$this -> load -> view('formularz/layoutWewnetrzny1', $data);
+		$this -> load -> view('formularz/layoutWewnetrzny', $data);
 	}		
 	function generuj($nazwaFormularza, $pozioma = false) {
 		include ("MPDF57/mpdf.php");

@@ -89,6 +89,7 @@ class Stopy extends CI_Model {
 		'referencyjna' => 'referencyjna',
 		'podatkowa' => 'podatkowa',
 		'lombardowa' => 'lombardowa',
+		'stopa_z_wyroku' => 'stopa z wyroku'
 		);
 		return $typy;
 			
