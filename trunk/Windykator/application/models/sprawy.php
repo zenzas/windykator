@@ -284,10 +284,9 @@ class Sprawy extends CI_Model {
 			$w_typ = array(
 				'id_kategorii_zaspokojenia' => $wierzyciel['kategoria_zaspokojenia'],
 				'typ_stopy_procentowej' => $wierzyciel['typ_stopy_procentowej'],
-				'stopa_z_wyroku' => $wierzyciel['stopa_z_wyroku'],
+				'stopa_z_wyroku' =>  $wierzyciel['typ_stopy_procentowej'] == 'stopa_z_wyroku' ? $wierzyciel['stopa_z_wyroku'] : null,
 				'id_pelnomocnika' => $wierzyciel['pelnomocnik'],
 			);
-			
 				
 			if (isset($wierzyciel['id_wierzyciela'])) {
 				$this->db->where('id_users',$wierzyciel['id_users_w'])

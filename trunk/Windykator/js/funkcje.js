@@ -105,10 +105,10 @@ function main() {
           yearRange: "-80:-0",
 		  changeMonth: true,
 		  changeYear: true,
-		  firstDay: 0,
+		  firstDay: 1,
 		  monthNames: ["Styczeń","Luty","Marzec","Kwiecień","Maj","Czerwiec","Lipiec","Sierpień","Wrzesień","Październik","Listopad","Grudzień"],
 		  monthNamesShort: ["Sty","Lut","Mar","Kwi","Maj","Cze","Lip","Sie","Wrz","Paź","Lis","Gru"],
-		  dayNamesMin: ["Po","Wt","Sr","Cz","Pi","So","Ni"],
+		  dayNamesMin: ["Ni","Po","Wt","Sr","Cz","Pi","So"],
 	    }
 
 	);

@@ -110,7 +110,7 @@ class Users extends CI_Model {
 					$user_data['id'] = $user['id_users'];
 					$user_data['login'] = $user['login'];
 					$user_data['nazwa'] = $user['nazwa'];
-					$user_data['e-mail'] = $user['e-mail'];
+					$user_data['email'] = $user['email'];
 					$user_data['id_users_typy'] = $user['id_users_typy'];
 					$user_data['nazwa_typ'] = $user['nazwa_typ'];	
 					
