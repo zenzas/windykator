@@ -137,7 +137,7 @@
 					<?=form_label('Typ stopy procentowej', 'typ_stopy_procentowej') ?>
 					<?=form_dropdown("wierzyciele[$nr][typ_stopy_procentowej]",$typyStopProcentowych,$wierzyciel['typ_stopy_procentowej'],'onChange="zmianaTypuStopyProcentowej(this, \'stopa_z_wyroku_'.$nr.'\')"')?>
 				</p>
-				<p id="stopa_z_wyroku_<?=$nr?>">
+				<p id="stopa_z_wyroku_<?=$nr?>" <?=($wierzyciel['typ_stopy_procentowej'] != 'stopa_z_wyroku' ? 'style="display:none"' : '')?>>
 					<?=form_label('Wysokość stopy z wyroku', 'stopa_z_wyroku') ?>
 					<?=form_input("wierzyciele[$nr][stopa_z_wyroku]", $wierzyciel['stopa_z_wyroku'])?>
 				</p>
@@ -214,7 +214,7 @@
 		<?=form_label('Typ stopy procentowej', 'typ_stopy_procentowej') ?>
 		<?=form_dropdown('typ_stopy_procentowej',$typyStopProcentowych,'referencyjna','onChange="zmianaTypuStopyProcentowej(this, \'stopa_z_wyroku\')"')?>
 	</p>
-	<p id='stopa_z_wyroku'>
+	<p id='stopa_z_wyroku' style="display:none"'>
 		<?=form_label('Wysokość stopy z wyroku', 'stopa_z_wyroku') ?>
 		<?=form_input('stopa_z_wyroku', '') ?>
 	</p>
