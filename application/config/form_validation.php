@@ -394,7 +394,7 @@ $config = array(
 		array(
 			'field' => 'kwota_zadluzenia',
 			'label' => 'Kwota zadłużenia',
-			'rules' => 'trim|required'
+			'rules' => 'trim'
 		),
 		array(
 			'field' => 'odsetki',
