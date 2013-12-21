@@ -1,5 +1,5 @@
 <div id="szczegoly_sprawy">
-	<p><?=anchor(url('formularz/generuj/KartaWierzyciela'),form_button('generuj','Generuj karte'))?></p>
+	<p><?=anchor(url('formularz/generuj/KartaWierzyciela/pozioma'),form_button('generuj','Generuj karte'))?></p>
 	<div class="to_left">
 		<p>
 			<?=form_label('NIP', 'NIP') ?>
