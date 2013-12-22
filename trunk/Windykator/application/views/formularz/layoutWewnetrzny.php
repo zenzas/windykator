@@ -4,12 +4,11 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<title>Windykator</title>	
 		<link rel="stylesheet" type="text/css" href="<?=url('css/formularz.css') ?>" />
-		
 	</head>
 	<body>
 		<div id="container">
 			<div id="header">
-				<p>Załącznik</p>
+				<p></p>
 			</div>
 			<div class="content">
 				<?=$content ?>

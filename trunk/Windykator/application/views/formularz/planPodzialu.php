@@ -1,17 +1,17 @@
-<h3 align = "right">Załącznik nr 2 do Procedury - "Egzekwowanie należności przez Dyrektora Oddziału w ramach zbiegu egzekucji administracyjnej i sądowej"</h3>
-<h3 align = "right">Notatka w sprawie podziału środków pomiędzy wierzycieli</h3>
+<p class = "right">Załącznik nr 2 do Procedury - "Egzekwowanie należności przez Dyrektora Oddziału w ramach zbiegu egzekucji administracyjnej i sądowej"</p>
+<p class = "right">Notatka w sprawie podziału środków pomiędzy wierzycieli</p>
 
-<h3> (pieczęć organu egzekucyjnego)</h3>
-<h3 align = "right"> Lublin, dnia ..................... roku</h3>
-<h3 align = "right"> (miejscowość)                        (data)</h3>
+<p> (pieczęć organu egzekucyjnego)</p>
+<p class = "right"> Lublin, dnia ..................... roku</p>
+<p class = "right"> (miejscowość)                        (data)</p>
 
-<h3 align = "center"> Plan podziału*</h3>
-<h3 align = "center"> sumy uzyskanej w dniu .......... roku, z egzekucji prowadzonej ze składnika majątkowego stanowiącego ................., w wysokości ..........zł</h3>
-<h3> ...................................</h3>
-<h3> nazwa / imię i nazwisko</h3><h3>...................................</h3><h3>adres</h3>
+<p class = "center"> Plan podziału*</p>
+<p class = "center"> sumy uzyskanej w dniu <?=$wplata['data_wplaty']?> roku, z egzekucji prowadzonej ze składnika majątkowego stanowiącego ................., w wysokości <?=$wplata['kwota_wplaty']?> zł</p>
+<p><?space(30)?><?=$wplata['nazwa_dluznika']?><?space(30)?><?=przygotujAdres($wplata['ulica'], $wplata['nr_dom'], $wplata['nr_lokal'], $wplata['kod'], $wplata['miasto'])?></p>
+<p><?space(30)?>nazwa / imię i nazwisko<?space(40)?>adres</p>
 
-<table border="1" cellpadding="4" cellspacing="3">
-	<tr align="center">
+<table>
+	<tr class="center">
 		<th rowspan="2">L.p.</th>
 		<th>Nazwa organu egzekucyjnego - właściwego Dyrektora Oddziału ZUS</th>
 		<th>Oznaczenie konta (NIP, NKP, ZO)</th>
@@ -24,7 +24,7 @@
 		<th> - </th>
 		<th> Kwota podlegająca zaliczeniu na koszty egzekucyjne należne właściwemu organowi egzekucyjnemu w sprawie danego wierzyciela</th>
 	</tr>
-	<tr align="center">
+	<tr class="center">
 
 		<td> Imię nazwisko/ nazwa wierzyciela</td>
 		<td> Nr rachunku bankowego wierzyciela</td>
@@ -34,7 +34,7 @@
 		<td> Kwota opłaty komorniczej</td>
 		<td> Kwota do przekazania danemu wierzycielowi (różnica kwot z kolumn "j" oraz "k")</td>
 	</tr>
-	<tr align="center">
+	<tr class="center">
 		<td> a </td>
 		<td> b </td>
 		<td> c </td>
@@ -48,7 +48,7 @@
 		<td> k </td>
 		<td> l </td>
 	</tr>
-	<tr align="center">
+	<tr class="center">
 		<td rowspan="4"> 1. </td>
 		<td></td>
 		<td></td>
@@ -63,7 +63,7 @@
 		<td></td>
 
 	</tr>
-	<tr align="center">
+	<tr class="center">
 		<td rowspan="3"></td>
 		<td rowspan="3"></td>
 		<td rowspan="3"></td>
@@ -88,7 +88,7 @@
 		<td></td>
 		<td></td>
 	</tr>
-	<tr align="center">
+	<tr class="center">
 		<td rowspan="4"> 2. </td>
 		<td></td>
 		<td></td>
@@ -103,7 +103,7 @@
 		<td></td>
 
 	</tr>
-	<tr align="center">
+	<tr class="center">
 		<td rowspan="3"></td>
 		<td rowspan="3"></td>
 		<td rowspan="3"></td>
@@ -128,7 +128,7 @@
 		<td></td>
 		<td></td>
 	</tr>
-	<tr align="center">
+	<tr class="center">
 		<td rowspan="4"> 3. </td>
 		<td></td>
 		<td></td>
@@ -143,7 +143,7 @@
 		<td></td>
 
 	</tr>
-	<tr align="center">
+	<tr class="center">
 		<td rowspan="3"></td>
 		<td rowspan="3"></td>
 		<td rowspan="3"></td>
@@ -168,7 +168,7 @@
 		<td></td>
 		<td></td>
 	</tr>
-	<tr align="center">
+	<tr class="center">
 		<td rowspan="4"> 4. </td>
 		<td></td>
 		<td></td>
@@ -183,7 +183,7 @@
 		<td></td>
 
 	</tr>
-	<tr align="center">
+	<tr class="center">
 		<td rowspan="3"></td>
 		<td rowspan="3"></td>
 		<td rowspan="3"></td>
@@ -208,8 +208,8 @@
 		<td></td>
 		<td></td>
 	</tr>
-	<tr align="center">
-		<td colspan="8" border="0"></td>
+	<tr class="center">
+		<td colspan="8" class="no_border"></td>
 		<td> Suma </td>
 		<td></td>
 		<td></td>
@@ -217,18 +217,17 @@
 
 	</tr>
 </table>
-<h9>
+<p class="right" style="margin-right: 100px;">
 	................................................
-</h9>
-<h8>
-	(pieczęć imienna oraz podpis osoby upoważnionej)
-</h8><h4>*W dokumencie dokonuje się podziału jednej wpłaty egzekucyjnej z uwzględnieniem wszystkich występujących w sprawie wierzycieli</h4>
+</p>
+<p class="right" style="margin-right: 50px;">	(pieczęć imienna oraz podpis osoby upoważnionej)</p>
+<p>*W dokumencie dokonuje się podziału jednej wpłaty egzekucyjnej z uwzględnieniem wszystkich występujących w sprawie wierzycieli</p>
 <ol>
 	<li>
-		<h4>KATEGORIE ZASPOKAJANIA: na podstawie art. 115 ustawy z dnia 17 czerwca 1966r. o postępowaniu egzekucyjnym w administracji (Dz. U. z 2012r. poz. 1015 ze zm.)</h4>
+		KATEGORIE ZASPOKAJANIA: na podstawie art. 115 ustawy z dnia 17 czerwca 1966r. o postępowaniu egzekucyjnym w administracji (Dz. U. z 2012r. poz. 1015 ze zm.)
 	</li>
 	<ol style="list-style-type: upper-roman">
-		<li align = "right">
+		<li class = "right">
 			Koszty egzekucyjne i koszty upomnienia;
 		</li>
 		<li>
@@ -255,17 +254,17 @@
 		</li>
 	</ol>
 	<li>
-		<h4>Obliczyć jeżeli kwota sumy uzyskanej z egzekucji nie zaspokoi wszystkich należności danej kategorii</h4>
+		Obliczyć jeżeli kwota sumy uzyskanej z egzekucji nie zaspokoi wszystkich należności danej kategorii
 	</li>
 	<li>
-		<h4>Jeżeli należności danej kategorii zaspokojone są w całości w sprawach wszystkich wierzycieli, to wpisz aktualną kwotę należności z kolumny g. Jeżeli należności danej kategorii nie zostaną zaspokojone w całości w sprawach wszystkich wierzycieli,
-		wpisz iloczyn kwoty przeznaczonej do podziału dla danej kategorii zaspokajania oraz stosunku procentowego tej kategorii w sprawie danego wierzyciela.</h4>
+		Jeżeli należności danej kategorii zaspokojone są w całości w sprawach wszystkich wierzycieli, to wpisz aktualną kwotę należności z kolumny g. Jeżeli należności danej kategorii nie zostaną zaspokojone w całości w sprawach wszystkich wierzycieli,
+		wpisz iloczyn kwoty przeznaczonej do podziału dla danej kategorii zaspokajania oraz stosunku procentowego tej kategorii w sprawie danego wierzyciela.
 	</li>
 	<li>
-		<h4>Ustalenie wysokości opłaty komorniczej następuje w oparciu o art. 1a pkt 6 z uwzględnieniem art. 66 ustawy z dnia 17 czerwca 1966r. o postępowaniu egzekucyjnym w administracji (Dz. U. z 2012r. poz. 1015 ze zm.)</h4>
+		Ustalenie wysokości opłaty komorniczej następuje w oparciu o art. 1a pkt 6 z uwzględnieniem art. 66 ustawy z dnia 17 czerwca 1966r. o postępowaniu egzekucyjnym w administracji (Dz. U. z 2012r. poz. 1015 ze zm.)
 	</li>
 	<li>
-		<h4>Suma kwot z kolumny "k" i "l" powinna być równa wysokości wpłaty egzekucyjnej, której plan podziału jest sporządzany.</h4>
+		Suma kwot z kolumny "k" i "l" powinna być równa wysokości wpłaty egzekucyjnej, której plan podziału jest sporządzany.
 	</li>
 </ol>
 <p>

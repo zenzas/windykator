@@ -1,3 +1,30 @@
 body {
-    background-color: red;
+    border-bottom: 1px solid black;
+}
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+p, li, td, th {
+    font-size: 10px;
+}
+table {
+    border-collapse: collapse;
+}
+td, th {
+    border: 2px solid black;
+}
+td.no_border, th.no_border {
+    border: 0;
+}
+th {
+    font-size: 8px;
+}
+td {
+    font-size: 8px;
 }

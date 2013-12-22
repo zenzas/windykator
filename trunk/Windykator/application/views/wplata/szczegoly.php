@@ -1,5 +1,5 @@
 <div id="szczegoly_sprawy">
-	<p><?=anchor(url('formularz/generuj/planPodzialu'),form_button('generuj','Generuj plan podziału'))?></p>
+	<p><?=anchor(url('formularz/generuj/planPodzialu/pozioma/'.$wplata['id_wplaty']),form_button('generuj','Generuj plan podziału'),array('target'=>'_blank'))?></p>
 	<div>
 		<p>
 			<?=form_label('data wpłaty', 'data_wplaty') ?>
