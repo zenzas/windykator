@@ -4,6 +4,11 @@ function today() {
 	return $date->format('Y-m-d');
 }
 
+function now() {
+    $date = new DateTime();
+    return $date->format('Y-m-d H:i:s');
+}
+
 function url($url) {
 	return base_url().$url;
 }
@@ -31,4 +36,9 @@ function przygotujAdres($ulica, $nr_dom, $nr_lokal, $kod, $miasto) {
 		$adres .= ", $kod $miasto";
 	}
 	return $adres;
+}
+function space($num) {
+    for ($i=0; $i < $num; $i++) { 
+        echo '&nbsp;';
+    }
 }

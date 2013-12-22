@@ -15,8 +15,10 @@ class Wplaty extends CI_Model {
 	}
 	
 	function getPodzialWplaty($id_wplaty) {
-		$this -> db -> select('w.*, z.kwota_zwrotu')
+		$this -> db -> select('w.*, z.kwota_zwrotu, u.nazwa as nazwa_dluznika, ud.*')
 		 	-> from('wplaty w') 
+            -> join('users u','w.id_dluznika = u.id_users')
+            -> join('users_dane ud','u.id_users = ud.id_users')
 			-> join('zwroty z','w.id_wplaty = z.id_wplaty','left')
 			-> where('w.id_wplaty',$id_wplaty);
 		$wplata = $this -> db -> get() -> row_array();
@@ -27,7 +29,7 @@ class Wplaty extends CI_Model {
 			-> join('users u','w.id_users = u.id_users')
 			-> where('ww.id_wplaty',$id_wplaty);
 		$wplata['wplaty_wierzycieli'] = $this -> db -> get() -> result_array();
-		//var_dump($wplata);
+		//var_dump($wplata);exit;
 		return $wplata;
 	}
 	

@@ -26,7 +26,7 @@
 				<?if ($this->router->class == 'wplata'):?>
 					<?=anchor(url('wplata/edytuj/'.$wplata['id_wplaty']),'edytuj',array('class' => 'blue'))?>
 				<?endif?>
-				<?=anchor(url('formularz/generuj/planPodzialu/pozioma'),'plan podziału',array('class' => 'green', 'target' => '_blank'))?>
+				<?=anchor(url('formularz/generuj/planPodzialu/pozioma/'.$wplata['id_wplaty']),'plan podziału',array('class' => 'green', 'target' => '_blank'))?>
 			</td>
 		</tr>
 		<?endforeach?>

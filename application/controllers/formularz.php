@@ -6,6 +6,7 @@ class Formularz extends CI_Controller {
 	function __construct() {
 		parent::__construct();
 		$this -> load -> model('sprawy');
+        $this -> load -> model('wplaty');
 	}
 	
 	function wk1() {
@@ -48,8 +49,9 @@ class Formularz extends CI_Controller {
 		$this -> load -> view('formularz/layoutZewnetrzny', $data);
 	}
 
-function planPodzialu() {
-		$data['content'] = $this -> load -> view('formularz/planPodzialu', null, true);
+function planPodzialu($id_wplaty) {
+        $data['wplata'] = $this->wplaty->getPodzialWplaty($id_wplaty);
+		$data['content'] = $this -> load -> view('formularz/planPodzialu', $data, true);
 		$this -> load -> view('formularz/layoutWewnetrzny', $data);
 	}
 		
@@ -57,14 +59,15 @@ function kartaWierzyciela() {
 		$data['content'] = $this -> load -> view('formularz/kartaWierzyciela', null, true);
 		$this -> load -> view('formularz/layoutWewnetrzny', $data);
 	}		
-	function generuj($nazwaFormularza, $pozioma = false) {
+	function generuj($nazwaFormularza, $pozioma = false, $id = 0) {
 		include ("MPDF57/mpdf.php");
 		$mpdf = new mPDF('utf-8', 'A4');
 		// $mpdf -> SetDisplayMode('fullpage');
 		// $mpdf -> list_indent_first_level = 0;
 		$orientacja = $pozioma ? 'L' : 'P';
 		$mpdf->AddPage($orientacja, '', '', '', '', 10, 10, 10, 10);
-		$text = file_get_contents(url('formularz/'.$nazwaFormularza));
+        $url = 'formularz/'.$nazwaFormularza.'/'.($id ? $id : '');
+		$text = file_get_contents(url($url));
 		$mpdf -> WriteHTML($text);
 		$mpdf -> Output();
 	}
