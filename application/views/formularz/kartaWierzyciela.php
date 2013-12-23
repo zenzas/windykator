@@ -3,40 +3,40 @@
 
 	
 
-<h1>Załącznik nr 1 do Procedury - "Egzekwowanie należności przez Dyrektora Oddziału w ramach zbiegu egzekucji administracyjnej i sądowej"</h1>
+<p class ="right">Załącznik nr 1 do Procedury - "Egzekwowanie należności przez Dyrektora Oddziału w ramach zbiegu egzekucji administracyjnej i sądowej"</p>
 
 
 
 
-<h2> Nazwa / imię i nazwisko dłużnika (NIP / PESEL) ................................ </h2>
-<h2> Data wpływu sprawy  ........................</h2>
+<p> Nazwa / imię i nazwisko dłużnika (NIP / PESEL) ................................ </p>
+<p> Data wpływu sprawy  ........................</p>
 
 
-<h2> Zakres prowadzonego postępowania egzekucyjnego: pełny / jeden środek egzekucyjny* ...................................... podać prawo majątkowe</h2>
+<p> Zakres prowadzonego postępowania egzekucyjnego: pełny / jeden środek egzekucyjny* ...................................... podać prawo majątkowe</p>
 
-<h2> Poprzedni organ egzekucyjny: ..................................................................</h2>
-<h2> Data dokonania zajęcia przez organ egzekucyjjny: ..............................................</h2>
+<p> Poprzedni organ egzekucyjny: ..................................................................</p>
+<p> Data dokonania zajęcia przez organ egzekucyjjny: ..............................................</p>
 
-<h2> Wierzyciel: ...................................</h2>
-<h2> nazwa / imię i nazwisko</h2>
-<h2> ...................................</h2>
-<h2> adres</h2>
-<h2> ...................................</h2>
-<h2> ...................................</h2>
-<h2> Pełnomocnik: ...................................</h2>
-<h2> nazwa / imię i nazwisko</h2>
-<h2> ...................................</h2>
-<h2> adres</h2>
-<h2> ...................................</h2>
-<h2> ...................................</h2>
+<p> Wierzyciel: ...................................</p>
+<p> nazwa / imię i nazwisko</p>
+<p> ...................................</p>
+<p> adres</h2>
+<p> ...................................</p>
+<p> ...................................</p>
+<p> Pełnomocnik: ...................................</p>
+<p> nazwa / imię i nazwisko</p>
+<p> ...................................</p>
+<p> adres</p>
+<p> ...................................</p>
+<p> ...................................</p>
 
-<h2> Rachunek bankowy wierzyciela: ...........................................................................................</h2>
-<h2> Tytuł wykonawczy: .......................................................................................................</h2>
-<h2> podać datę, sygnaturę sprawy, przez kogo wydany)</h8>
-<h2> .......................................................</h2>
-<h2> .......................................................</h2>
+<p> Rachunek bankowy wierzyciela: ...........................................................................................</p>
+<p> Tytuł wykonawczy: .......................................................................................................</p>
+<p> podać datę, sygnaturę sprawy, przez kogo wydany)</p>
+<p> .......................................................</p>
+<p> .......................................................</p>
 
-<h2> Należność wg stanu na dzień ..............:</h2>
+<p> Należność wg stanu na dzień ..............:</p>
 
 
 <table align="center" border="3" cellpadding="8" cellspacing="8">
@@ -67,10 +67,10 @@
 
 
 
-<h2> ................................................</h2>
-<h2> (podpis i pieczęć osoby sporządzającej dokument)</h2>
+<p> ................................................</p>
+<p> (podpis i pieczęć osoby sporządzającej dokument)</p>
 
-<h2> KATEGORIE ZASPOKAJANIA na podstawie art. 115 ustawy z dnia 17 czerwca 1966r. o postępowaniu egzekucyjnym w administracji (Dz. U. z 2012r. poz. 1015 ze zm.):</h2>
+<p> KATEGORIE ZASPOKAJANIA na podstawie art. 115 ustawy z dnia 17 czerwca 1966r. o postępowaniu egzekucyjnym w administracji (Dz. U. z 2012r. poz. 1015 ze zm.):</p>
 	</li>
 	<ol style="list-style-type: upper-roman">
 		<li align = "right">

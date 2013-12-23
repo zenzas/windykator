@@ -48,8 +48,52 @@
 		<td> k </td>
 		<td> l </td>
 	</tr>
+	
+	<?foreach ($wplata['wplaty_wierzycieli'] as $nr => $wierzyciel):?>
+	
 	<tr class="center">
-		<td rowspan="4"> 1. </td>
+		<td rowspan="4"><?=$nr+1?>.</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td rowspan="4"></td>
+		<td> I </td>
+		<td></td>
+		<td><?=procent($wierzyciel['procentKosztyEgzekucyjne'])?></td>
+		<td><?=$wierzyciel['koszty_egzekucyjne']?></td>
+		<td> - </td>
+		<td> - </td>
+		<td></td>
+	</tr>
+	<tr class="center">
+		<td rowspan="3"><?=$wierzyciel['nazwa']?></td>
+		<td rowspan="3"><?=$wierzyciel['nr_rachunku']?></td>
+		<td rowspan="3"><?=przygotujAdres($wierzyciel['ulica'], $wierzyciel['nr_dom'], $wierzyciel['nr_lokal'], $wierzyciel['kod'], $wierzyciel['miasto'])?></td>
+		<td><?=$wierzyciel['kategoria_zaspokojenia']?></td>
+		<td></td>
+		<td><?=procent($wierzyciel['procentKwotaOdsetki'])?></td>
+		<td><?=$wierzyciel['kwota_zadluzenia']+$wierzyciel['odsetki']+$wierzyciel['oplata_komornicza']?></td>
+		<td rowspan="3"><?=$wierzyciel['kwota_zadluzenia']+$wierzyciel['odsetki']+$wierzyciel['oplata_komornicza']?></td>
+		<td rowspan="3"><?=$wierzyciel['oplata_komornicza']?></td>
+		<td rowspan="3"><?=$wierzyciel['kwota_zadluzenia']+$wierzyciel['odsetki']?></td>
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td></td>
+		<td></td>
+		<td></td>
+
+	</tr>
+	<tr>
+		<td>&nbsp;</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<?endforeach?>
+	<?for ($i=count($wplata['wplaty_wierzycieli']);$i<4;++$i):?>
+	<tr class="center">
+		<td rowspan="4"><?=$i+1?></td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -61,13 +105,12 @@
 		<td> - </td>
 		<td> - </td>
 		<td></td>
-
 	</tr>
 	<tr class="center">
 		<td rowspan="3"></td>
 		<td rowspan="3"></td>
 		<td rowspan="3"></td>
-		<td> - </td>
+		<td>&nbsp;</td>
 		<td></td>
 		<td></td>
 		<td></td>
@@ -76,138 +119,19 @@
 		<td rowspan="3"></td>
 	</tr>
 	<tr>
-		<td> - </td>
+		<td>&nbsp;</td>
 		<td></td>
 		<td></td>
 		<td></td>
 
 	</tr>
 	<tr>
-		<td> - </td>
+		<td>&nbsp;</td>
 		<td></td>
 		<td></td>
 		<td></td>
 	</tr>
-	<tr class="center">
-		<td rowspan="4"> 2. </td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td rowspan="4"></td>
-		<td> I </td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td> - </td>
-		<td> - </td>
-		<td></td>
-
-	</tr>
-	<tr class="center">
-		<td rowspan="3"></td>
-		<td rowspan="3"></td>
-		<td rowspan="3"></td>
-		<td> - </td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td rowspan="3"></td>
-		<td rowspan="3"></td>
-		<td rowspan="3"></td>
-	</tr>
-	<tr>
-		<td> - </td>
-		<td></td>
-		<td></td>
-		<td></td>
-
-	</tr>
-	<tr>
-		<td> - </td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr class="center">
-		<td rowspan="4"> 3. </td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td rowspan="4"></td>
-		<td> I </td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td> - </td>
-		<td> - </td>
-		<td></td>
-
-	</tr>
-	<tr class="center">
-		<td rowspan="3"></td>
-		<td rowspan="3"></td>
-		<td rowspan="3"></td>
-		<td> - </td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td rowspan="3"></td>
-		<td rowspan="3"></td>
-		<td rowspan="3"></td>
-	</tr>
-	<tr>
-		<td> - </td>
-		<td></td>
-		<td></td>
-		<td></td>
-
-	</tr>
-	<tr>
-		<td> - </td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr class="center">
-		<td rowspan="4"> 4. </td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td rowspan="4"></td>
-		<td> I </td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td> - </td>
-		<td> - </td>
-		<td></td>
-
-	</tr>
-	<tr class="center">
-		<td rowspan="3"></td>
-		<td rowspan="3"></td>
-		<td rowspan="3"></td>
-		<td> - </td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td rowspan="3"></td>
-		<td rowspan="3"></td>
-		<td rowspan="3"></td>
-	</tr>
-	<tr>
-		<td> - </td>
-		<td></td>
-		<td></td>
-		<td></td>
-
-	</tr>
-	<tr>
-		<td> - </td>
-		<td></td>
-		<td></td>
-		<td></td>
-	</tr>
+	<?endfor?>
 	<tr class="center">
 		<td colspan="8" class="no_border"></td>
 		<td> Suma </td>
