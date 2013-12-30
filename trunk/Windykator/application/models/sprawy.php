@@ -14,7 +14,8 @@ class Sprawy extends CI_Model {
 		$select = 's.*, u.nazwa as nazwa_dluznika, ud.*, u1.nazwa as nazwa_w, u1.id_users as id_users_w, ud1.ulica as ulica_w,'.
 			'ud1.nr_dom as nr_dom_w, ud1.nr_lokal as nr_lokal_w, ud1.miasto as miasto_w, ud1.kod as kod_w, '.
 			'ud1.nr_telefonu as nr_telefonu_w, ud1.nr_rachunku as nr_rachunku_w, '.
-			'w1.id_pelnomocnika as pelnomocnik, w1.typ_stopy_procentowej, w1.stopa_z_wyroku,p.nazwa as nazwa_pelnomocnika,, ws.KM, ws.id_wierzyciela, kz.id_kategorii_zaspokojenia, kz.numer as nazwa_kategorii_zaspokojenia';
+			'w1.id_pelnomocnika as pelnomocnik, w1.typ_stopy_procentowej, w1.stopa_z_wyroku,p.nazwa as nazwa_pelnomocnika,, '.
+			'ws.KM, ws.id_wierzyciela, ws.tytul_wykonawczy, kz.id_kategorii_zaspokojenia, kz.numer as nazwa_kategorii_zaspokojenia';
 		$this -> db  -> select($select)
 			-> join('users u', 'u.id_users = s.id_dluznika')
 			-> join('users_dane ud', 'ud.id_users = u.id_users')
@@ -67,6 +68,7 @@ class Sprawy extends CI_Model {
 					'typ_stopy_procentowej' => $sprawa['typ_stopy_procentowej'],
 					'stopa_z_wyroku' => $sprawa['stopa_z_wyroku'],
 					'KM' => $sprawa['KM'],
+					'tytul_wykonawczy' => $sprawa['tytul_wykonawczy'],
 					'ulica_w' => $sprawa['ulica_w'],
 					'nr_dom_w' => $sprawa['nr_dom_w'],
 					'nr_lokal_w' => $sprawa['nr_lokal_w'],
@@ -278,7 +280,8 @@ class Sprawy extends CI_Model {
 			   'nr_rachunku' => $wierzyciel['nr_rachunku_w']
 			);
 			$wierzyciele_sprawy = array(
-				'KM' => $wierzyciel['KM']
+				'KM' => $wierzyciel['KM'],
+				'tytul_wykonawczy' => $wierzyciel['tytul_wykonawczy']
 			);
 			
 			$w_typ = array(

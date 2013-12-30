@@ -30,21 +30,25 @@ class Wplaty extends CI_Model {
 	}
 
     function getPlanPodzialu($id_wplaty) {
-        $this -> db -> select('w.*, z.kwota_zwrotu, u.nazwa as nazwa_dluznika, ud.*')
+        $this -> db -> select('w.*, z.kwota_zwrotu, u.nazwa as nazwa_dluznika, ud.*, s.id_sprawy')
             -> from('wplaty w') 
             -> join('users u','w.id_dluznika = u.id_users')
             -> join('users_dane ud','u.id_users = ud.id_users')
+            -> join('sprawy s','s.id_dluznika = u.id_users')
             -> join('zwroty z','w.id_wplaty = z.id_wplaty','left')
             -> where('w.id_wplaty',$id_wplaty);
         $wplata = $this -> db -> get() -> row_array();
-        $this -> db -> select('ww.*, kz.numer as kategoria_zaspokojenia, u.nazwa, ud.*')
-            -> from('wplaty_dla_wierzycieli ww') 
-            -> join('wierzyciel w','ww.id_wierzyciela = w.id_wierzyciela')
-            -> join('kategorie_zaspokojenia kz','kz.id_kategorii_zaspokojenia = w.id_kategorii_zaspokojenia')
-            -> join('users u','w.id_users = u.id_users')
-            -> join('users_dane ud','u.id_users = ud.id_users')
-            -> where('ww.id_wplaty',$id_wplaty);
-        $wplata['wplaty_wierzycieli'] = $this -> db -> get() -> result_array();
+        if ($wplata) {
+            $this -> db -> select('ww.*, kz.numer as kategoria_zaspokojenia, u.nazwa, ud.*, ws.tytul_wykonawczy')
+                -> from('wplaty_dla_wierzycieli ww') 
+                -> join('wierzyciel w','ww.id_wierzyciela = w.id_wierzyciela')
+                -> join('wierzyciele_sprawy ws','ws.id_wierzyciela = w.id_wierzyciela')
+                -> join('kategorie_zaspokojenia kz','kz.id_kategorii_zaspokojenia = w.id_kategorii_zaspokojenia')
+                -> join('users u','w.id_users = u.id_users')
+                -> join('users_dane ud','u.id_users = ud.id_users')
+                -> where(array('ww.id_wplaty' => $id_wplaty, 'ws.id_sprawy' => $wplata['id_sprawy']));
+            $wplata['wplaty_wierzycieli'] = $this -> db -> get() -> result_array();
+        }
         //var_dump($wplata);exit;
         return $wplata;
     }
