@@ -48,17 +48,23 @@
 		<td> k </td>
 		<td> l </td>
 	</tr>
+	<?$sumaKwota = $sumaOplaty = $sumaWierzyciel = 0?>
 	
 	<?foreach ($wplata['wplaty_wierzycieli'] as $nr => $wierzyciel):?>
 	
+	<?$suma = $wierzyciel['kwota_zadluzenia']+$wierzyciel['odsetki']+$wierzyciel['oplata_komornicza']?>
+	<?$pozostalo = $wierzyciel['pozostala_kwota_zadluzenia']+$wierzyciel['pozostale_odsetki']+$wierzyciel['pozostala_oplata_komornicza']?>
+	<?$sumaKwota += $suma?>
+	<?$sumaOplaty += $wierzyciel['oplata_komornicza']?>
+	<?$sumaWierzyciel += $wierzyciel['kwota_zadluzenia']+$wierzyciel['odsetki']?>
 	<tr class="center">
 		<td rowspan="4"><?=$nr+1?>.</td>
+		<td>Oddzial Lublin</td>
+		<td><?=($wplata['NIP'] ? $wplata['NIP'] : $wplata['PESEL'])?></td>
 		<td></td>
-		<td></td>
-		<td></td>
-		<td rowspan="4"></td>
+		<td rowspan="4"><?=$wierzyciel['tytul_wykonawczy']?></td>
 		<td> I </td>
-		<td></td>
+		<td><?=$wierzyciel['pozostale_koszty_egzekucyjne']+$wierzyciel['koszty_egzekucyjne']?></td>
 		<td><?=procent($wierzyciel['procentKosztyEgzekucyjne'])?></td>
 		<td><?=$wierzyciel['koszty_egzekucyjne']?></td>
 		<td> - </td>
@@ -70,10 +76,10 @@
 		<td rowspan="3"><?=$wierzyciel['nr_rachunku']?></td>
 		<td rowspan="3"><?=przygotujAdres($wierzyciel['ulica'], $wierzyciel['nr_dom'], $wierzyciel['nr_lokal'], $wierzyciel['kod'], $wierzyciel['miasto'])?></td>
 		<td><?=$wierzyciel['kategoria_zaspokojenia']?></td>
-		<td></td>
+		<td><?=$suma+$pozostalo?></td>
 		<td><?=procent($wierzyciel['procentKwotaOdsetki'])?></td>
-		<td><?=$wierzyciel['kwota_zadluzenia']+$wierzyciel['odsetki']+$wierzyciel['oplata_komornicza']?></td>
-		<td rowspan="3"><?=$wierzyciel['kwota_zadluzenia']+$wierzyciel['odsetki']+$wierzyciel['oplata_komornicza']?></td>
+		<td><?=$suma?></td>
+		<td rowspan="3"><?=$suma?></td>
 		<td rowspan="3"><?=$wierzyciel['oplata_komornicza']?></td>
 		<td rowspan="3"><?=$wierzyciel['kwota_zadluzenia']+$wierzyciel['odsetki']?></td>
 	</tr>
@@ -135,9 +141,9 @@
 	<tr class="center">
 		<td colspan="8" class="no_border"></td>
 		<td> Suma </td>
-		<td></td>
-		<td></td>
-		<td> - </td>
+		<td><?=$sumaKwota?></td>
+		<td><?=$sumaOplaty?></td>
+		<td><?=$sumaWierzyciel?></td>
 
 	</tr>
 </table>

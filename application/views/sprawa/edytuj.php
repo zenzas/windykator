@@ -150,6 +150,10 @@
 					<?=form_label('KM', "wierzyciele[$nr][KM]") ?>
 					<?=form_input("wierzyciele[$nr][KM]", $wierzyciel['KM']) ?>
 				</p>
+				<p> 
+                    <?=form_label('Tytuł wykonawczy', "wierzyciele[$nr][tytul_wykonawczy]") ?>
+                    <?=form_input("wierzyciele[$nr][tytul_wykonawczy]", $wierzyciel['tytul_wykonawczy']) ?>
+                </p>
 				<span class="error"><?=form_error("wierzyciele[$nr][KM]") ?></span>
 				<p>
 					<?=form_label('Ulica', "wierzyciele[$nr][ulica_w]") ?>
@@ -228,6 +232,11 @@
 		<?=form_input('KM', '') ?>
 	</p>
 	<span class="error"><?=form_error('KM') ?></span>
+	<p>    
+        <?=form_label('Tytuł wykonawczy', 'tytul_wykonawczy') ?>
+        <?=form_input('tytul_wykonawczy', '') ?>
+    </p>
+    <span class="error"><?=form_error('tytul_wykonawczy') ?></span>
 	<p>
 		<?=form_label('Ulica', 'ulica_w') ?>
 		<?=form_input('ulica_w', '') ?>
