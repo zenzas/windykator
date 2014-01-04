@@ -1,5 +1,5 @@
 <div id="szczegoly_wierzyciela">
-	<p><?=anchor(url('formularz/generuj/planPodzialu'),form_button('generuj','Generuj wezwanie'))?></p>
+	<p><?=anchor(url('formularz/generuj/kartaWierzyciela/pozioma/'.$wierzyciel['id_wierzyciela']),form_button('generuj','Generuj kartę wierzyciela'))?></p>
 	<div class="to_left">
 		<p>
 			<?=form_label('Nazwa', 'nazwa') ?>

@@ -7,6 +7,7 @@ class Formularz extends CI_Controller {
         parent::__construct();
         $this -> load -> model('sprawy');
         $this -> load -> model('wplaty');
+        $this -> load -> model('wierzyciele');
     }
 
     function wk1() {
@@ -55,7 +56,6 @@ class Formularz extends CI_Controller {
             if ($wplata) {
                 $this->wplaty->policzUdzial($wplata['wplaty_wierzycieli']);
                 $data['wplata'] = $wplata;
-                var_dump($wplata);
                 $data['content'] = $this -> load -> view('formularz/planPodzialu', $data, true);
                 $this -> load -> view('formularz/layoutWewnetrzny', $data);
             } else {
@@ -66,9 +66,20 @@ class Formularz extends CI_Controller {
         }
     }
 
-    function kartaWierzyciela() {
-        $data['content'] = $this -> load -> view('formularz/kartaWierzyciela', null, true);
-        $this -> load -> view('formularz/layoutWewnetrzny', $data);
+    function kartaWierzyciela($id_wierzyciela) {
+        if ($id_wierzyciela) {
+            $wierzyciel = $this -> wierzyciele -> getById($id_wierzyciela);
+            if ($wierzyciel) {
+                var_dump($wierzyciel);
+                $data['wierzyciel'] = $wierzyciel;
+                $data['content'] = $this -> load -> view('formularz/kartaWierzyciela', $data, true);
+                $this -> load -> view('formularz/layoutWewnetrzny', $data);
+            } else {
+                echo('W bazie nie ma takiego wierzyciela!!!');
+            }
+        } else {
+            echo('Musisz wybrać wierzyciela!!!');
+        }
     }
 
     function generuj($nazwaFormularza, $pozioma = false, $id = 0) {
