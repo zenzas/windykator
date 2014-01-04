@@ -30,11 +30,6 @@ class Formularz extends CI_Controller {
         $this -> load -> view('formularz/layoutWewnetrzny', $data);
     }
 
-    function dk7() {
-        $data['content'] = $this -> load -> view('formularz/dk7', null, true);
-        $this -> load -> view('formularz/layoutWewnetrzny', $data);
-    }
-
     function zawiad1() {
         $data['content'] = $this -> load -> view('formularz/zawiad1', null, true);
         $this -> load -> view('formularz/layoutWewnetrzny', $data);
@@ -66,19 +61,19 @@ class Formularz extends CI_Controller {
         }
     }
 
-    function kartaWierzyciela($id_wierzyciela) {
-        if ($id_wierzyciela) {
-            $wierzyciel = $this -> wierzyciele -> getById($id_wierzyciela);
+    function kartaWierzyciela($id_wierzyciele_sprawy) {
+        if ($id_wierzyciele_sprawy) {
+            $wierzyciel = $this -> wierzyciele -> getWierzycielWSprawie($id_wierzyciele_sprawy);
             if ($wierzyciel) {
                 var_dump($wierzyciel);
                 $data['wierzyciel'] = $wierzyciel;
                 $data['content'] = $this -> load -> view('formularz/kartaWierzyciela', $data, true);
                 $this -> load -> view('formularz/layoutWewnetrzny', $data);
             } else {
-                echo('W bazie nie ma takiego wierzyciela!!!');
+                echo('W bazie nie ma takiego wierzyciela w sprawie!!!');
             }
         } else {
-            echo('Musisz wybrać wierzyciela!!!');
+            echo('Musisz wybrać wierzyciela w sprawie!!!');
         }
     }
 

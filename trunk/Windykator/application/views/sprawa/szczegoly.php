@@ -1,5 +1,4 @@
 <div id="szczegoly_sprawy">
-	<p><?=anchor(url('formularz/generuj/KartaWierzyciela/pozioma'),form_button('generuj','Generuj karte'))?></p>
 	<div class="to_left">
 		<p>
 			<?=form_label('NIP', 'NIP') ?>
@@ -90,7 +89,7 @@
 		<th>KM</th>
 		<th>Adres</th>
 		<th>Telefon</th>
-		<th>Rachunek bankowy</th>
+		<th>Generuj</th>
 	</tr>
 	<?foreach ($sprawa['wierzyciele'] as $nr => $wierzyciel):?>
 	<tr>
@@ -111,7 +110,7 @@
 			<?= $wierzyciel['nr_telefonu_w']?>
 		</td>
 		<td>
-			<?=$wierzyciel['nr_rachunku_w'] ?>
+		    <?=anchor(url('formularz/generuj/kartaWierzyciela/pozioma/'.$wierzyciel['id_wierzyciele_sprawy']),form_button('generuj','Karta wierzyciela'))?>
 		</td>
 	</tr>
 	<?endforeach?>	

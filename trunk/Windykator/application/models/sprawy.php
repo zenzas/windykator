@@ -15,7 +15,7 @@ class Sprawy extends CI_Model {
 			'ud1.nr_dom as nr_dom_w, ud1.nr_lokal as nr_lokal_w, ud1.miasto as miasto_w, ud1.kod as kod_w, '.
 			'ud1.nr_telefonu as nr_telefonu_w, ud1.nr_rachunku as nr_rachunku_w, '.
 			'w1.id_pelnomocnika as pelnomocnik, w1.typ_stopy_procentowej, w1.stopa_z_wyroku,p.nazwa as nazwa_pelnomocnika,, '.
-			'ws.KM, ws.id_wierzyciela, ws.tytul_wykonawczy, kz.id_kategorii_zaspokojenia, kz.numer as nazwa_kategorii_zaspokojenia';
+			'ws.id_wierzyciele_sprawy, ws.KM, ws.id_wierzyciela, ws.tytul_wykonawczy, kz.id_kategorii_zaspokojenia, kz.numer as nazwa_kategorii_zaspokojenia';
 		$this -> db  -> select($select)
 			-> join('users u', 'u.id_users = s.id_dluznika')
 			-> join('users_dane ud', 'ud.id_users = u.id_users')
@@ -61,6 +61,7 @@ class Sprawy extends CI_Model {
 			if ($sprawa['id_wierzyciela'] && !key_exists($sprawa['id_wierzyciela'], $wynik[$sprawa['id_sprawy']]['wierzyciele'])) {
 				$wynik[$sprawa['id_sprawy']]['wierzyciele'][$sprawa['id_wierzyciela']] = array(
 					'id_wierzyciela' => $sprawa['id_wierzyciela'],
+					'id_wierzyciele_sprawy' => $sprawa['id_wierzyciele_sprawy'],
 					'id_users_w' => $sprawa['id_users_w'],
 					'nazwa_w' => $sprawa['nazwa_w'],
 					'kategoria_zaspokojenia' => $sprawa['id_kategorii_zaspokojenia'],
