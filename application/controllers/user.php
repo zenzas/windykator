@@ -154,7 +154,8 @@ class User extends MY_Controller {
 		if (array_key_exists('logowanie',$data['user']) && !$data['user']['logowanie'])
 			$data['user']['logowanie'] = 0;
 		$pelnomocnik = $this->users->getTyp('pełnomocnik');
-		$walidacja = $data['user']['typ'] == $pelnomocnik['id_users_typy'] && $typ_usera == 'operator' ? 'dodaj_pelnomocnika' : 'dodaj_user_' . $typ_usera;
+        $organ_egzekucyjny = $this->users->getTyp('organ egzekucyjny');
+		$walidacja = in_array($data['user']['typ'],array($pelnomocnik['id_users_typy'],$organ_egzekucyjny['id_users_typy'])) && $typ_usera == 'operator' ? 'dodaj_pelnomocnika' : 'dodaj_user_' . $typ_usera;
 		
 		if ($this -> input -> post('submit') && $this -> form_validation -> run($walidacja)) {
 			$this -> users -> dodaj($data['user']);

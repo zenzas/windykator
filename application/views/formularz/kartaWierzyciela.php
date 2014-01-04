@@ -8,8 +8,8 @@
 
 
 
-<p> Nazwa / imię i nazwisko dłużnika (NIP / PESEL) ................................ </p>
-<p> Data wpływu sprawy  ........................</p>
+<p> Nazwa / imię i nazwisko dłużnika (NIP / PESEL) <?=$wierzyciel['nazwa_dluznika']?> (<?=$wierzyciel['identyfikator_dluznika']?>)</p>
+<p> Data wpływu sprawy <?=$wierzyciel['data_wplywu']?></p>
 
 
 <p> Zakres prowadzonego postępowania egzekucyjnego: pełny / jeden środek egzekucyjny* ...................................... podać prawo majątkowe</p>
@@ -21,22 +21,30 @@
 <p> nazwa / imię i nazwisko</p>
 <p> <?=przygotujAdres($wierzyciel['ulica'],$wierzyciel['nr_dom'],$wierzyciel['nr_lokal'],$wierzyciel['kod'],$wierzyciel['miasto'],$wierzyciel['nr_telefonu'])?></p>
 <p> adres</p>
-<p> ...................................</p>
-<p> ...................................</p>
-<p> Pełnomocnik: <?=$wierzyciel['nazwa_pelnomocnika']?></p>
+<p> 
+    Pełnomocnik: 
+    <?if($wierzyciel['id_pelnomocnika']):?>
+        <?=$wierzyciel['nazwa_pelnomocnika']?>
+    <?else:?>
+        ............................................
+    <?endif?>
+</p>
 <p> nazwa / imię i nazwisko</p>
-<p> <?=przygotujAdres($wierzyciel['ulica_pelnomocnika'],$wierzyciel['nr_dom_pelnomocnika'],$wierzyciel['nr_lokal_pelnomocnika'],$wierzyciel['kod_pelnomocnika'],$wierzyciel['nr_telefonu_pelnomocnika'],$wierzyciel['miasto_pelnomocnika'])?></p>
+<p> 
+    <?if($wierzyciel['id_pelnomocnika']):?>
+        <?=przygotujAdres($wierzyciel['ulica_pelnomocnika'],$wierzyciel['nr_dom_pelnomocnika'],$wierzyciel['nr_lokal_pelnomocnika'],$wierzyciel['kod_pelnomocnika'],$wierzyciel['nr_telefonu_pelnomocnika'],$wierzyciel['miasto_pelnomocnika'])?>
+    <?else:?>
+        ............................................
+    <?endif?>
+</p>
 <p> adres</p>
-<p> ...................................</p>
-<p> ...................................</p>
-
 <p> Rachunek bankowy wierzyciela: <?=$wierzyciel['nr_rachunku']?></p>
-<p> Tytuł wykonawczy: <?=$wierzyciele_sprawy['tytul_wykonawczy']?></p>
+<p> Tytuł wykonawczy: <?=$wierzyciel['tytul_wykonawczy']?></p>
 <p> podać datę, sygnaturę sprawy, przez kogo wydany)</p>
 <p> .......................................................</p>
 <p> .......................................................</p>
 
-<p> Należność wg stanu na dzień <?=$wierzyciel['id_kategorii_zaspokojenia']?>:</p>
+<p> Należność wg stanu na dzień <?=$wierzyciel['data_zadluzenia']?>:</p>
 
 
 <table align="center" border="3" cellpadding="8" cellspacing="8">
@@ -52,13 +60,15 @@
 	</tr>
 	<tr>
 		<td><?=$wierzyciel['koszty_egzekucyjne']?></td>
-		<td><?=$wierzyciel['kwota_zadluzenia']?></td>
-		<td><?=$wierzyciel['kwota_zadluzenia']?></td>
-		<td><?=$wierzyciel['kwota_zadluzenia']?></td>
-		<td><?=$wierzyciel['kwota_zadluzenia']?></td>
-		<td><?=$wierzyciel['kwota_zadluzenia']?></td>
-		<td><?=$wierzyciel['kwota_zadluzenia']?></td>
-		<td><?=$wierzyciel['kwota_zadluzenia']?></td>
+		<?for ($i=2;$i<=8;++$i):?>
+		<td>
+		    <?if ($wierzyciel['id_kategorii_zaspokojenia'] == $i):?>
+		      <?=$wierzyciel['kwota_zadluzenia']?>
+		    <?else:?>
+		      0.00
+		    <?endif?>
+		</td>
+		<?endfor?>
 	</tr>
 	
 </table>
