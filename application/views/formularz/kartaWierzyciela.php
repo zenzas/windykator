@@ -17,26 +17,26 @@
 <p> Poprzedni organ egzekucyjny: ..................................................................</p>
 <p> Data dokonania zajęcia przez organ egzekucyjjny: ..............................................</p>
 
-<p> Wierzyciel: ...................................</p>
+<p> Wierzyciel: <?=$wierzyciel['nazwa']?></p>
 <p> nazwa / imię i nazwisko</p>
+<p> <?=przygotujAdres($wierzyciel['ulica'],$wierzyciel['nr_dom'],$wierzyciel['nr_lokal'],$wierzyciel['kod'],$wierzyciel['miasto'],$wierzyciel['nr_telefonu'])?></p>
+<p> adres</p>
 <p> ...................................</p>
-<p> adres</h2>
 <p> ...................................</p>
-<p> ...................................</p>
-<p> Pełnomocnik: ...................................</p>
+<p> Pełnomocnik: <?=$wierzyciel['nazwa_pelnomocnika']?></p>
 <p> nazwa / imię i nazwisko</p>
-<p> ...................................</p>
+<p> <?=przygotujAdres($wierzyciel['ulica_pelnomocnika'],$wierzyciel['nr_dom_pelnomocnika'],$wierzyciel['nr_lokal_pelnomocnika'],$wierzyciel['kod_pelnomocnika'],$wierzyciel['nr_telefonu_pelnomocnika'],$wierzyciel['miasto_pelnomocnika'])?></p>
 <p> adres</p>
 <p> ...................................</p>
 <p> ...................................</p>
 
-<p> Rachunek bankowy wierzyciela: ...........................................................................................</p>
-<p> Tytuł wykonawczy: .......................................................................................................</p>
+<p> Rachunek bankowy wierzyciela: <?=$wierzyciel['nr_rachunku']?></p>
+<p> Tytuł wykonawczy: <?=$wierzyciele_sprawy['tytul_wykonawczy']?></p>
 <p> podać datę, sygnaturę sprawy, przez kogo wydany)</p>
 <p> .......................................................</p>
 <p> .......................................................</p>
 
-<p> Należność wg stanu na dzień ..............:</p>
+<p> Należność wg stanu na dzień <?=$wierzyciel['id_kategorii_zaspokojenia']?>:</p>
 
 
 <table align="center" border="3" cellpadding="8" cellspacing="8">
@@ -51,14 +51,14 @@
 		<th>Kategoria VIII</th>
 	</tr>
 	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td><?=$wierzyciel['koszty_egzekucyjne']?></td>
+		<td><?=$wierzyciel['kwota_zadluzenia']?></td>
+		<td><?=$wierzyciel['kwota_zadluzenia']?></td>
+		<td><?=$wierzyciel['kwota_zadluzenia']?></td>
+		<td><?=$wierzyciel['kwota_zadluzenia']?></td>
+		<td><?=$wierzyciel['kwota_zadluzenia']?></td>
+		<td><?=$wierzyciel['kwota_zadluzenia']?></td>
+		<td><?=$wierzyciel['kwota_zadluzenia']?></td>
 	</tr>
 	
 </table>
