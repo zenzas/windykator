@@ -47,13 +47,12 @@ class Wierzyciel extends MY_Controller {
 			redirect('sprawa/zarzadzanie');
 		}
 	}
-	function szczegoly($id_wierzyciela) {
+	function szczegoly($id_wierzyciele_sprawy) {
 		$this -> load -> model('wplaty');
-		if ($id_wierzyciela) {
-			$wierzyciel = $this -> wierzyciele -> getById($id_wierzyciela);
+		if ($id_wierzyciele_sprawy) {
+			$wierzyciel = $this -> wierzyciele -> getWierzycielWSprawie($id_wierzyciele_sprawy);
 			if ($wierzyciel) {
 				$data['wierzyciel'] = $wierzyciel;
-				$data['wierzyciel']['id_wierzyciela'] = $id_wierzyciela;
 				$data['wplaty'] = $this -> wplaty -> wplatyDlaWierzyciela(null,$wierzyciel['id_wierzyciela']);
 				$data['content'] = $this -> load -> view('sprawa/wierzyciel', $data, true);
 				$this -> load -> view('index', $data);

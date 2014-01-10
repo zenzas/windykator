@@ -220,6 +220,9 @@ form.notLoggedForm input[type=submit], form.notLoggedForm input[type=reset] {
 	resize: none;
 	border: 1px solid gray;
 }
+#szczegoly_wierzyciela div.to_left {
+    margin-right: 25px;
+}
 ul.tabs {
 	width: 814px;
 	padding: 0;

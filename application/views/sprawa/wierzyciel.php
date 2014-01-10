@@ -16,8 +16,24 @@
 			<?=form_label('Nr rachunku', 'nr_rachunku') ?>
 			<?= $wierzyciel['nr_rachunku'] ?>
 		</p>
+		<p>
+            <?=form_label('Tytuł wykonawczy', 'tytul_wykonawczy') ?>
+            <?= $wierzyciel['tytul_wykonawczy'] ?>
+        </p>
+        <p>
+            <?=form_label('Data wystawienia tytułu', 'data_tytulu') ?>
+            <?= $wierzyciel['data_tytulu'] ?>
+        </p>
+        <p>
+            <?=form_label('Wystawiony przez', 'tytul_wydanyPrzez') ?>
+            <?= $wierzyciel['tytul_wydanyPrzez'] ?>
+        </p>
 	</div>
 	<div>
+	    <p>
+            <?=form_label('Dłużnik', 'nazwa_dluznika') ?>
+            <?=$wierzyciel['nazwa_dluznika'] ?>
+        </p>
 		<p>
 			<?=form_label('Nazwa pełnomocnika', 'nazwa_pelnomocnika') ?>
 			<?=$wierzyciel['nazwa_pelnomocnika'] ?>
@@ -34,16 +50,29 @@
 </div>
 <table border="1">
 	<tr>
-		<th>Nazwa dłużnika</th>
+		<th>Data wpłaty</th>
 		<th>Kwota zadłużenia</th>
 		<th>Odsetki</th>
 		<th>Koszty egzekucyjne</th>
 		<th>Opłata komornicza</th>
 	</tr>
+	<tr>
+	    <td>Stan początkowy</td>
+	    <td>
+            <?=$wierzyciel['kwota_zadluzenia']?><br/>
+        </td>
+        <td>    
+            <?= $wierzyciel['odsetki'] ?><br/>
+        </td>
+        <td>
+            <?= $wierzyciel['koszty_egzekucyjne'] ?><br/>
+        </td>
+        <td></td>
+	</tr>
 	<?foreach ($wplaty as $wplata):?>
 	<tr>
 		<td>	
-			<?= $wplata['dluznik'] ?>
+			<?=$wplata['data_wplaty'] ?>
 		</td>
 		<td>
 			<?=$wplata['kwota_zadluzenia']?><br/>

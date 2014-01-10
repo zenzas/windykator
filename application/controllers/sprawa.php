@@ -4,7 +4,7 @@ if (!defined('BASEPATH'))
 
 class Sprawa extends MY_Controller {
 	protected $fields = array('sygn_akt','nr_sprawy','NIP','PESEL','nazwa_dluznika','ulica','nr_dom','nr_lokal',
-		'miasto','kod', 'nr_telefonu','data_postanowienia','data_wplywu','data_wezwania','data_odbioru',
+		'miasto','kod', 'nr_telefonu','skladnik_majatkowy','data_postanowienia','data_wplywu','data_wezwania','data_odbioru',
 		'data_zakonczenia','przyczyna_zakonczenia','data_postanowienia_org','data_odbioru_postanowienia_org',
 		'data_nadania_akt','data_odbioru_akt','wierzyciele');
 	
