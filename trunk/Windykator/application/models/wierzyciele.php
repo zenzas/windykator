@@ -7,7 +7,7 @@ class Wierzyciele extends CI_Model {
 	
 	function getById($id_wierzyciela) {
 		$select = 'u.*, w.*, ud.*, u1.nazwa as nazwa_pelnomocnika, ud1.ulica as ulica_pelnomocnika, '.
-		'ud1.nr_dom as nr_dom_pelnomocnika, ud1.nr_lokal as nr_lokal_pelnomocnika, '.
+		'ud1.nr_dom as nr_dom_pelnomocnika, ud1.nr_lokal as nr_lokal_pelnomocnika,'.
 		'ud1.kod as kod_pelnomocnika, ud1.miasto as miasto_pelnomocnika, ud1.nr_telefonu as nr_telefonu_pelnomocnika';
 		$this -> db -> select($select)
 			-> from('wierzyciel w') 
@@ -20,14 +20,14 @@ class Wierzyciele extends CI_Model {
 	}
     
     function getWierzycielWSprawie($id_wierzyciele_sprawy) {
-        $select = 'u.*, z.*, z.data as data_zadluzenia, w.*, ws.tytul_wykonawczy, ud.*, '.
+        $select = 'u.*, z.*, z.data as data_zadluzenia, w.*, ws.tytul_wykonawczy, ws.data_tytulu, ws.tytul_wydanyPrzez, ud.*, '.
         'u1.nazwa as nazwa_pelnomocnika, ud1.ulica as ulica_pelnomocnika, '.
         'ud1.nr_dom as nr_dom_pelnomocnika, ud1.nr_lokal as nr_lokal_pelnomocnika, '.
         'ud1.kod as kod_pelnomocnika, ud1.miasto as miasto_pelnomocnika, ud1.nr_telefonu as nr_telefonu_pelnomocnika, '.
-        's.data_wplywu, u2.nazwa as nazwa_dluznika, IFNULL(ud2.NIP, ud2.PESEL) as identyfikator_dluznika';
+        's.data_wplywu, s.skladnik_majatkowy, u2.nazwa as nazwa_dluznika, IFNULL(ud2.NIP, ud2.PESEL) as identyfikator_dluznika';
         $this -> db -> select($select,false)
             -> from('wierzyciele_sprawy ws') 
-            -> join('zadluzenie z', 'ws.id_wierzyciele_sprawy = z.id_wierzyciele_sprawy')
+            -> join('zadluzenie z', 'ws.id_wierzyciele_sprawy = z.id_wierzyciele_sprawy','left')
             -> join('wierzyciel w', 'ws.id_wierzyciela = w.id_wierzyciela')
             -> join('users u', 'w.id_users = u.id_users')
             -> join('users_dane ud', 'u.id_users = ud.id_users')

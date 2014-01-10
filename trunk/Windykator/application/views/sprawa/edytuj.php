@@ -62,6 +62,11 @@
 	</p>
 	<span class="error"><?=form_error('nr_telefonu') ?></span>
 	<p>
+        <?=form_label('Zajęty składnik majątkowy', 'skladnik_majatkowy')?>
+        <?=form_dropdown('skladnik_majatkowy',$this->sprawy->getSkladnikiMajatkowe(),$sprawa['skladnik_majatkowy'])?>
+    
+    </p>
+    <span class="error"><?=form_error('skladnik_majatkowy')?></span>    
 	</div>	
 	<p>
 		<?=form_label('Data postanowienia', 'data_postanowienia') ?>
@@ -150,12 +155,26 @@
 					<?=form_label('KM', "wierzyciele[$nr][KM]") ?>
 					<?=form_input("wierzyciele[$nr][KM]", $wierzyciel['KM']) ?>
 				</p>
+				<span class="error"><?=form_error("wierzyciele[$nr][KM]") ?></span>
 				<p> 
                     <?=form_label('Tytuł wykonawczy', "wierzyciele[$nr][tytul_wykonawczy]") ?>
                     <?=form_input("wierzyciele[$nr][tytul_wykonawczy]", $wierzyciel['tytul_wykonawczy']) ?>
                 </p>
-				<span class="error"><?=form_error("wierzyciele[$nr][KM]") ?></span>
+				<span class="error"><?=form_error("wierzyciele[$nr][tytul_wykonawczy]") ?></span>
 				<p>
+				 <p> 
+                    <?=form_label('Data wystawienia tytułu wykonawczego', "wierzyciele[$nr][data_tytulu]") ?>
+                    <?=form_input(array('name' => "wierzyciele[$nr][data_tytulu]", 'value' => $wierzyciel['data_tytulu'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
+        
+                </p>
+                <span class="error"><?=form_error("wierzyciele[$nr][data_tytulu]") ?></span>
+                <p>   
+				<p> 
+                    <?=form_label('Wystawiony przez', "wierzyciele[$nr][tytul_wydanyPrzez]") ?>
+                    <?=form_input("wierzyciele[$nr][tytul_wydanyPrzez]", $wierzyciel['tytul_wydanyPrzez']) ?>
+                </p>
+                <span class="error"><?=form_error("wierzyciele[$nr][tytul_wydanyPrzez]") ?></span>
+                <p>  
 					<?=form_label('Ulica', "wierzyciele[$nr][ulica_w]") ?>
 					<?=form_input("wierzyciele[$nr][ulica_w]", $wierzyciel['ulica_w']) ?>
 				</p>

@@ -24,6 +24,10 @@
 			<?= $sprawa['nr_telefonu'] ?>
 		</p>
 		<p>
+            <?=form_label('Zajęty składnik majątkowy', 'skladnik_majatkowy') ?>
+            <?= $sprawa['skladnik_majatkowy'] ?>
+        </p>
+		<p>
 			<?=form_label('Sygn. akt', 'sygn_akt') ?>
 			<?=$sprawa['sygn_akt']?>
 		</p>
@@ -94,7 +98,7 @@
 	<?foreach ($sprawa['wierzyciele'] as $nr => $wierzyciel):?>
 	<tr>
 		<td>	
-			<?=anchor(url('wierzyciel/szczegoly/'.$wierzyciel['id_wierzyciela']),$wierzyciel['nazwa_w'],array('class' => 'black'))?>
+			<?=anchor(url('wierzyciel/szczegoly/'.$wierzyciel['id_wierzyciele_sprawy']),$wierzyciel['nazwa_w'],array('class' => 'black'))?>
 		</td>
 		<td>
 			<?=$wierzyciel['nazwa_pelnomocnika']?>

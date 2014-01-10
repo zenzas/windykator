@@ -59,6 +59,11 @@
 </p>
 <span class="error"><?=form_error('nr_telefonu')?></span>
 <p>
+    <?=form_label('Zajęty składnik majątkowy', 'skladnik_majatkowy')?>
+    <?=form_dropdown('skladnik_majatkowy',$this->sprawy->getSkladnikiMajatkowe(),$sprawa['skladnik_majatkowy'])?>
+</p>
+<span class="error"><?=form_error('skladnik_majatkowy')?></span>  
+<p>
 	<?=form_label('Data postanowienia', 'data_postanowienia')?>
 	<?=form_input(array('name' => 'data_postanowienia', 'value' => $sprawa['data_postanowienia'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
 </p>

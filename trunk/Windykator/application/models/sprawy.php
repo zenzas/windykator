@@ -14,8 +14,9 @@ class Sprawy extends CI_Model {
 		$select = 's.*, u.nazwa as nazwa_dluznika, ud.*, u1.nazwa as nazwa_w, u1.id_users as id_users_w, ud1.ulica as ulica_w,'.
 			'ud1.nr_dom as nr_dom_w, ud1.nr_lokal as nr_lokal_w, ud1.miasto as miasto_w, ud1.kod as kod_w, '.
 			'ud1.nr_telefonu as nr_telefonu_w, ud1.nr_rachunku as nr_rachunku_w, '.
-			'w1.id_pelnomocnika as pelnomocnik, w1.typ_stopy_procentowej, w1.stopa_z_wyroku,p.nazwa as nazwa_pelnomocnika,, '.
-			'ws.id_wierzyciele_sprawy, ws.KM, ws.id_wierzyciela, ws.tytul_wykonawczy, kz.id_kategorii_zaspokojenia, kz.numer as nazwa_kategorii_zaspokojenia';
+			'w1.id_pelnomocnika as pelnomocnik, w1.typ_stopy_procentowej, w1.stopa_z_wyroku,p.nazwa as nazwa_pelnomocnika, '.
+			'ws.id_wierzyciele_sprawy, ws.KM, ws.id_wierzyciela, ws.tytul_wykonawczy, kz.id_kategorii_zaspokojenia, kz.numer as nazwa_kategorii_zaspokojenia, '.
+            'data_tytulu, tytul_wydanyPrzez ';
 		$this -> db  -> select($select)
 			-> join('users u', 'u.id_users = s.id_dluznika')
 			-> join('users_dane ud', 'ud.id_users = u.id_users')
@@ -44,6 +45,7 @@ class Sprawy extends CI_Model {
 					'miasto' => $sprawa['miasto'],
 					'kod' => $sprawa['kod'],
 					'nr_telefonu' => $sprawa['nr_telefonu'],
+					'skladnik_majatkowy' => $sprawa['skladnik_majatkowy'],
 					'data_postanowienia' => $sprawa['data_postanowienia'],
 					'data_wplywu' => $sprawa['data_wplywu'],
 					'data_wezwania' => $sprawa['data_wezwania'],
@@ -70,6 +72,8 @@ class Sprawy extends CI_Model {
 					'stopa_z_wyroku' => $sprawa['stopa_z_wyroku'],
 					'KM' => $sprawa['KM'],
 					'tytul_wykonawczy' => $sprawa['tytul_wykonawczy'],
+					'data_tytulu' => $sprawa['data_tytulu'],
+					'tytul_wydanyPrzez' => $sprawa['tytul_wydanyPrzez'],
 					'ulica_w' => $sprawa['ulica_w'],
 					'nr_dom_w' => $sprawa['nr_dom_w'],
 					'nr_lokal_w' => $sprawa['nr_lokal_w'],
@@ -112,17 +116,27 @@ class Sprawy extends CI_Model {
 		return $wynik;
 	}
 	
-	function getPrzyczynyZakonczenia () {
-		$przyczyny = array(
-			'egzekucja aktywna' => 'egzekucja aktywna',
-			'nieskuteczna egzekucja' => 'nieskuteczna egzekucja',
-			'przekazanie innemu organowi' => 'przekazanie innemu organowi',
-			'zaspokojenie wierzycieli' => 'zaspokojenie wierzycieli',
-			'umorzenie na żądania' => 'umorzenie na żądania'
+	function getSkladnikiMajatkowe () {
+		$skladniki_majatkowe = array(
+			'wynagrodzenie za pracę' => 'wynagrodzenie za pracę',
+			'świadczenie emerytalno-rentowe' => 'świadczenie emerytalno-rentowe',
+			'rachunek bankowy' => 'rachunek bankowy',
+			'wierzytelność pieniężna' => 'wierzytelność pieniężna',
+			
 		);
-		return $przyczyny;
+		return $skladniki_majatkowe;
 	}
 	
+	function getPrzyczynyZakonczenia () {
+        $przyczyny = array(
+            'egzekucja aktywna' => 'egzekucja aktywna',
+            'nieskuteczna egzekucja' => 'nieskuteczna egzekucja',
+            'przekazanie innemu organowi' => 'przekazanie innemu organowi',
+            'zaspokojenie wierzycieli' => 'zaspokojenie wierzycieli',
+            'umorzenie na żądania' => 'umorzenie na żądania'
+        );
+        return $przyczyny;
+    }
 	function lista($where = null){	
 		$this -> db -> select('s.id_sprawy, s.sygn_akt, s.nr_sprawy,u.nazwa as nazwa_dluznika, ud.NIP, ud.PESEL, '.
 		'u1.id_users as id_wierzyciela, u1.nazwa as nazwa_wierzyciela, w1.id_wierzyciela, MAX(w.data_wplaty) as ostatnia_wplata',false)
@@ -210,6 +224,7 @@ class Sprawy extends CI_Model {
 		   'nr_sprawy' => $sprawa['nr_sprawy'],
 		   'sygn_akt' => $sprawa['sygn_akt'],
 		   'data_wplywu' => $sprawa['data_wplywu'],
+		   'skladnik_majatkowy' => $sprawa['skladnik_majatkowy'],
 		   'data_postanowienia' => $sprawa['data_postanowienia'],
 		   'data_wplywu' => $sprawa['data_wplywu'],
 		   'data_wezwania' => $sprawa['data_wezwania'],
@@ -252,6 +267,7 @@ class Sprawy extends CI_Model {
 		$dane = array(
 		   'nr_sprawy' => $sprawa['nr_sprawy'],
 		   'sygn_akt' => $sprawa['sygn_akt'],
+		   'skladnik_majatkowy' => $sprawa['skladnik_majatkowy'],
 		   'data_postanowienia' => $sprawa['data_postanowienia'],
 		   'data_wplywu' => $sprawa['data_wplywu'],
 		   'data_wezwania' => $sprawa['data_wezwania'],
@@ -282,7 +298,9 @@ class Sprawy extends CI_Model {
 			);
 			$wierzyciele_sprawy = array(
 				'KM' => $wierzyciel['KM'],
-				'tytul_wykonawczy' => $wierzyciel['tytul_wykonawczy']
+				'tytul_wykonawczy' => $wierzyciel['tytul_wykonawczy'],
+				'data_tytulu' => $wierzyciel['data_tytulu'],
+				'tytul_wydanyPrzez' => $wierzyciel['tytul_wydanyPrzez']
 			);
 			
 			$w_typ = array(
