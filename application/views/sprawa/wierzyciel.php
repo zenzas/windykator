@@ -28,6 +28,10 @@
             <?=form_label('Wystawiony przez', 'tytul_wydanyPrzez') ?>
             <?= $wierzyciel['tytul_wydanyPrzez'] ?>
         </p>
+        <p>
+            <?=form_label('Poprzedni organ egzekucyjny', 'organ_egzekucyjny') ?>
+            <?= $wierzyciel['nazwa_organu_egzekucyjnego'] ?>
+        </p>
 	</div>
 	<div>
 	    <p>

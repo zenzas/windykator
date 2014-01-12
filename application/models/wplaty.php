@@ -30,7 +30,7 @@ class Wplaty extends CI_Model {
 	}
 
     function getPlanPodzialu($id_wplaty) {
-        $this -> db -> select('w.*, z.kwota_zwrotu, u.nazwa as nazwa_dluznika, ud.*, s.id_sprawy')
+        $this -> db -> select('w.*, z.kwota_zwrotu, u.nazwa as nazwa_dluznika, ud.*, s.id_sprawy, s.skladnik_majatkowy')
             -> from('wplaty w') 
             -> join('users u','w.id_dluznika = u.id_users')
             -> join('users_dane ud','u.id_users = ud.id_users')

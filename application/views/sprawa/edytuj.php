@@ -1,7 +1,7 @@
 <?=form_open('sprawa/edytuj/' . $sprawa['id_sprawy'], array('id' => 'edytuj_sprawe')) ?>
 <?=form_hidden('id_sprawy', $sprawa['id_sprawy']) ?>
 <?=form_hidden('id_dluznika', $sprawa['id_dluznika']) ?>
-<input type="hidden" id="id_next_wierzyciel" value="<?=$sprawa['id_next_wierzyciel']?>"/>
+<input type="hidden" id="id_next_wierzyciel" value="<?=$sprawa['id_next_wierzyciel'] ?>"/>
 <div class="to_left">
 	<p>
 		<?=form_label('Sygn. akt', 'sygn_akt') ?>
@@ -24,11 +24,11 @@
 	</p>
 	<span class="error"><?=form_error('PESEL') ?></span>
 	<p>	
-		<?=form_label('Nazwa dłużnika', 'nazwa_dluznika',array('class' => 'zwin_link','id' => 'zwin_link'.$sprawa['id_dluznika'])) ?>
+		<?=form_label('Nazwa dłużnika', 'nazwa_dluznika', array('class' => 'zwin_link', 'id' => 'zwin_link' . $sprawa['id_dluznika'])) ?>
 		<?=form_textarea('nazwa_dluznika', $sprawa['nazwa_dluznika']) ?>
 	</p>
 	<span class="error"><?=form_error('nazwa_dluznika') ?></span>
-	<div id='zwin_link<?=$sprawa['id_dluznika']?>_div'>
+	<div id='zwin_link<?=$sprawa['id_dluznika'] ?>_div'>
 	<p>
 		<?=form_label('Ulica', 'ulica') ?>
 		<?=form_input('ulica', $sprawa['ulica']) ?>
@@ -62,11 +62,11 @@
 	</p>
 	<span class="error"><?=form_error('nr_telefonu') ?></span>
 	<p>
-        <?=form_label('Zajęty składnik majątkowy', 'skladnik_majatkowy')?>
-        <?=form_dropdown('skladnik_majatkowy',$this->sprawy->getSkladnikiMajatkowe(),$sprawa['skladnik_majatkowy'])?>
+        <?=form_label('Zajęty składnik majątkowy', 'skladnik_majatkowy') ?>
+        <?=form_dropdown('skladnik_majatkowy', $this -> sprawy -> getSkladnikiMajatkowe(), $sprawa['skladnik_majatkowy']) ?>
     
     </p>
-    <span class="error"><?=form_error('skladnik_majatkowy')?></span>    
+    <span class="error"><?=form_error('skladnik_majatkowy') ?></span>    
 	</div>	
 	<p>
 		<?=form_label('Data postanowienia', 'data_postanowienia') ?>
@@ -79,6 +79,12 @@
 		<?=form_input(array('name' => 'data_wplywu', 'value' => $sprawa['data_wplywu'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
 		
 	</p>
+	<span class="error"><?=form_error('data_wplywu') ?></span>
+	<p>
+        <?=form_label('Data zajęcia przez poprzedni organ egzekucyjnych', 'data_zajecia') ?>
+        <?=form_input(array('name' => 'data_zajecia', 'value' => $sprawa['data_zajecia'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
+    </p>
+    <span class="error"><?=form_error('data_zajecia') ?></span>
 	<p>
 		<?=form_label('Data wysłania wezwania', 'data_wezwania') ?>
 		<?=form_input(array('name' => 'data_wezwania', 'value' => $sprawa['data_wezwania'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
@@ -94,11 +100,11 @@
 		<?=form_input(array('name' => 'data_zakonczenia', 'value' => $sprawa['data_zakonczenia'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
 	</p>
 	<p>
-		<?=form_label('Przyczyna zakończenia postępowania', 'przyczyna_zakonczenia')?>
-		<?=form_dropdown('przyczyna_zakonczenia',$this->sprawy->getPrzyczynyZakonczenia(),$sprawa['przyczyna_zakonczenia'])?>
+		<?=form_label('Przyczyna zakończenia postępowania', 'przyczyna_zakonczenia') ?>
+		<?=form_dropdown('przyczyna_zakonczenia', $this -> sprawy -> getPrzyczynyZakonczenia(), $sprawa['przyczyna_zakonczenia']) ?>
 	
 	</p>
-	<span class="error"><?=form_error('przyczyna_zakonczenia')?></span>
+	<span class="error"><?=form_error('przyczyna_zakonczenia') ?></span>
 	<p>
 		<?=form_label('Data postanowienia organu egzekucyjnego', 'data_postanowienia_org') ?>
 		<?=form_input(array('name' => 'data_postanowienia_org', 'value' => $sprawa['data_postanowienia_org'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
@@ -124,33 +130,37 @@
 <div class="to_left">
 	<div id="wierzyciele">
 		<?foreach ($sprawa['wierzyciele'] as $nr => $wierzyciel):?>
-		<div id="wierzyciel<?=$nr?>">
+		<div id="wierzyciel<?=$nr ?>">
 			<?if (isset($wierzyciel['id_wierzyciela'])):?>
 			<?=form_hidden("wierzyciele[$nr][id_wierzyciela]", $wierzyciel['id_wierzyciela']) ?>
-			<?endif?>
+			<?endif ?>
 			<p>	
-				<?=form_label('Nazwa wierzyciela', "wierzyciele[$nr][nazwa_w]",array('class' => 'zwin_link','id' => 'zwin_link'.$nr)) ?>
+				<?=form_label('Nazwa wierzyciela', "wierzyciele[$nr][nazwa_w]", array('class' => 'zwin_link', 'id' => 'zwin_link' . $nr)) ?>
 				<?=form_textarea("wierzyciele[$nr][nazwa_w]", $wierzyciel['nazwa_w']) ?>
 			</p>
 			<span class="error"><?=form_error("wierzyciele[$nr][nazwa_w]") ?></span>
-			<div class='zwin_div' id='zwin_link<?=$nr?>_div'>
+			<div class='zwin_div' id='zwin_link<?=$nr ?>_div'>
 				<p>
 					<?=form_label('Kategoria zaspokojenia', 'kategoria_zaspokojenia') ?>
-					<?=form_dropdown("wierzyciele[$nr][kategoria_zaspokojenia]",$kategorieZaspokojenia,$wierzyciel['kategoria_zaspokojenia'])?>
+					<?=form_dropdown("wierzyciele[$nr][kategoria_zaspokojenia]", $kategorieZaspokojenia, $wierzyciel['kategoria_zaspokojenia']) ?>
 				</p>
 				<p>	
 					<?=form_label('Typ stopy procentowej', 'typ_stopy_procentowej') ?>
-					<?=form_dropdown("wierzyciele[$nr][typ_stopy_procentowej]",$typyStopProcentowych,$wierzyciel['typ_stopy_procentowej'],'onChange="zmianaTypuStopyProcentowej(this, \'stopa_z_wyroku_'.$nr.'\')"')?>
+					<?=form_dropdown("wierzyciele[$nr][typ_stopy_procentowej]", $typyStopProcentowych, $wierzyciel['typ_stopy_procentowej'], 'onChange="zmianaTypuStopyProcentowej(this, \'stopa_z_wyroku_' . $nr . '\')"') ?>
 				</p>
-				<p id="stopa_z_wyroku_<?=$nr?>" <?=($wierzyciel['typ_stopy_procentowej'] != 'stopa_z_wyroku' ? 'style="display:none"' : '')?>>
+				<p id="stopa_z_wyroku_<?=$nr ?>" <?=($wierzyciel['typ_stopy_procentowej'] != 'stopa_z_wyroku' ? 'style="display:none"' : '') ?>>
 					<?=form_label('Wysokość stopy z wyroku', 'stopa_z_wyroku') ?>
-					<?=form_input("wierzyciele[$nr][stopa_z_wyroku]", $wierzyciel['stopa_z_wyroku'])?>
+					<?=form_input("wierzyciele[$nr][stopa_z_wyroku]", $wierzyciel['stopa_z_wyroku']) ?>
 				</p>
 				<span class="error"><?=form_error("wierzyciele[$nr][stopa_z_wyroku]") ?></span>
 				<p>
 					<?=form_label('Pełnomocnik', 'pelnomocnik') ?>
-					<?=form_dropdown("wierzyciele[$nr][pelnomocnik]",$pelnomocnicy,$wierzyciel['pelnomocnik'])?>
+					<?=form_dropdown("wierzyciele[$nr][pelnomocnik]", $pelnomocnicy, $wierzyciel['pelnomocnik']) ?>
 				</p>
+				<p>
+                    <?=form_label('Poprzedni organ egzekucyjny', 'organ_egzekucyjny') ?>
+                    <?=form_dropdown("wierzyciele[$nr][organ_egzekucyjny]", $organyEgzekucyjne, $wierzyciel['organ_egzekucyjny']) ?>
+                </p>
 				<p>	
 					<?=form_label('KM', "wierzyciele[$nr][KM]") ?>
 					<?=form_input("wierzyciele[$nr][KM]", $wierzyciel['KM']) ?>
@@ -178,7 +188,7 @@
 					<?=form_label('Ulica', "wierzyciele[$nr][ulica_w]") ?>
 					<?=form_input("wierzyciele[$nr][ulica_w]", $wierzyciel['ulica_w']) ?>
 				</p>
-				<span class="error"><?=form_error("wierzyciele[$nr][ulica_w]")?></span>
+				<span class="error"><?=form_error("wierzyciele[$nr][ulica_w]") ?></span>
 				<p>
 					<?=form_label('Nr domu', "wierzyciele[$nr][nr_dom_w]") ?>
 					<?=form_input("wierzyciele[$nr][nr_dom_w]", $wierzyciel['nr_dom_w']) ?>
@@ -212,14 +222,14 @@
 				<span class="error"><?=form_error("wierzyciele[$nr][nr_rachunku_w]") ?></span>	
 			</div>
 		</div>
-		<?endforeach?>	
+		<?endforeach ?>	
 	</div>
 	
 </div>
 <p class="clear">
 	<?=form_submit('submit', 'ZAPISZ ZMIANY') ?>
 	<?=form_reset('reset', 'WYCZYŚĆ') ?>
-	<?=form_button(array('content' => 'NOWY WIERZYCIEL', 'id' => 'dodaj_wierzyciela'))?>
+	<?=form_button(array('content' => 'NOWY WIERZYCIEL', 'id' => 'dodaj_wierzyciela')) ?>
 </p>
 <?=form_close() ?>
 <div id="wierzyciel_nowy">
@@ -231,11 +241,11 @@
 	<div  class='zwin_div'>
 	<p>	
 		<?=form_label('Kategoria zaspokojenia', 'kategoria_zaspokojenia') ?>
-		<?=form_dropdown('kategoria_zaspokojenia',$kategorieZaspokojenia)?>
+		<?=form_dropdown('kategoria_zaspokojenia', $kategorieZaspokojenia) ?>
 	</p>
 	<p>	
 		<?=form_label('Typ stopy procentowej', 'typ_stopy_procentowej') ?>
-		<?=form_dropdown('typ_stopy_procentowej',$typyStopProcentowych,'referencyjna','onChange="zmianaTypuStopyProcentowej(this, \'stopa_z_wyroku\')"')?>
+		<?=form_dropdown('typ_stopy_procentowej', $typyStopProcentowych, 'referencyjna', 'onChange="zmianaTypuStopyProcentowej(this, \'stopa_z_wyroku\')"') ?>
 	</p>
 	<p id='stopa_z_wyroku' style="display:none"'>
 		<?=form_label('Wysokość stopy z wyroku', 'stopa_z_wyroku') ?>
@@ -244,7 +254,7 @@
 	<span class="error"><?=form_error('stopa_z_wyroku') ?></span>
 	<p>
 		<?=form_label('Pełnomocnik', 'pelnomocnik') ?>
-		<?=form_dropdown('pelnomocnik',$pelnomocnicy)?>
+		<?=form_dropdown('pelnomocnik', $pelnomocnicy) ?>
 	</p>
 	<p>	
 		<?=form_label('KM', 'KM') ?>

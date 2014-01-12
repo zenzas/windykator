@@ -6,7 +6,7 @@ class Sprawa extends MY_Controller {
 	protected $fields = array('sygn_akt','nr_sprawy','NIP','PESEL','nazwa_dluznika','ulica','nr_dom','nr_lokal',
 		'miasto','kod', 'nr_telefonu','skladnik_majatkowy','data_postanowienia','data_wplywu','data_wezwania','data_odbioru',
 		'data_zakonczenia','przyczyna_zakonczenia','data_postanowienia_org','data_odbioru_postanowienia_org',
-		'data_nadania_akt','data_odbioru_akt','wierzyciele');
+		'data_nadania_akt','data_odbioru_akt', 'data_zajecia', 'wierzyciele');
 	
 	function __construct() {
 		parent::__construct();
@@ -64,6 +64,7 @@ class Sprawa extends MY_Controller {
 				$data['kategorieZaspokojenia'] = $this -> wierzyciele -> listaKategoriiZaspokojenia();
 				$data['typyStopProcentowych'] = $this -> stopy -> getTypStopyProcentowej();
 				$data['pelnomocnicy'] = $this -> users -> listaPelnomocnikow();
+                $data['organyEgzekucyjne'] = $this -> users -> listaOrganowEgzekucyjnych();
 				$data['content'] = $this -> load -> view('sprawa/edytuj', $data, true);
 				$this -> load -> view('index', $data);
 			} else {

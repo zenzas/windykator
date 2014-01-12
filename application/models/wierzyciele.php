@@ -24,7 +24,8 @@ class Wierzyciele extends CI_Model {
         'u1.nazwa as nazwa_pelnomocnika, ud1.ulica as ulica_pelnomocnika, '.
         'ud1.nr_dom as nr_dom_pelnomocnika, ud1.nr_lokal as nr_lokal_pelnomocnika, '.
         'ud1.kod as kod_pelnomocnika, ud1.miasto as miasto_pelnomocnika, ud1.nr_telefonu as nr_telefonu_pelnomocnika, '.
-        's.data_wplywu, s.skladnik_majatkowy, u2.nazwa as nazwa_dluznika, IFNULL(ud2.NIP, ud2.PESEL) as identyfikator_dluznika';
+        's.data_wplywu, s.data_zajecia, s.skladnik_majatkowy, u2.nazwa as nazwa_dluznika, IFNULL(ud2.NIP, ud2.PESEL) as identyfikator_dluznika, '.
+        'ws.id_organu_egzekucyjnego, u3.nazwa as nazwa_organu_egzekucyjnego';
         $this -> db -> select($select,false)
             -> from('wierzyciele_sprawy ws') 
             -> join('zadluzenie z', 'ws.id_wierzyciele_sprawy = z.id_wierzyciele_sprawy','left')
@@ -36,6 +37,7 @@ class Wierzyciele extends CI_Model {
             -> join('sprawy s', 'ws.id_sprawy = s.id_sprawy')
             -> join('users u2', 's.id_dluznika = u2.id_users')
             -> join('users_dane ud2', 'u2.id_users = ud2.id_users')
+            -> join('users u3', 'ws.id_organu_egzekucyjnego = u3.id_users','left')
             -> where('ws.id_wierzyciele_sprawy', $id_wierzyciele_sprawy);
         return $this -> db -> get() -> row_array();
     }

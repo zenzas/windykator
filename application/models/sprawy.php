@@ -16,7 +16,7 @@ class Sprawy extends CI_Model {
 			'ud1.nr_telefonu as nr_telefonu_w, ud1.nr_rachunku as nr_rachunku_w, '.
 			'w1.id_pelnomocnika as pelnomocnik, w1.typ_stopy_procentowej, w1.stopa_z_wyroku,p.nazwa as nazwa_pelnomocnika, '.
 			'ws.id_wierzyciele_sprawy, ws.KM, ws.id_wierzyciela, ws.tytul_wykonawczy, kz.id_kategorii_zaspokojenia, kz.numer as nazwa_kategorii_zaspokojenia, '.
-            'data_tytulu, tytul_wydanyPrzez ';
+            'data_tytulu, tytul_wydanyPrzez, ws.id_organu_egzekucyjnego as organ_egzekucyjny, oe.nazwa as nazwa_organu_egzekucyjnego';
 		$this -> db  -> select($select)
 			-> join('users u', 'u.id_users = s.id_dluznika')
 			-> join('users_dane ud', 'ud.id_users = u.id_users')
@@ -25,6 +25,7 @@ class Sprawy extends CI_Model {
 			-> join('kategorie_zaspokojenia kz', 'w1.id_kategorii_zaspokojenia = kz.id_kategorii_zaspokojenia','left')
 			-> join('users u1', 'w1.id_users = u1.id_users','left')
 			-> join('users p', 'w1.id_pelnomocnika = p.id_users','left')
+            -> join('users oe', 'ws.id_organu_egzekucyjnego = oe.id_users','left')
 			-> join('users_dane ud1', 'ud1.id_users = u1.id_users','left')
 			-> where('s.id_sprawy', $id_sprawy);
 		$sprawy = $this -> db -> get() -> result_array();
@@ -56,6 +57,7 @@ class Sprawy extends CI_Model {
 					'data_odbioru_postanowienia_org' => $sprawa['data_odbioru_postanowienia_org'],
 					'data_nadania_akt' => $sprawa['data_nadania_akt'],
 					'data_odbioru_akt' => $sprawa['data_odbioru_akt'],
+					'data_zajecia' => $sprawa['data_zajecia'],
 					'nr_telefonu' => $sprawa['nr_telefonu'],
 					'wierzyciele' => array()
 				);
@@ -83,6 +85,8 @@ class Sprawy extends CI_Model {
 					'nr_rachunku_w' => $sprawa['nr_rachunku_w'],
 					'pelnomocnik' => $sprawa['pelnomocnik'],
 					'nazwa_pelnomocnika' => $sprawa['nazwa_pelnomocnika'],
+					'organ_egzekucyjny' => $sprawa['organ_egzekucyjny'],
+                    'nazwa_organu_egzekucyjnego' => $sprawa['nazwa_organu_egzekucyjnego'],
 				);
 			}
 		}
@@ -235,6 +239,7 @@ class Sprawy extends CI_Model {
 		   'data_odbioru_postanowienia_org' => $sprawa['data_odbioru_postanowienia_org'],
 		   'data_nadania_akt' => $sprawa['data_nadania_akt'],
 		   'data_odbioru_akt' => $sprawa['data_odbioru_akt'],
+		   'data_zajecia' => $sprawa['data_zajecia'],
 		   'id_dluznika' => $id_user
 		);
 		
@@ -277,6 +282,7 @@ class Sprawy extends CI_Model {
 		   'data_postanowienia_org' => $sprawa['data_postanowienia_org'],
 		   'data_odbioru_postanowienia_org' => $sprawa['data_odbioru_postanowienia_org'],
 		   'data_nadania_akt' => $sprawa['data_nadania_akt'],
+		   'data_zajecia' => $sprawa['data_zajecia'],
 		   'data_odbioru_akt' => $sprawa['data_odbioru_akt']
 		);
 		
@@ -300,8 +306,10 @@ class Sprawy extends CI_Model {
 				'KM' => $wierzyciel['KM'],
 				'tytul_wykonawczy' => $wierzyciel['tytul_wykonawczy'],
 				'data_tytulu' => $wierzyciel['data_tytulu'],
-				'tytul_wydanyPrzez' => $wierzyciel['tytul_wydanyPrzez']
+				'tytul_wydanyPrzez' => $wierzyciel['tytul_wydanyPrzez'],
+				'id_organu_egzekucyjnego' => $wierzyciel['organ_egzekucyjny']
 			);
+            
 			
 			$w_typ = array(
 				'id_kategorii_zaspokojenia' => $wierzyciel['kategoria_zaspokojenia'],
