@@ -220,6 +220,24 @@ class Users extends CI_Model {
 		return $pelnomocnicy;
 	}
 	
+    function listaOrganowEgzekucyjnych(){
+        $this -> db -> select('u.*')
+            -> from('users u') 
+            -> join('users_typy ut', 'u.id_users_typy = ut.id_users_typy')
+            -> where('ut.nazwa', 'organ egzekucyjny');
+        $dane = $this -> db -> get() -> result_array();
+        
+        
+        $organyEgzekucyjne = array('' => '');
+        foreach ($dane as $d) {
+            $organyEgzekucyjne[$d['id_users']] = $d['nazwa'];
+        }
+        return $organyEgzekucyjne;
+    }
+    
+    
+    
+    
 	function listaDluznicySprawy($sprawy){
 		$dluznicy = array();
 		foreach ($sprawy as $sprawa) {

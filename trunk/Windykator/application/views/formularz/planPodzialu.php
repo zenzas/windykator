@@ -6,7 +6,7 @@
 <p class = "right"> (miejscowość)                        (data)</p>
 
 <p class = "center"> Plan podziału*</p>
-<p class = "center"> sumy uzyskanej w dniu <?=$wplata['data_wplaty']?> roku, z egzekucji prowadzonej ze składnika majątkowego stanowiącego ................., w wysokości <?=$wplata['kwota_wplaty']?> zł</p>
+<p class = "center"> sumy uzyskanej w dniu <?=$wplata['data_wplaty']?> roku, z egzekucji prowadzonej ze składnika majątkowego stanowiącego <?=$wplata['skladnik_majatkowy']?>, w wysokości <?=$wplata['kwota_wplaty']?> zł</p>
 <p><?space(30)?><?=$wplata['nazwa_dluznika']?><?space(30)?><?=przygotujAdres($wplata['ulica'], $wplata['nr_dom'], $wplata['nr_lokal'], $wplata['kod'], $wplata['miasto'])?></p>
 <p><?space(30)?>nazwa / imię i nazwisko<?space(40)?>adres</p>
 
@@ -53,7 +53,7 @@
 	<?foreach ($wplata['wplaty_wierzycieli'] as $nr => $wierzyciel):?>
 	
 	<?$suma = $wierzyciel['kwota_zadluzenia']+$wierzyciel['odsetki']+$wierzyciel['oplata_komornicza']?>
-	<?$pozostalo = $wierzyciel['pozostala_kwota_zadluzenia']+$wierzyciel['pozostale_odsetki']+$wierzyciel['pozostala_oplata_komornicza']?>
+	<?$pozostalo = $wierzyciel['pozostala_kwota_zadluzenia']+$wierzyciel['pozostale_odsetki']+$wierzyciel['oplata_komornicza']?>
 	<?$sumaKwota += $suma?>
 	<?$sumaOplaty += $wierzyciel['oplata_komornicza']?>
 	<?$sumaWierzyciel += $wierzyciel['kwota_zadluzenia']+$wierzyciel['odsetki']?>
@@ -151,7 +151,8 @@
 	................................................
 </p>
 <p class="right" style="margin-right: 50px;">	(pieczęć imienna oraz podpis osoby upoważnionej)</p>
-<p>*W dokumencie dokonuje się podziału jednej wpłaty egzekucyjnej z uwzględnieniem wszystkich występujących w sprawie wierzycieli</p>
+
+<p style="margin-top: 100px;">*W dokumencie dokonuje się podziału jednej wpłaty egzekucyjnej z uwzględnieniem wszystkich występujących w sprawie wierzycieli</p>
 <ol>
 	<li>
 		KATEGORIE ZASPOKAJANIA: na podstawie art. 115 ustawy z dnia 17 czerwca 1966r. o postępowaniu egzekucyjnym w administracji (Dz. U. z 2012r. poz. 1015 ze zm.)

@@ -40,7 +40,10 @@
 			<?=form_label('Data wpływu postanowienia', 'data_wplywu') ?>
 			<?= $sprawa['data_wplywu'] ?>
 		</p>	
-	
+	   <p>
+            <?=form_label('Data zajęcia przez poprzedni organ egzekucyjnych', 'data_zajecia') ?>
+            <?= $sprawa['data_zajecia'] ?>
+        </p>    
 	</div>
 	<div>
 		<p>

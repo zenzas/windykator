@@ -75,6 +75,11 @@
 </p>
 <span class="error"><?=form_error('data_wplywu')?></span>
 <p>
+    <?=form_label('Data zajęcia przez poprzedni organ egzekucyjnych', 'data_zajecia') ?>
+    <?=form_input(array('name' => 'data_zajecia', 'value' => $sprawa['data_zajecia'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
+</p>
+    <span class="error"><?=form_error('data_zajecia')?></span>
+<p>
 	<?=form_label('Data wysłania wezwania', 'data_wezwania')?>
 	<?=form_input(array('name' => 'data_wezwania', 'value' => $sprawa['data_wezwania'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
 	

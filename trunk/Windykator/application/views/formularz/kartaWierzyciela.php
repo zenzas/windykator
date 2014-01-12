@@ -15,8 +15,8 @@
 <p> Zakres prowadzonego postępowania egzekucyjnego: pełny / jeden środek egzekucyjny* <?=$wierzyciel['skladnik_majatkowy']?></p>
 <p> podać prawo majątkowe</p>
 
-<p> Poprzedni organ egzekucyjny: ..................................................................</p>
-<p> Data dokonania zajęcia przez organ egzekucyjjny: ..............................................</p>
+<p> Poprzedni organ egzekucyjny: <?=$wierzyciel['nazwa_organu_egzekucyjnego']?></p>
+<p> Data dokonania zajęcia przez organ egzekucyjjny: <?=$wierzyciel['data_zajecia']?></p>
 
 <p> Wierzyciel: <?=$wierzyciel['nazwa']?></p>
 <p> nazwa / imię i nazwisko</p>
@@ -42,8 +42,7 @@
 <p> Rachunek bankowy wierzyciela: <?=$wierzyciel['nr_rachunku']?></p>
 <p> Tytuł wykonawczy: <?=$wierzyciel['data_tytulu']?>, <?=$wierzyciel['tytul_wykonawczy']?>, <?=$wierzyciel['tytul_wydanyPrzez']?>  </p>
 <p> podać datę, sygnaturę sprawy, przez kogo wydany)</p>
-<p> .......................................................</p>
-<p> .......................................................</p>
+
 
 <p> Należność wg stanu na dzień <?=$wierzyciel['data_zadluzenia']?>:</p>
 
