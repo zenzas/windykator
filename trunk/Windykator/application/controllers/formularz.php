@@ -65,7 +65,6 @@ class Formularz extends CI_Controller {
         if ($id_wierzyciele_sprawy) {
             $wierzyciel = $this -> wierzyciele -> getWierzycielWSprawie($id_wierzyciele_sprawy);
             if ($wierzyciel) {
-                var_dump($wierzyciel);
                 $data['wierzyciel'] = $wierzyciel;
                 $data['content'] = $this -> load -> view('formularz/kartaWierzyciela', $data, true);
                 $this -> load -> view('formularz/layoutWewnetrzny', $data);

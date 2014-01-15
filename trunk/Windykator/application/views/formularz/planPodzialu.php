@@ -1,3 +1,5 @@
+<div id = "planPodzialu" >
+
 <p class = "right">Załącznik nr 2 do Procedury - "Egzekwowanie należności przez Dyrektora Oddziału w ramach zbiegu egzekucji administracyjnej i sądowej"</p>
 <p class = "right">Notatka w sprawie podziału środków pomiędzy wierzycieli</p>
 
@@ -206,3 +208,4 @@
 		Komórka Roliczeń Kont Płatników Składek
 	</li>
 </ol>
+</div>

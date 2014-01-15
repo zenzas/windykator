@@ -10,9 +10,6 @@ body {
 .right {
     text-align: right;
 }
-p, li, td, th {
-    font-size: 10px;
-}
 table {
     border-collapse: collapse;
 }
@@ -22,9 +19,22 @@ td, th {
 td.no_border, th.no_border {
     border: 0;
 }
-th {
+#planPodzialu li {
+    font-size: 10px;
+}
+
+#planPodzialu p {
+    font-size: 12px;
+}
+
+#planPodzialu th, td {
     font-size: 8px;
 }
-td {
-    font-size: 8px;
+table.uczestnicyW td {
+    text-align: center;
+    border: 0;
+    width: 50%;
+}
+#kartaWierzyciela p, #kartaWierzyciela li, #kartaWierzyciela th, #kartaWierzyciela td {
+    font-size: 14px;
 }
