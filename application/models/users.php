@@ -287,7 +287,11 @@ class Users extends CI_Model {
 			   'aktywny' => 1,
 			   'id_users' =>$id_user
 			);
-			$this->db->insert('users_login', $dane); 
+			$this->db->insert('users_login', $dane);
+            $this -> load -> model('mailer');
+            $this->mailer->createAccountPasswordMail($user['login'], $user['email'], $password);
+            $this -> session -> set_flashdata('message', 'Nowe hasło wysłano na adres '.$user['e-mail']);
+             
 		} else if ($this->session->userdata('nazwa_typ') == 'operator') {
 			$dane = array(
 			   'NIP' => $user['NIP'],

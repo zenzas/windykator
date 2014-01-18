@@ -28,34 +28,25 @@ class Mailer extends CI_Model
 		//$this->mailer->SMTPDebug = 2;//debug, pokazywanie wiadomosci o bledach
 	}
 	
-	/*public function __construct() {
-        $this->mailer = new PHPMailer();
-        $this->mailer->PluginDir = "phpmailer/";
-        $this->mailer->From = "ppzgazeta@gmail.com"; //adres naszego konta
-        $this->mailer->FromName = 'PPZ Gazeta';//nazwa wyswietlana jako nadawca wiadomosci
-        $this->mailer->Username = "ppzgazeta";//nazwa uzytkownika
-        $this->mailer->Password = "testtest1";//nasze haslo do konta SMTP
-        
-        $this->mailer->SetLanguage("pl", "phpmailer/language/");//jezyk
-        $this->mailer->CharSet = "utf-8";//kodowanie wiadomosci
-        
-        $this->mailer->Host = "ssl://smtp.gmail.com";//adres serwera SMTP
-        $this->mailer->Port = "465";//port
-        $this->mailer->IsSMTP();//laczymy sie przez smtp
-        $this->mailer->SMTPAuth = true;//z autoryzacja
-        $this->mailer->WordWrap = 75;//dzielenie wyrazow
-        $this->mailer->IsHTML(); // wyslanie wiadomosci jako html
-        //$mailer->SMTPDebug = 2;//debug, pokazywanie wiadomosci o bledach
-    }*/
-	
+		
 	//utworzenie wiadomosci i wyslanie maila z haslem na podany adres
 	public function sendPasswordMail($login, $email, $pass) {
 		$adr = 'http://'.$_SERVER['HTTP_HOST'].'/index.php';
-		$title = "Zmiana hasła";
+		$title = "Reset hasła";
 		$mess = "Twoje hasło zostało zmienione. <br /><br />
 			Nowe hasło: $pass";
 		$this->sendMail($email, $mess, $title, $login);
 	}
+
+    //utworzenie wiadomosci i wyslanie maila z haslem na podany adres
+    public function createAccountPasswordMail($login, $email, $pass) {
+        $adr = 'http://'.$_SERVER['HTTP_HOST'].'/index.php';
+        $title = "Utworzono nowe konto w systemie Windykator";
+        $mess = "Dane do logowania. <br /><br />
+            Użytkownik: $login <br />
+            Nowe hasło: $pass";
+        $this->sendMail($email, $mess, $title, $login);
+    }
 
 	private function sendMail ($email, $message, $title, $login = null) {
 		if ($login == null)//jesli nazwa adresata nie podana to ustawiamy taki jak email
