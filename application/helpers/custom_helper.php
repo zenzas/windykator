@@ -14,7 +14,7 @@ function url($url) {
 }
 
 function generujHaslo () {
-	return md5(random_string('alnum',8));
+	return random_string('alnum',8);
 }
 
 function przygotujKwote($kwota) {
