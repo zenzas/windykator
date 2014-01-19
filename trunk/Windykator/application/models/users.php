@@ -142,15 +142,15 @@ class Users extends CI_Model {
 		if ($user) {
 			if ($user['email'] == $email) {
 				if ($user['aktywny']) {
-					$pass = generujHaslo();
+					$password = generujHaslo();
                     $dane = array(
-                       'password' => $pass
+                       'password' => md5($password)
                     );
                     $this->db->where('id_users_login',  $user['id_users_login'])
                         ->update('users_login', $dane);
                     $this -> load -> model('mailer');
-                    $this->mailer->sendPasswordMail($user['login'], $user['email'], $pass);
-                    $this -> session -> set_flashdata('message', 'Nowe hasło wysłano na adres '.$user['e-mail']);
+                    $this->mailer->sendPasswordMail($user['login'], $user['email'], $password);
+                    $this -> session -> set_flashdata('message', 'Nowe hasło wysłano na adres '.$user['email']);
 					$result = true;
 				} else {
 					$this -> session -> set_flashdata('error', 'Nie posiadasz uprawnień do logowania!!!');
@@ -279,19 +279,7 @@ class Users extends CI_Model {
 		}
 		
 		if ($this->session->userdata('nazwa_typ') == 'administrator') {
-			$password = generujHaslo();
-			$dane = array(
-			   'login' => $user['login'] ,
-			   'password' => $password,
-			   'email' => $user['email'] ,
-			   'aktywny' => 1,
-			   'id_users' =>$id_user
-			);
-			$this->db->insert('users_login', $dane);
-            $this -> load -> model('mailer');
-            $this->mailer->createAccountPasswordMail($user['login'], $user['email'], $password);
-            $this -> session -> set_flashdata('message', 'Nowe hasło wysłano na adres '.$user['e-mail']);
-             
+			$this->zaloz($user);
 		} else if ($this->session->userdata('nazwa_typ') == 'operator') {
 			$dane = array(
 			   'NIP' => $user['NIP'],
@@ -313,19 +301,18 @@ class Users extends CI_Model {
 	}
 
 	function zaloz($user){
-		
-		$password = generujHaslo();
-		$dane = array(
-		   'login' => $user['login'] ,
-		   'password' => $password,
-		   'email' => $user['email'] ,
-		   'aktywny' => 1,
-		   'id_users' =>$user['id_user']
-		);
-		$this->db->insert('users_login', $dane); 
-		
-		
-		$this -> session -> set_flashdata('message', 'Założono nowe konto użytkownika');			
+	    $password = generujHaslo();
+        $dane = array(
+           'login' => $user['login'] ,
+           'password' => md5($password),
+           'email' => $user['email'] ,
+           'aktywny' => 1,
+           'id_users' =>$id_user
+        );
+        $this->db->insert('users_login', $dane);
+        $this -> load -> model('mailer');
+        $this->mailer->createAccountPasswordMail($user['login'], $user['email'], $password);
+        $this -> session -> set_flashdata('message', 'Założono konto użytkownika. Nowe hasło wysłano na adres '.$user['email']);			
 	}
 	
 	function edytuj($user){

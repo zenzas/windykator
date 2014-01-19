@@ -30,12 +30,12 @@ function zmianaTypuStopyProcentowej(dropdown, id) {
 
 function main() {
 	$('.delete_user_link').click(function() {
-		if (!confirm("Czy na pewno chcesz usunąć tego użytkownika?")) {
+		if (!confirm("Czy na pewno chcesz zablokować tego użytkownika?")) {
 			return false;
 		}
 	});
 	$('.restore_user_link').click(function() {
-		if (!confirm("Czy na pewno chcesz przywrócić tego użytkownika?")) {
+		if (!confirm("Czy na pewno chcesz odblokować tego użytkownika?")) {
 			return false;
 		}
 	});
