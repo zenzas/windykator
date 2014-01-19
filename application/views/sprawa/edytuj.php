@@ -171,14 +171,12 @@
                     <?=form_input("wierzyciele[$nr][tytul_wykonawczy]", $wierzyciel['tytul_wykonawczy']) ?>
                 </p>
 				<span class="error"><?=form_error("wierzyciele[$nr][tytul_wykonawczy]") ?></span>
-				<p>
 				 <p> 
                     <?=form_label('Data wystawienia tytułu wykonawczego', "wierzyciele[$nr][data_tytulu]") ?>
                     <?=form_input(array('name' => "wierzyciele[$nr][data_tytulu]", 'value' => $wierzyciel['data_tytulu'], 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
         
                 </p>
-                <span class="error"><?=form_error("wierzyciele[$nr][data_tytulu]") ?></span>
-                <p>   
+                <span class="error"><?=form_error("wierzyciele[$nr][data_tytulu]") ?></span>  
 				<p> 
                     <?=form_label('Wystawiony przez', "wierzyciele[$nr][tytul_wydanyPrzez]") ?>
                     <?=form_input("wierzyciele[$nr][tytul_wydanyPrzez]", $wierzyciel['tytul_wydanyPrzez']) ?>
@@ -256,6 +254,12 @@
 		<?=form_label('Pełnomocnik', 'pelnomocnik') ?>
 		<?=form_dropdown('pelnomocnik', $pelnomocnicy) ?>
 	</p>
+	<span class="error"><?=form_error('pelnomocnik') ?></span>
+	<p>
+        <?=form_label('Poprzedni organ egzekucyjny', 'organ_egzekucyjny') ?>
+        <?=form_dropdown("organ_egzekucyjny", $organyEgzekucyjne) ?>
+    </p>
+    <span class="error"><?=form_error('organ_egzekucyjny') ?></span>
 	<p>	
 		<?=form_label('KM', 'KM') ?>
 		<?=form_input('KM', '') ?>
@@ -266,6 +270,17 @@
         <?=form_input('tytul_wykonawczy', '') ?>
     </p>
     <span class="error"><?=form_error('tytul_wykonawczy') ?></span>
+    <p> 
+        <?=form_label('Data wystawienia tytułu wykonawczego', "data_tytulu") ?>
+        <?=form_input(array('name' => "data_tytulu", 'value' => '', 'class' => 'datepicker', 'autocomplete' => 'off')) ?>
+
+    </p>
+    <span class="error"><?=form_error("data_tytulu") ?></span>  
+    <p> 
+        <?=form_label('Wystawiony przez', "tytul_wydanyPrzez") ?>
+        <?=form_input("tytul_wydanyPrzez", '') ?>
+    </p>
+    <span class="error"><?=form_error("tytul_wydanyPrzez") ?></span>
 	<p>
 		<?=form_label('Ulica', 'ulica_w') ?>
 		<?=form_input('ulica_w', '') ?>
