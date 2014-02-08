@@ -3181,3 +3181,3118 @@ DEBUG - 2014-01-19 16:03:42 --> File loaded: application/views/user/login.php
 DEBUG - 2014-01-19 16:03:42 --> File loaded: application/views/index.php
 DEBUG - 2014-01-19 16:03:42 --> Final output sent to browser
 DEBUG - 2014-01-19 16:03:42 --> Total execution time: 0.0518
+DEBUG - 2014-01-19 22:45:24 --> Config Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> Hooks Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> Utf8 Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> UTF-8 Support Enabled
+DEBUG - 2014-01-19 22:45:24 --> URI Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> Router Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> No URI present. Default controller set.
+DEBUG - 2014-01-19 22:45:24 --> Output Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> Security Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> Input Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-01-19 22:45:24 --> Language Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> Loader Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> Helper loaded: url_helper
+DEBUG - 2014-01-19 22:45:24 --> Helper loaded: form_helper
+DEBUG - 2014-01-19 22:45:24 --> Helper loaded: custom_helper
+DEBUG - 2014-01-19 22:45:24 --> Database Driver Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> Session Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> Helper loaded: string_helper
+DEBUG - 2014-01-19 22:45:24 --> A session cookie was not found.
+DEBUG - 2014-01-19 22:45:24 --> Session routines successfully run
+DEBUG - 2014-01-19 22:45:24 --> User Agent Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> Form Validation Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> Controller Class Initialized
+DEBUG - 2014-01-19 22:45:24 --> File loaded: application/views/user/login.php
+DEBUG - 2014-01-19 22:45:24 --> File loaded: application/views/index.php
+DEBUG - 2014-01-19 22:45:24 --> Final output sent to browser
+DEBUG - 2014-01-19 22:45:24 --> Total execution time: 0.0878
+DEBUG - 2014-01-19 22:45:28 --> Config Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Hooks Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Utf8 Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> UTF-8 Support Enabled
+DEBUG - 2014-01-19 22:45:28 --> URI Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Router Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Output Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Security Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Input Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-01-19 22:45:28 --> Language Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Loader Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Helper loaded: url_helper
+DEBUG - 2014-01-19 22:45:28 --> Helper loaded: form_helper
+DEBUG - 2014-01-19 22:45:28 --> Helper loaded: custom_helper
+DEBUG - 2014-01-19 22:45:28 --> Database Driver Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Session Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Helper loaded: string_helper
+DEBUG - 2014-01-19 22:45:28 --> Session routines successfully run
+DEBUG - 2014-01-19 22:45:28 --> User Agent Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Form Validation Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Controller Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Language file loaded: language/polish/form_validation_lang.php
+DEBUG - 2014-01-19 22:45:28 --> Config Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Hooks Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Utf8 Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> UTF-8 Support Enabled
+DEBUG - 2014-01-19 22:45:28 --> URI Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Router Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Output Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Security Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Input Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-01-19 22:45:28 --> Language Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Loader Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Helper loaded: url_helper
+DEBUG - 2014-01-19 22:45:28 --> Helper loaded: form_helper
+DEBUG - 2014-01-19 22:45:28 --> Helper loaded: custom_helper
+DEBUG - 2014-01-19 22:45:28 --> Database Driver Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Session Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Helper loaded: string_helper
+DEBUG - 2014-01-19 22:45:28 --> Session routines successfully run
+DEBUG - 2014-01-19 22:45:28 --> User Agent Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Form Validation Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Controller Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:28 --> File loaded: application/views/wniosek/lista.php
+DEBUG - 2014-01-19 22:45:28 --> File loaded: application/views/user/aktualnosci.php
+DEBUG - 2014-01-19 22:45:28 --> File loaded: application/views/index.php
+DEBUG - 2014-01-19 22:45:28 --> Final output sent to browser
+DEBUG - 2014-01-19 22:45:28 --> Total execution time: 0.1840
+DEBUG - 2014-01-19 22:45:31 --> Config Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Hooks Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Utf8 Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> UTF-8 Support Enabled
+DEBUG - 2014-01-19 22:45:31 --> URI Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Router Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Output Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Security Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Input Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-01-19 22:45:31 --> Language Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Loader Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Helper loaded: url_helper
+DEBUG - 2014-01-19 22:45:31 --> Helper loaded: form_helper
+DEBUG - 2014-01-19 22:45:31 --> Helper loaded: custom_helper
+DEBUG - 2014-01-19 22:45:31 --> Database Driver Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Session Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Helper loaded: string_helper
+DEBUG - 2014-01-19 22:45:31 --> Session routines successfully run
+DEBUG - 2014-01-19 22:45:31 --> User Agent Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Form Validation Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Controller Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:31 --> File loaded: application/views/sprawa/szukaj.php
+DEBUG - 2014-01-19 22:45:31 --> File loaded: application/views/sprawa/lista.php
+DEBUG - 2014-01-19 22:45:31 --> File loaded: application/views/sprawa/zarzadzanie.php
+DEBUG - 2014-01-19 22:45:31 --> File loaded: application/views/index.php
+DEBUG - 2014-01-19 22:45:31 --> Final output sent to browser
+DEBUG - 2014-01-19 22:45:31 --> Total execution time: 0.0970
+DEBUG - 2014-01-19 22:45:42 --> Config Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Hooks Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Utf8 Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> UTF-8 Support Enabled
+DEBUG - 2014-01-19 22:45:42 --> URI Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Router Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Output Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Security Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Input Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-01-19 22:45:42 --> Language Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Loader Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Helper loaded: url_helper
+DEBUG - 2014-01-19 22:45:42 --> Helper loaded: form_helper
+DEBUG - 2014-01-19 22:45:42 --> Helper loaded: custom_helper
+DEBUG - 2014-01-19 22:45:42 --> Database Driver Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Session Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Helper loaded: string_helper
+DEBUG - 2014-01-19 22:45:42 --> Session routines successfully run
+DEBUG - 2014-01-19 22:45:42 --> User Agent Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Form Validation Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Controller Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:42 --> File loaded: application/views/wplata/lista.php
+DEBUG - 2014-01-19 22:45:42 --> File loaded: application/views/sprawa/szczegoly.php
+DEBUG - 2014-01-19 22:45:42 --> File loaded: application/views/index.php
+DEBUG - 2014-01-19 22:45:42 --> Final output sent to browser
+DEBUG - 2014-01-19 22:45:42 --> Total execution time: 0.1507
+DEBUG - 2014-01-19 22:45:47 --> Config Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Hooks Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Utf8 Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> UTF-8 Support Enabled
+DEBUG - 2014-01-19 22:45:47 --> URI Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Router Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Output Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Security Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Input Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-01-19 22:45:47 --> Language Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Loader Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Helper loaded: url_helper
+DEBUG - 2014-01-19 22:45:47 --> Helper loaded: form_helper
+DEBUG - 2014-01-19 22:45:47 --> Helper loaded: custom_helper
+DEBUG - 2014-01-19 22:45:47 --> Database Driver Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Session Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Helper loaded: string_helper
+DEBUG - 2014-01-19 22:45:47 --> Session routines successfully run
+DEBUG - 2014-01-19 22:45:47 --> User Agent Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Form Validation Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Controller Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:47 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Config Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Hooks Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Utf8 Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> UTF-8 Support Enabled
+DEBUG - 2014-01-19 22:45:48 --> URI Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Router Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Output Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Security Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Input Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Global POST and COOKIE data sanitized
+DEBUG - 2014-01-19 22:45:48 --> Language Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Loader Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Helper loaded: url_helper
+DEBUG - 2014-01-19 22:45:48 --> Helper loaded: form_helper
+DEBUG - 2014-01-19 22:45:48 --> Helper loaded: custom_helper
+DEBUG - 2014-01-19 22:45:48 --> Database Driver Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Session Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Helper loaded: string_helper
+DEBUG - 2014-01-19 22:45:48 --> A session cookie was not found.
+DEBUG - 2014-01-19 22:45:48 --> Session routines successfully run
+DEBUG - 2014-01-19 22:45:48 --> User Agent Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Form Validation Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Controller Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> Model Class Initialized
+DEBUG - 2014-01-19 22:45:48 --> File loaded: application/views/formularz/planPodzialu.php
+DEBUG - 2014-01-19 22:45:48 --> File loaded: application/views/formularz/layoutWewnetrzny.php
+DEBUG - 2014-01-19 22:45:48 --> Final output sent to browser
+DEBUG - 2014-01-19 22:45:48 --> Total execution time: 0.1619
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: BODY C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: BODY>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined offset: -1 C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1150
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: ID>>CONTAINER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1003
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV>>ID>>CONTAINER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: ID>>CONTAINER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1003
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV>>ID>>CONTAINER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: ID>>HEADER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1003
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV>>ID>>HEADER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: ID>>HEADER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1003
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV>>ID>>HEADER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: direction C:\wamp\www\Windykator1\MPDF57\mpdf.php 18502
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: direction C:\wamp\www\Windykator1\MPDF57\mpdf.php 18502
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: CLASS>>CONTENT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV>>CLASS>>CONTENT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: CLASS>>CONTENT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV>>CLASS>>CONTENT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV>>ID>>PLANPODZIALU C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: ID>>PLANPODZIALU C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1003
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: DIV>>ID>>PLANPODZIALU C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TABLE C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TABLE>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TABLE C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TABLE>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TR>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TR>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TH>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TR>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TR>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:48 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>CLASS>>CENTER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TR>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: CLASS>>NO_BORDER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>CLASS>>NO_BORDER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: CLASS>>NO_BORDER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>CLASS>>NO_BORDER C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: TD>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined variable: pre C:\wamp\www\Windykator1\MPDF57\mpdf.php 12604
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined variable: post C:\wamp\www\Windykator1\MPDF57\mpdf.php 12604
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined variable: prelength C:\wamp\www\Windykator1\MPDF57\mpdf.php 12604
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22877
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22888
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 22897
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined offset: 0 C:\wamp\www\Windykator1\MPDF57\mpdf.php 26572
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 26572
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 26572
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 26572
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined offset: 4 C:\wamp\www\Windykator1\MPDF57\mpdf.php 26572
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined offset: 5 C:\wamp\www\Windykator1\MPDF57\mpdf.php 26572
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined offset: 6 C:\wamp\www\Windykator1\MPDF57\mpdf.php 26572
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined offset: 7 C:\wamp\www\Windykator1\MPDF57\mpdf.php 26572
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined offset: 8 C:\wamp\www\Windykator1\MPDF57\mpdf.php 26572
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined offset: 9 C:\wamp\www\Windykator1\MPDF57\mpdf.php 26572
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined offset: 10 C:\wamp\www\Windykator1\MPDF57\mpdf.php 26572
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined offset: 11 C:\wamp\www\Windykator1\MPDF57\mpdf.php 26572
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:49 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:50 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 1 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 2 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Uninitialized string offset: 3 C:\wamp\www\Windykator1\MPDF57\mpdf.php 2664
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: P>>CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: P>>CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: z-index C:\wamp\www\Windykator1\MPDF57\mpdf.php 2464
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: z-index C:\wamp\www\Windykator1\MPDF57\mpdf.php 2464
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: z-index C:\wamp\www\Windykator1\MPDF57\mpdf.php 2464
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: OL C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: OL>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: OL C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: OL>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: OL C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: OL>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: OL C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: OL>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 969
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>CLASS>>RIGHT C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1007
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5889
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5903
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: hyphens C:\wamp\www\Windykator1\MPDF57\mpdf.php 5908
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: P C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: P>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: OL C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: OL>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: OL C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: OL>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 966
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: LI>>ID>> C:\wamp\www\Windykator1\MPDF57\classes\cssmgr.php 1011
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: outline-s C:\wamp\www\Windykator1\MPDF57\mpdf.php 3892
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: direction C:\wamp\www\Windykator1\MPDF57\mpdf.php 18502
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: direction C:\wamp\www\Windykator1\MPDF57\mpdf.php 18502
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined index: direction C:\wamp\www\Windykator1\MPDF57\mpdf.php 18502
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined property: mPDF::$hasOC C:\wamp\www\Windykator1\MPDF57\mpdf.php 27505
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined property: mPDF::$hasOC C:\wamp\www\Windykator1\MPDF57\mpdf.php 27608
+ERROR - 2014-01-19 22:45:51 --> Severity: Notice  --> Undefined property: mPDF::$hasOC C:\wamp\www\Windykator1\MPDF57\mpdf.php 9158
+DEBUG - 2014-01-19 22:45:51 --> Final output sent to browser
+DEBUG - 2014-01-19 22:45:51 --> Total execution time: 3.8930

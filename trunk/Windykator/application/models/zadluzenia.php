@@ -47,9 +47,9 @@ class Zadluzenia extends CI_Model {
 
     function dodaj($zadluzenie) {
         $dane = array('id_wierzyciele_sprawy' => $zadluzenie['id_wierzyciele_sprawy'], 'data' => $zadluzenie['data'], 'kwota_zadluzenia' => przygotujKwote($zadluzenie['kwota_zadluzenia']), 'odsetki' => przygotujKwote($zadluzenie['odsetki']), 'koszty_egzekucyjne' => przygotujKwote($zadluzenie['koszty_egzekucyjne']), 'pozostala_kwota_zadluzenia' => przygotujKwote($zadluzenie['kwota_zadluzenia']), 'pozostale_odsetki' => przygotujKwote($zadluzenie['odsetki']), 'pozostale_koszty_egzekucyjne' => przygotujKwote($zadluzenie['koszty_egzekucyjne']));
-        var_dump($zadluzenie, $dane);
+        //var_dump($zadluzenie, $dane);
         $this -> db -> insert('zadluzenie', $dane);
-        var_dump($this -> db -> last_query());
+        //var_dump($this -> db -> last_query());
         $this -> session -> set_flashdata('message', 'Dodano nowe zadłużenie');
     }
 
