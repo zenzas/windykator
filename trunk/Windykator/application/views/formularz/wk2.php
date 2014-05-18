@@ -1,1 +1,0 @@
-<h1>Wezwanie o przyczyny</h1>

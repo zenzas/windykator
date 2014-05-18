@@ -1,1 +1,0 @@
-<h1>Zawiadomienie o zajęciu wynagrodzenia</h1>
